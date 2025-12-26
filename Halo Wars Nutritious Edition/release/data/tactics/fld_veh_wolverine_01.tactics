@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+<Weapon>
+		<Name>GroundMissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_nontrackingrocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<MinRange>30</MinRange>
+		<Accuracy>0.9</Accuracy>
+		<MaxDeviation>0.9</MaxDeviation>
+		<MovingAccuracy>0.9</MovingAccuracy>
+		<MovingMaxDeviation>0.9</MovingMaxDeviation>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>MissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>45</DamagePerSecond>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_autoGrenade_01</Projectile>
+		<ImpactEffect size="Small">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Accuracy>0.8</Accuracy>
+		<MaxDeviation>0.8</MaxDeviation>
+		<MovingAccuracy>0.8</MovingAccuracy>
+		<MovingMaxDeviation>0.8</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.9</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.9</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Hardpoint>GrenadeLauncherTurret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>GrenadeLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>GrenadeLauncher</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+		<Infection />
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>GroundMissileAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileAttack</Anim>
+		<MainAttack />
+		<Weapon>GroundMissileLauncher</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+	</Action>
+	<Action>
+		<Name>MissileAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileAttack</Anim>
+		<MainAttack />
+		<Weapon>MissileLauncher</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeLauncherAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GroundMissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>UpgradedGroundMissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

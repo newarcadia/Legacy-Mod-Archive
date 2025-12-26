@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>9000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<ImpactEffect size="Large">Rhinoshell</ImpactEffect>
+		<MaxRange>40</MaxRange>
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>9000</DamagePerSecond>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<ImpactEffect size="Large">Rhinoshell</ImpactEffect>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>40</MaxRange>
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>Detonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Anim>Death</Anim>
+		<Weapon>Bomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Detonate</PersistentAction>
+</TacticData>

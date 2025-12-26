@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Revive</Name>
+		<ActionType>Revive</ActionType>
+		<ReviveDelay>-1</ReviveDelay>
+		<HibernateReviveDelay>-1</HibernateReviveDelay>
+		<ReviveRate>0</ReviveRate>
+	</Action>
+	<Action>
+        <Name>SpawnSentinel</Name>
+        <ActionType>SpawnSquad</ActionType>
+       <SquadType>fld_inf_infectedGrunt_01</SquadType>
+       <WorkRate>60</WorkRate>
+       <WorkRateVariance>4</WorkRateVariance>
+       <HideSpawnUntilRelease />
+    </Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>50</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+	</Action>
+	<Tactic>
+		<PersistentAction>Revive</PersistentAction>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Revive</Name>
+		<ActionType>Revive</ActionType>
+		<ReviveDelay>-1</ReviveDelay>
+		<HibernateReviveDelay>-1</HibernateReviveDelay>
+		<ReviveRate>0</ReviveRate>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>7.5</WorkRate>
+		<WorkRange>1</WorkRange>
+		<TeamShare />
+	</Action>
+	<Tactic>
+		<PersistentAction>GatherSupplies</PersistentAction>
+		<PersistentAction>Revive</PersistentAction>
+	</Tactic>
+</TacticData>

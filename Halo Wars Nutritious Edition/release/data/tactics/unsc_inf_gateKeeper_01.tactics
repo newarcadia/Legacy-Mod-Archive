@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Shotgun</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>Shotgun</WeaponType>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<VisualAmmo>12</VisualAmmo>
+		<ReloadAnimation>ShotgunReload</ReloadAnimation>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_grenade_01</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<AOERadius>20</AOERadius>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>6</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>20</PostAttackCooldownMax>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>210</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>100</Accuracy>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>6</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>20</PostAttackCooldownMax>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>ShotgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShotgunAttack</Anim>
+		<ReloadAnim>ShotgunReload</ReloadAnim>
+		<Weapon>Shotgun</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>RocketWeapon</Weapon>
+		<BaseDPSWeapon>Shotgun</BaseDPSWeapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<BaseDPSWeapon>Shotgun</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShotgunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RocketAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

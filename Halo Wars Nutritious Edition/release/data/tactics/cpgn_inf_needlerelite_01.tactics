@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Needler</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>35</DamagePerSecond>
+		<WeaponType>Needler</WeaponType>
+		<Projectile>fx_proj_needler_01</Projectile>
+		<ImpactEffect size="Medium">needler_01</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>36</VisualAmmo>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>SuperCombine</Name>
+		<DamagePerSecond>35</DamagePerSecond>
+		<WeaponType>SuperCombine</WeaponType>
+		<Projectile>fx_proj_Needler_01</Projectile>
+		<ImpactEffect size="Medium">cov_heavyneedler_01</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>25</MaxRange>
+		<EnableHeightBonusDamage />
+		<Accuracy>100</Accuracy>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverNeedler</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>35</DamagePerSecond>
+		<WeaponType>Needler</WeaponType>
+		<Projectile>fx_proj_needler_01</Projectile>
+		<ImpactEffect size="Medium">needler_01</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>115</MaxRange>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>36</VisualAmmo>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Action>
+		<Name>NeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<ReloadAnim>NeedlerReload</ReloadAnim>
+		<Weapon>Needler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<ReloadAnim>NeedlerReload</ReloadAnim>
+		<Weapon>Needler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>SuperCombineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SuperCombineAttack</Anim>
+		<Weapon>SuperCombine</Weapon>
+		<BaseDPSWeapon>Needler</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.4</DodgeChanceMin>
+		<DodgeChanceMax>0.4</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>5</DodgeCooldown>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject bone="GrannyRootBone">cov_honorguardshield</ProtoObject>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+	<PersistentAction>Dodge</PersistentAction>
+	<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>NeedlerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>NeedlerAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SuperCombineAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>cov_air_spirit_01</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>cov_air_spirit_01</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

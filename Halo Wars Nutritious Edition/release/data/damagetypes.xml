@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DamageTypes>
+	<DamageType AttackRating="true" BaseType="true">Light</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightArmored</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HellbringerArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CryoTrooperArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CryoTrooperArmorInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HellbringerArmorInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">DemolitionistArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">DemolitionistArmorInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CovenantLeader</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HunterArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">BruteHonorArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CyclopsArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HunterArmorInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Medium</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Heavy</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Flood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">SpartanArmor</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Vulture</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Scarab</DamageType>
+	<DamageType Shielded="true">Shielded</DamageType>
+	<DamageType>Sprint</DamageType>
+</DamageTypes>

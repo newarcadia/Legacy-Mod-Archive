@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentine3</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_rebel_Roguespartan_01</SquadType>
+		<WorkRate>20</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>3</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentine3</PersistentAction>
+		</Tactic>
+</TacticData>

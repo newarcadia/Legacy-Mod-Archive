@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AssaultRifle</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_nontrackingrocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>0.3</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>0.4</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Action>
+		<Name>AssaultRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AssaultRifleAttack</Anim>
+		<WalkForwardAnim>CombatWalkForwardAssaultRifleAttack</WalkForwardAnim>
+		<WalkBackAnim>CombatWalkBackAssaultRifleAttack</WalkBackAnim>
+		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
+		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
+		<Weapon>AssaultRifle</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AssaultRifleAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

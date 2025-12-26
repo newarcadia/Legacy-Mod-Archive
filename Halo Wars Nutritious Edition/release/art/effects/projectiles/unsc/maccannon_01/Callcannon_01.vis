@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="model_1">
+	<model name="model_1">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>effects\macblast\mb_base_a_mesh</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\macblast\macblast_laser_a" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\macblast\rocks_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\macblast\rocks_medium" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\macblast\rocks_large" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+	</model>
+	<model name="Weapon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>effects\fx_dummy</file>
+			</asset>
+		</component>
+	</model>
+</visual>

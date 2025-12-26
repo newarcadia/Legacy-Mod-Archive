@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>200</WorkRate>
+		<MinIdleDuration>10</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectedCarrier_01</SquadType>
+		<WorkRate>30</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>2</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel2</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_bomber_01</SquadType>
+		<WorkRate>50</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel3</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>30</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>2</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel4</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_rhinodillo_01</SquadType>
+		<WorkRate>50</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel5</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectionForm_01</SquadType>
+		<WorkRate>10</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>3</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel2</PersistentAction>
+		<PersistentAction>SpawnSentinel3</PersistentAction>
+		<PersistentAction>SpawnSentinel4</PersistentAction>
+		<PersistentAction>SpawnSentinel5</PersistentAction>
+		</Tactic>
+</TacticData>

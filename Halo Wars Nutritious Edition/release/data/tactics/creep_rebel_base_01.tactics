@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_rebel_infantry_01</SquadType>
+		<WorkRate>10</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>3</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel4</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_rebel_warthog_01</SquadType>
+		<WorkRate>15</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>2</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentine3</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_rebel_Roguespartan_01</SquadType>
+		<WorkRate>20</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentine3</PersistentAction>
+		<PersistentAction>SpawnSentinel4</PersistentAction>
+		</Tactic>
+</TacticData>

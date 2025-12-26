@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<WeaponTypes>
+	<WeaponType>
+		<Name>Basic</Name>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MegaTurret</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FloodBite</Name>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SwarmSpikes</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SentinelBeam</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">3</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>LeaderPower</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">0.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.15</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>AssaultRifle</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BattleRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SilencedSMG</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HaloCEPistol</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.7</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SniperRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">3.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">3.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">0.5</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>StanchionRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">4.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">3.7</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">4</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">3.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">0.7</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.9</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Shotgun</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FlameThrower</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">3</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">4</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FrostThrower</Name>
+		<DeathAnimation>DeathByFreeze</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3.2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2.7</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">4.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">4</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">3.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>CyroThrower</Name>
+		<DeathAnimation>DeathByFreeze</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3.2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2.7</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">4.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">4</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">3.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SMG</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>GrenadeLauncher</Name>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.35</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.25</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>RocketLauncher</Name>
+		<DamageModifier rating="1" type="Light">1.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.7</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.7</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SpartanLaser</Name>
+		<DamageModifier rating="1" type="Light">1.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.35</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.35</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>CyclopsMelee</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SpartanMelee</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MachinegunTurret</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.9</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HornetTurret</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">1.3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HornetMissileLaunhcer</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>TankMachinegunTurret</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.35</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>VultureMissles</Name>
+		<DamageModifier rating="1" type="Light">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Railgun</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>GaussCannon</Name>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.35</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.35</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>WarthogRam</Name>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.2" bowlable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.2" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor" reflectDamageFactor="0.4" bowlable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover" reflectDamageFactor="0.4" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor" reflectDamageFactor="0" bowlable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.3" rammable="true">0.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="0.5" rammable="true">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="0.5" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Flood" reflectDamageFactor="0.3" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor" reflectDamageFactor="0.1" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor" reflectDamageFactor="0.4" rammable="true">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor" reflectDamageFactor="0.5" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover" reflectDamageFactor="0.5" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab" reflectDamageFactor="10" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Grenade</Name>
+		<DamageModifier rating="1" type="Light">2.7</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>TankExplosive</Name>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.9</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.7</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">2</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>RhinoCannon</Name>
+		<DamageModifier rating="1" type="Light">1.4</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>VultureCannon</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.7</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MjolnirSMG</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.7</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MjolnirMachinegunTurret</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.9</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MjolnirLauncher</Name>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Medium">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3.3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.9</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">3.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.8</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MjolnirRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">4.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">4.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">4.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">4.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">4.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">4.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>CovenantCarbine</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BeamRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">4.3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">4.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">4.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">3.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">4.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">3.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">4.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>EnergySword</Name>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ArbiterEnergySword</Name>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.9</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>GravityHammer</Name>
+		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>PlasmaRifle</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BrutePlasmaRifle</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>PlasmaPistol</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>RegretPlasma</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>PlamsaCannon</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.33</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.15</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.15</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BansheePlasma</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">1.3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">3</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Needler</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>PlamsaTurret</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">2.3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FuelRodCannon</Name>
+		<DamageModifier rating="1" type="Light">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.25</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HunterFuelRod</Name>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.3</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.4</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>RegretFuelRod</Name>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.35</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.35</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BansheeFuelRod</Name>
+		<DamageModifier rating="1" type="Light">0.9</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.35</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">0.8</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Medium">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">3</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.35</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ScarabTurret</Name>
+		<DamageModifier rating="1" type="Light">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SuperCombine</Name>
+		<DamageModifier rating="1" type="Light">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.35</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.35</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SuicideGruntBomb</Name>
+		<DamageModifier rating="1" type="Light">20</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">7</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">10</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">20</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">15</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">20</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">5</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">7</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">10</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">20</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">7</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>UpgradedSuicideGruntBomb</Name>
+		<DamageModifier rating="1" type="Light">20</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">7</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">20</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">15</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">10</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">20</DamageModifier>
+		<DamageModifier rating="1" type="Medium">5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">5</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">7</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">10</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">5</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">20</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">7</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ScarabBeam</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.7</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>WraithMortar</Name>
+		<DamageModifier rating="1" type="Light">2.3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">1.3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.7</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.55</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.6</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1.4</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.6</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Beam</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.6</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ChopperRam</Name>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0" bowlable="true">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor" reflectDamageFactor="0" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover" reflectDamageFactor="0" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor" reflectDamageFactor="0" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover" reflectDamageFactor="0" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor" reflectDamageFactor="0" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.1" rammable="true">1.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="0.2" rammable="true">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="0.2" rammable="true">0.3</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood" reflectDamageFactor="0.2" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor" reflectDamageFactor="0.1" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor" reflectDamageFactor="0.1" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor" reflectDamageFactor="0.2" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover" reflectDamageFactor="0" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">0</DamageModifier>
+		<DamageModifier rating="1" type="Scarab" reflectDamageFactor="5" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor" reflectDamageFactor="0.12" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover" reflectDamageFactor="0.12" bowlable="true">2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Spiker</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Light">3.2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">2.1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.9</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">2.2</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1.2</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.9</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">1.9</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">2</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BruteShot</Name>
+		<DamageModifier rating="1" type="Light">1.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">0.3</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1.2</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.7</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>AntiAir</Name>
+		<DamageModifier rating="1" type="Light">1.2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmor">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HellbringerArmorInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">0.9</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="DemolitionistArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="BruteHonorArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="SpartanArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CyclopsArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmor">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HunterArmorInCover">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Vulture">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Scarab">0.5</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmor">1</DamageModifier>
+		<DamageModifier rating="1" type="CryoTrooperArmorInCover">0.2</DamageModifier>
+	</WeaponType>
+</WeaponTypes>

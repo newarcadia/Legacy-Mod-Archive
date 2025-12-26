@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AssaultRifle</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>75</DamagePerSecond>
+		<WeaponType>SpartanLaser</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>0.3</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>0.4</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOELinearDamage />
+		<AOERadius>15</AOERadius>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<ImpactCameraShake duration="0.3" strength="0.1" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.25" rightRumbleType="Fixed" rightStrength="0.25" duration="0.5" />
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">0.1</Value>
+				<Value time="0.2">0.05</Value>
+				<Value time="0.5">0</Value>
+			</ColorTransformFactor>
+			<ColorTransformR>
+				<Value time="0">1,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformB>
+		</ImpactCameraEffect>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>AssaultRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AssaultRifleAttack</Anim>
+		<WalkForwardAnim>CombatWalkForwardAssaultRifleAttack</WalkForwardAnim>
+		<WalkBackAnim>CombatWalkBackAssaultRifleAttack</WalkBackAnim>
+		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
+		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
+		<Weapon>AssaultRifle</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AssaultRifleAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

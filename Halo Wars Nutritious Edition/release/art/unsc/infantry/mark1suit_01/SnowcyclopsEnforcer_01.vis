@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\mark1Suit_01\Snowmark1Suit_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+			<attach type="ModelRef" name="MG" tobone="Bone R Upperarm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="ML" tobone="Bone L Upperarm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="AddOnGunMount" tobone="Bone L Upperarm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<point pointType="Impact" bone="Bone Spine02" pointData="Metal" />
+			<point pointType="Impact" bone="Bone R Upperarm" pointData="Metal" />
+			<point pointType="Impact" bone="Bone L Upperarm" pointData="Metal" />
+			<point pointType="Impact" bone="Bone R Calf" pointData="Metal" />
+			<point pointType="Impact" bone="Bone L Calf" pointData="Metal" />
+			<point pointType="Carry" bone="Bone R Finger01" pointData="Metal" />
+			<point pointType="Pickup" bone="Bone Pelvis" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\jog_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.141" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.218" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.603" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.673" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\run_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.019" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.218" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.577" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.673" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone L Foot" syncanims="false" disregardorient="true" />
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone R Foot" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.01" end="1" tobone="Bone R Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CannonAttack2" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.01" end="1" tobone="Bone R Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="Bone R Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="FragGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretAA_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="Bone L Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="Bone L Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />		
+				<tag type="Attack" start="0" position="0.09399999" end="1" tobone="Bone L Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.145" end="1" tobone="Bone L Upperarm" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\run_01</file>
+				<weight>1</weight>
+				<tag type="TerrainEffect" start="0" position="0.218" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.673" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone L Foot" syncanims="false" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone R Foot" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="SpartanGremlinJack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spartan_gremlin_jack_coolRIG01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="Bone Mark1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_unsc_cyclops" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_unsc_cyclops" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanGremlinJack" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spartan_gremlindriver_jack_coolRIG01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.372" end="1" name="play_unsc_marine_vo_hit" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.635" end="1" name="play_unsc_marine_vo_death" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.846" end="1" name="ani_spartan_jack_success" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\pelicanDeploy_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.506" end="1" name="play_vehicle_to_body" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison2" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\pelicanDeploy_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.506" end="1" name="play_vehicle_to_body" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\train_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Fatality_SpartanCyclops_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\Fatality_SpartanCyclops_Victim_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\Fatality_SpartanCyclops_Victim_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\Fatality_SpartanCyclops_Victim_07</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\Fatality_SpartanCyclops_Victim_10</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\heal_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="Bone Mark1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.0421000011265278</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.317199975252151</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.013" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.00680000009015203</Value>
+							<Alpha>0.169400006532669</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.323399990797043</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TrainAirlock" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\mark1Suit_01\trainAirlock_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.019" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.218" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.558" end="1" name="ani_mk1_footstep" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.577" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.673" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="1" end="1" name="ani_mk1_footstep" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="MG">
+		<component>
+		<logic type="Tech">
+				<logicdata value="unsc_enforcer_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\vulture_01\turret_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hawk_01\hawk_l_mg_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hawk_01\hawk_l_mg_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hawk_01\hawk_l_mg_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_l_mg_01</file>
+			</asset>
+			<point pointType="Pickup" bone="bone_launchpoint02" pointData="Metal" />
+		</component>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.01" end="1" name="effects\vehicle_fx\unsc\scorpion\cannonmuzzleblast_01" tobone="BoneLaunchpointL" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.93" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cobra_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.01" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.25" force2="0" lifespan="0.15" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Rumble" start="0" position="0.026" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.9" force2="0.9" lifespan="0.1" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.05" end="1" tobone="BoneLaunchpointL" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-6" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.08" end="1" tobone="BoneLaunchpointL" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="-3" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CannonAttack2" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.01" end="1" name="effects\vehicle_fx\unsc\scorpion\cannonmuzzleblast_01" tobone="BoneLLLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.93" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\vehicle_fx\unsc\scorpion\cannonmuzzleblast_01" tobone="BoneLRLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.93" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cobra_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.05" end="1" name="play_cobra_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.01" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.25" force2="0" lifespan="0.15" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.05" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.25" force2="0" lifespan="0.15" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Rumble" start="0" position="0.026" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.9" force2="0.9" lifespan="0.1" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.05" end="1" tobone="BoneLLLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-6" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.08" end="1" tobone="BoneLRLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="-3" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="ML">
+		<component>
+		<logic type="Tech">
+				<logicdata value="unsc_enforcer_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\turretAI_01\turretAIGun_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\turretAI_01\turretAIGun_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\building\turretAI_01\turretAIGun_01</file>
+			</asset>
+			<point pointType="Pickup" bone="bone_launchpoint02" pointData="Metal" />
+		</component>
+		<anim type="FragGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretAA_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_weapon_unsc_turret_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_weapon_unsc_turret_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.058" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.08" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.09000001" end="1" name="play_unsc_wolverine_missile" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.096" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.128" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.147" end="1" name="play_unsc_wolverine_missile" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.17" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.218" end="1" name="play_unsc_wolverine_missile" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.231" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.26" end="1" name="play_unsc_wolverine_missile" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="AddOnGunMount">
+		<component>
+		<logic type="Tech">
+				<logicdata value="unsc_enforcer_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\turretAI_01\turretAImount_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\turretAI_01\turretAImount_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\turretAI_01\turretAImount_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\building\turretAI_01\turretAImount_01</file>
+			</asset>
+			<attach type="ModelRef" name="Shield" tobone="bone_gun" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+	<model name="Shield">
+		<component>
+		<logic type="Tech">
+				<logicdata value="unsc_enforcer_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\mark1Suit_01\shield_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\mark1Suit_01\shield_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_enforcer_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\mark1Suit_01\shield_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\mark1Suit_01\shield_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>

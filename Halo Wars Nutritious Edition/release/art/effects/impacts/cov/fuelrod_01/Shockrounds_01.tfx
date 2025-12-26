@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\fuelrod_01\Shockrounds_01</particlefile>
+   </default>
+
+</TerrainEffect>

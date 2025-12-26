@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+<Weapon>
+		<Name>InCoverRocketWeapon</Name>
+		<AttackRate>0.6</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_nontrackingrocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Accuracy>0.2</Accuracy>
+		<AOERadius>30</AOERadius>
+		<VisualAmmo>3</VisualAmmo>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.6</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_nontrackingrocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<VisualAmmo>3</VisualAmmo>
+		<Accuracy>0.2</Accuracy>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverLockOnRocketWeapon</Name>
+		<AttackRate>0.6</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<VisualAmmo>5</VisualAmmo>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>LockOnRocketWeapon</Name>
+		<AttackRate>0.6</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>RocketLauncher</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<VisualAmmo>5</VisualAmmo>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverGrenade</Name>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_grenade_01</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<PostAttackCooldownMin>10</PostAttackCooldownMin>
+		<PostAttackCooldownMax>10</PostAttackCooldownMax>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_grenade_01</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<AOERadius>20</AOERadius>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<PostAttackCooldownMin>10</PostAttackCooldownMin>
+		<PostAttackCooldownMax>10</PostAttackCooldownMax>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>SpartanMelee</WeaponType>
+		<MaxRange>5</MaxRange>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>RocketWeapon</Weapon>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>LockOnRocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>LockOnRocketWeapon</Weapon>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
+		<MainAttack />
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marineCommando_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_becker</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_becker_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odsjt_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odsjt_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_katarn</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_able</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_pierce</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_vance</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_veil</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marinecommander_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marinegrenade_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marinegrenaderocket_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marinerocket_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odstrocket_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_rusk</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odstBR_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_marine_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_medic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">unsc_inf_odstmedic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanCyclops_01" target="Fatality_SpartanCyclops_01" cooldown="0" orientationOffset="180">unsc_inf_cyclops_01</Fatality>
+		<Fatality attacker="Fatality_SpartanCyclops_01" target="Fatality_SpartanCyclops_01" cooldown="0" orientationOffset="180">unsc_inf_offensiveCyclops_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanArbiter_01" cooldown="0" orientationOffset="180">cov_inf_arbiter_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanArbiter_01" cooldown="0" orientationOffset="180">cov_inf_arbiter_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180">cov_inf_bruteChief_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180">cov_inf_bruteChief_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180">cov_inf_bruteChief_03</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteCommando_01" cooldown="0" orientationOffset="180">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteCommando_01" cooldown="0" orientationOffset="180">cov_inf_eliteCommando_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180">cov_inf_bruteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180">cov_inf_brute_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180">cov_inf_brutechieftain_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180">cov_inf_brutestalker_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180">cov_inf_brutemajor_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_eliteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_elitezealot_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_eliteEnforcercommander_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_eliteEnforcer_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_eliteEnforcer_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_eliteranger_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180">cov_inf_elitemajor_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">creep_rebel_infantry_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">creep_rebel_infantryCommander_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180">creep_rebel_Sniper_01</Fatality>
+	</Action>
+	<Action>
+		<Name>InCoverRocketWeaponAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>InCoverRocketWeapon</Weapon>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverLockOnRocketWeaponAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>InCoverLockOnRocketWeapon</Weapon>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<BaseDPSWeapon>Shotgun</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverGrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<Weapon>InCoverGrenade</Weapon>
+		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject bone="GrannyRootBone">unsc_spartanshield</ProtoObject>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>9</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>InfantryJoin</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>5</WorkRange>
+		<JoinType>Merge</JoinType>
+		<MergeType>Ground</MergeType>
+		<DamageModifiers damage="1.4" damageTaken="0.714" />
+	</Action>
+	<Action>
+		<Name>UpgradedVehicleJoin</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>5</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.3" damageTaken="0.75" byCombatValue="false" />
+	</Action>
+	<Action>
+		<Name>UpgradedVehicleTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>15</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" boardTime="6" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.3" damageTaken="0.75" byCombatValue="false" />
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithaa_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithLCE_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_heavywraith_01</Fatality>
+		<Fatality attacker="HijackGhostStart" attackerEnd="HijackGhostEnd" target="Idle" targetEnd="SpartanGhostJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_ghost_01</Fatality>
+		<Fatality attacker="HijackGhostStart" attackerEnd="HijackGhostEnd" target="Idle" targetEnd="SpartanGhostJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_needlerghost_01</Fatality>
+		<Fatality attacker="HijackChopperStart" attackerEnd="HijackChopperEnd" target="Idle" targetEnd="SpartanChopperJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_bruteChopper_01</Fatality>
+		<Fatality attacker="HijackLocustStart" attackerEnd="HijackLocustEnd" target="Idle" targetEnd="SpartanLocustJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="true" cooldown="0">cov_veh_locust_01</Fatality>
+		<Fatality attacker="HijackScorpionStart" attackerEnd="HijackScorpionEnd" target="Idle" targetEnd="SpartanScorpionJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_scorpion_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthog_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gausswarthog_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthogLCE_01</Fatality>
+		<Fatality attacker="HijackWolverineStart" attackerEnd="HijackWolverineEnd" target="Idle" targetEnd="SpartanWolverineJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_wolverine_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_02</Fatality>
+		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_cobra_01</Fatality>
+		<Fatality attacker="HijackGremlinStart" attackerEnd="HijackGremlinEnd" target="Idle" targetEnd="SpartanGremlinJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gremlin_01</Fatality>
+		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_grizzly_01</Fatality>
+		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_sliverback_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_deployElephant_01</Fatality>
+		<Fatality attacker="HijackScorpionStart" attackerEnd="HijackScorpionEnd" target="Idle" targetEnd="SpartanScorpionJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_mjolnirScorpion_01</Fatality>
+		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_puma_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_Rocketwarthog_01</Fatality>
+	</Action>
+	<Action>
+		<Name>UpgradedAircraftTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>15</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" boardTime="6" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.3" damageTaken="0.75" byCombatValue="false" />
+		<Fatality attacker="HijackBansheeStart" attackerEnd="HijackBansheeEnd" target="Idle" targetEnd="SpartanBansheeJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_banshee_01</Fatality>
+		<Fatality attacker="HijackBansheeStart" attackerEnd="HijackBansheeEnd" target="Idle" targetEnd="SpartanBansheeJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_honorbanshee_01</Fatality>
+		<Fatality attacker="HijackVampireStart" attackerEnd="HijackVampireEnd" target="Idle" targetEnd="SpartanVampireJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_vampire_01</Fatality>
+		<Fatality attacker="HijackHawkStart" attackerEnd="HijackHawkEnd" target="Idle" targetEnd="SpartanHawkJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_hawk_01</Fatality>
+		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_hornet_01</Fatality>
+		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_Rescuehornet_01</Fatality>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.4</DodgeChanceMin>
+		<DodgeChanceMax>0.4</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>4</DodgeCooldown>
+	</Action>
+	<Action>
+		<Name>Dodge_5</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.65</DodgeChanceMin>
+		<DodgeChanceMax>0.65</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>3</DodgeCooldown>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+	<PersistentAction>ShieldAction</PersistentAction>
+		<PersistentAction>Dodge</PersistentAction>
+		<PersistentAction>Dodge_5</PersistentAction>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>SpartanBoard</TargetType>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>UpgradedVehicleJoin</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>UpgradedAircraftTakeOver</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoard</TargetType>
+			<Action>UpgradedVehicleTakeOver</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverGrenadeAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<MeleeAttacker />
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<Action>InCoverRocketWeaponAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>LockOnRocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>InCoverLockOnRocketWeaponAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

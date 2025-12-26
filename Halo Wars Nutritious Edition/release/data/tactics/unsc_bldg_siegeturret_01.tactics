@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>RhinoCannon</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_02</Projectile>
+		<ImpactEffect size="Large">Tankshell</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>225</MaxRange>
+		<Accuracy>0.3</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.1</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>Artillery</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

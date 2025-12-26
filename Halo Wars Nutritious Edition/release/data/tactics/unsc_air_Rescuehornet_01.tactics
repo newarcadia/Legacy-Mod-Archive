@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>8</WorkRange>
+		<WorkRate>0.23</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairScarab</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>8</WorkRange>
+		<WorkRate>0.16</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Weapon>
+		<Name>ChaffWeapon</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_flare_01</Projectile>
+		<Hardpoint>ChaffTurret</Hardpoint>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+	</Weapon>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxTgtDepressionAngle>60</MaxTgtDepressionAngle>
+		<MaxPitch>20.0f</MaxPitch>
+		<MaxRoll>35.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Chaff</Name>
+		<ActionType>PointBlankAttack</ActionType>
+		<Anim>Evade</Anim>
+		<Weapon>ChaffWeapon</Weapon>
+		<MainAttack />
+		<DontCheckOrientTolerance />
+		<DontLoopAttackAnim />
+		<DodgeChanceMin>0.55</DodgeChanceMin>
+		<DodgeChanceMax>0.55</DodgeChanceMax>
+		<DodgeCooldown>0</DodgeCooldown>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Transport</Name>
+		<ActionType>Transport</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+		<PersistentAction>Chaff</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Military</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>cov_veh_scarab_01</TargetType>
+			<Action>RepairScarab</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Military</TargetType>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>Transport</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

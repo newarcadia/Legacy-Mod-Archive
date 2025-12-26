@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>800</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>RhinoCannon</WeaponType>
+		<Projectile>cov_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>500</MaxRange>
+		<Accuracy>0.3</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

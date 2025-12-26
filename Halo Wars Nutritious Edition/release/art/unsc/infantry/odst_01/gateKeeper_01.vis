@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\odst_01\odst_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Helmet" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Backpack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<point pointType="Launch" bone="bone_launchpoint" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 Spine1" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 Head" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Calf" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Calf" pointData="Metal" />
+			<point pointType="Pickup" bone="Bip01 Pelvis" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\combat_crouchidle_fid01_02</file>
+				<weight>70</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\combat_crouchidle_fid02_02</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\combat_crouchidle_fid03_02</file>
+				<weight>70</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\combat_crouchidle_fid04_02</file>
+				<weight>40</weight>
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="Stunned" exitAction="Transition" tweenTime="5" tweenToAnimation="Stunned">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\disruption_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\disruption_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_01_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_01_2</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_02_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_02_2</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FragGrenadeAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\grenade_attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.377" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="RocketAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="RocketAttack">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\rocketattack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.12" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.12" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\rocketattack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.07" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.07" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.07" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\rocketattack_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.16" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.16" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.164" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\rocketattack_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.11" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.11" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.113" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\rocket_launcher_01\rocket_launcher_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ShotgunAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="ShotgunAttack">
+			<asset type="Anim">
+				<file>campaign\npc\forge_01\shotgun_attack_01</file>
+				<weight>10</weight>
+				<tag type="Particle" start="0" position="0.095" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.101" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.372" end="1" name="play_weapon_odst_shotgun_ready" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.481" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\forge_01\shotgun_attack_03</file>
+				<weight>60</weight>
+				<tag type="Particle" start="0" position="0.06" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.06" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.063" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.494" end="1" name="play_weapon_odst_shotgun_ready" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.551" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\forge_01\shotgun_attack_02</file>
+				<weight>30</weight>
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.35" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.352" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.455" end="1" name="play_weapon_odst_shotgun_ready" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.494" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="ShotgunBurstAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="ShotgunAttack">
+			<asset type="Anim">
+				<file>campaign\npc\forge_01\shotgun_attack_burst_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.038" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.051" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.095" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.199" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.21" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.21" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.214" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.321" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.378" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.39" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.39" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.39" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.494" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.558" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.57" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.57" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.572" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.673" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.75" end="1" name="play_weapon_odst_shotgun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.755" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.76" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.76" end="1" name="effects\Unit_FX\unsc\marine\shotgunblast_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.846" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+		<anim type="ShotgunReload" exitAction="Transition" tweenTime="5" tweenToAnimation="ShotgunAttack">
+			<asset type="Anim">
+				<file>campaign\npc\forge_01\shotgun_reload_01</file>
+				<weight>50</weight>
+				<tag type="Sound" start="0" position="0.122" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.276" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.397" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.526" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.654" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.776" end="1" name="play_weapon_odst_shotgun_reload" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.827" end="1" name="play_weapon_odst_shotgun_ready" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalShotgun</meshEnable>
+		</anim>
+	</model>
+	<model name="Helmet">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\odst_01\ODSThelm_01</file>
+			</asset>
+			<attach type="ModelRef" name="Visor1" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="HelmetAttachment" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+		<model name="Backpack">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\odst_01\ODSTHeavyBackpack_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>
