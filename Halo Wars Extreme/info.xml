@@ -1,0 +1,31 @@
+  <mod id="hw1-extreme">
+    <name>Halo Wars: Extreme</name>
+    <game>Halo Wars 1</game>
+    <platform>Steam</platform>
+    <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Halo%20Wars%20Extreme/assets/banner.png?raw=true</banner>
+    <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Halo%20Wars%20Extreme/assets/icon.png?raw=true</icon>
+    <description>A more Extreme version of halo wars: definitive edition.. Created by Samuelelelelele.
+    Features:
+
+    Pop cap: 10000
+    Starting money: 999999
+    Starting tech: 100
+    All upgrades are free and instant
+    All units are free and takes no population
+    All buildings cost 0 supplies and requires 0 tech
+    All abilities for units now recharges instantly
+    All leader abilities, like mac blast, odst drop and distruption bomb are now recharging instantly.
+    Captain Cutter has 10000 odst to drop instead of the old 10 + he has 1000 mac blast ready to use.
+    All unsc leaders can build up to 100 spartans + they can now hijack vultures and scarabs
+    All unsc leaders also gets 2 new units
+    All covenant leaders can build up to 10 leaders
+    All rebels bases now has 4 turrets instead of 2 turrets and 2 watchtowers
+    Captain Cutter, Forge and Anders can build heavy supply pads from the beginning
+    Captain Cutter and Forge starts with fully upgraded base.
+    All unsc leaders can upgrade to Grizzly, ODST and Hawks. If they upgrade to odst they will also get access to odst drop</description>
+    <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/nutri_release.zip</download>
+    <version>1.2</version>
+    <flags>
+      <flag>Legacy</flag>
+    </flags>
+  </mod>

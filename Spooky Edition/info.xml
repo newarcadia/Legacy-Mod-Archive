@@ -1,0 +1,13 @@
+  <mod id="hw1-spooky-edition">
+    <name>Spooky Edition</name>
+    <game>Halo Wars 1</game>
+    <platform>Steam</platform>
+    <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Spooky%20Edition/assets/banner.png?raw=true</banner>
+    <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Spooky%20Edition/assets/icon.png?raw=true</icon>
+    <description>Ever wanted to play Halo Wars but thought "man this game doesn't really fit the Halloween spirit"? While I'm sure you haven't, this mod has come to exist anyway because why the hell not. Please be aware that this mod is basically a reskin to the game; there are no new units, upgrades, maps, or anything else of the sort. This is simply a mod that modifies the maps and lighting slightly to make it all a little more eerie, while also having the Flood tracks playing on all Skirmish maps for that added touch. The campaign has also gotten the same lighting treatment, but the music is untouched to not interfere with mission scripts that may or may not override music.</description>
+    <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/spooky_release.zip</download>
+    <version>1.0.0</version>
+    <flags>
+      <flag>Legacy</flag>
+    </flags>
+  </mod>

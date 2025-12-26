@@ -1,0 +1,13 @@
+  <mod id="hw1-playable-flood-unit-pack">
+    <name>Playable Flood+Unit Pack</name>
+    <game>Halo Wars 1</game>
+    <platform>Steam</platform>
+    <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Playable%20Flood%20Unit%20Pack/assets/banner.png?raw=true</banner>
+    <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Playable%20Flood%20Unit%20Pack/assets/icon.png?raw=true</icon>
+    <description>Adds buildable Flood, Forerunner, Rebel units, bases and campaign units to Covenant and UNSC. Created by bbc6rgf57ytty5yx.</description>
+    <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/pfup_release.zip</download>
+    <version>1.0.0</version>
+    <flags>
+      <flag>Legacy</flag>
+    </flags>
+  </mod>
