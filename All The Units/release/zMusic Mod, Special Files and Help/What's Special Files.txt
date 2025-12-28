@@ -1,0 +1,56 @@
+Special files are for if you want to mix up the game for other ways to play.
+
+If you play with another player (which is truly the best experience to make All The Units with your friends!)
+Then all players MUST have matching files, using any files you replaced. If even there is a single letter A in one of the
+files, the game will see it's not a matching file and (as I believe from what I've heard) without matching files, the game
+has some anti-cheat and it'l not let ya play multiplayer with a disconnecting message.
+So ALL players must have matching files to play. Reverting to Original is if you don't know
+what files you exactly replaced, though you only have 3 in total different to work with.
+Leaders, Objects, Scenario Disciptions. 
+
+
+
+You'll have 3 options. With each folder, just COPY all the xml files,
+and replace the ones in the "Data" Folder. The Data Folder
+is the one of the first four folders you see when opening 
+the All The Units mod. The folder before you opened Useful Information.
+
+
+
+From the 3 Choices, you can either increase your base size with
+a cheap quick edit of the base where I added more buildings in 30
+minutes because I wanted a bigger base to keep me enertained through
+enough playtesting. Do note, maps are defenitly not supported to
+use the extra big base, it's already big enough by default so
+the bigger base will indeed be colliding with things more than the
+regular base will, but that's not on me! This extra big base's
+only purpase was to be a cheap quick edit, it's just a bonus here.
+
+
+Second you'll find you can increase the AI's popcap to 999, making
+them train rather large armies if you find you're just too
+good or you want to fight some big armies. The AI show no mercy on Legendary
+with 999 Popcap, The biggest and baddest armies will assault the mighty
+Super Fortress.
+
+
+Your third choice is simple, it'l enable the special custom maps I spent weeks 
+making them come to life with my masterful prop placing skills, but the 
+Curse of the Crashes has ruint it, ruint it I tell ya! 
+It'l highly likely crash upon playing until
+the Curse of The Crashes is resolved. 
+Though I've tried, and tried but the way the
+building system works in this mod just says no
+to custom maps and the regular game itself sometimes. :/
+I've looked for a work around, to do it differently, and multiple
+solutions; all to no avail.
+
+
+Or if you want the big base only, that's an option.
+
+The Big Base + 999 Popcap comes with the Covenant Ai's Wild Army.
+(Starting out with unusual units they shouldn't have...)
+
+
+
+                                                                           

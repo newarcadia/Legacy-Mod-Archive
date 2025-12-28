@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>15</WorkRange>
+		<WorkRate>0.50</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairScarab</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>30</WorkRange>
+		<WorkRate>0.40</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairAirLock</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>15</WorkRange>
+		<WorkRate>0.30</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>cpgn_scn11_unitspawn_01</TargetType>
+			<TargetType>cpgn_scn11_vehiclespawn_01</TargetType>
+			<Action>RepairAirLock</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>cov_veh_scarab_01</TargetType>
+			<Action>RepairScarab</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

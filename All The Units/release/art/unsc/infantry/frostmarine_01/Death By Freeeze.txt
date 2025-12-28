@@ -1,0 +1,191 @@
+In order to get the special death animations cryo's inflict on other units you have to add
+these line into every Infantry units .vis file.
+
+
+Add To Marines/Spartan/Rebel Units.
+-----------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\death_melee_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+----------------------------
+Add To Arbiter.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\arbiter_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+
+
+Add to BruteChieftain.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brutechief_01\death_coolRIG01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+-----------------------------
+Add to Prophet.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brutechief_01\death_coolRIG01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+----------------------------
+Add to Hunter.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\death_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\death_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+-----------------------------
+Add to Grunt/Infected Grunt.
+------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+-----------------------------
+Add to Elite/Infected Elite.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\elite_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\elite_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+----------------------------
+Add to Jackal/Infected Jackal.
+-----------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+------------------------------
+Add to Brute/Infected Brute.
+-------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_melee_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_melee_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_melee_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_melee_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+----------------------------------
+Add to Flood Marine/Flamethrower.
+----------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\InfectedMarine_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+-----------------------------------
+Add to Infection Forms.
+------------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\InfectionForm_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+----------------------------------
+Add to InfectedCarrier.
+-----------------------------------
+<anim type="DeathByFreeze" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\InfectedCarrier_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cryo_bomb_freezing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\cryo_bomb\unit_shatter_small" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>

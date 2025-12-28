@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">campaignTutorial</Terrain>
+	<Sky>environment\sky\harvest_sky</Sky>
+	<TerrainEnv>environment\sky\harvest_sky_en.ddx</TerrainEnv>
+	<Lightset>campaignTutorial</Lightset>
+	<Pathing>campaignTutorial</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Fixed" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="2" Position="350.534607,11.4962997,650.131226" Forward="0.999599993,0,0.0292000007" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="118" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1145" />
+        		<Position Player="-1" Number="1" Position="670.534607,11.4962997,683.131226" Forward="0.999599993,0,0.0292000007" Right="-0.00340000005,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="122" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1144" />
+		<Position Player="-1" Number="2" Position="425.420593,17.5608006,151.070297" Forward="-0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="122" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1144" />
+		<Position Player="-1" Number="1" Position="680.160095,17.9064007,55.220497" Forward="-0.999899983,0.0046000001,-0.0120000001" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="122" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1144" />-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player3" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="Covenant" Color="3" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player4" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="Covenant" Color="4" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Rebels" LocalisedDisplayName="25966,Rebels" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="4" DefaultResources="false" Supplies="100000" Power="10" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Covenant2" LocalisedDisplayName="25565,Forerunner" UseStartingUnits="true" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="3" Team="2" DefaultResources="false" Supplies="100000" Power="10" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Flood" LocalisedDisplayName="25560,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="4" DefaultResources="false" Supplies="100000" Power="10" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Minimap>
+		<MinimapTexture>\ui\flash\minimaps\Chasms.ddx</MinimapTexture>
+	</Minimap>
+	<BuildingTextureIndexUNSC>8</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>8</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres />
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="frozen" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="trees" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="3" Name="AI" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="4" Name="TestBases" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="5" Name="Flood Markers" Visible="false" Locked="false" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+				<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="157,14,395" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">unsc_bldg_admintower_01s</Object>
+                <Object IsSquad="false" Player="1" TintValue="1" EditorName="AttackMultiMove2" ID="1765" Position="721.260803,13.1485004,731.494629" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">unsc_bldg_admintower_01s</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="105,12,621" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">unsc_bldg_admintower_01s</Object>
+		<Object IsSquad="true" Player="1" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="230,18,12" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_bldg_admintower_01s</Object>
+
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="200,10,620" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_bldg_buildinglotmap_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="205,10,595" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_decor_watchtowerd</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="211,10,575" Forward="0.6506,0,-0.7594" Right="-0.7594,0,-0.6506" Group="-1" VisualVariationIndex="0">unsc_decor_policecard</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="183,10,590" Forward="-0.999899983,0.0046000001,-0.0120000001" Right="-0.0120000001,0.000199999995,0.999899983" Group="-1" VisualVariationIndex="0">unsc_decor_scorpiond</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="40,19,255" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+
+
+
+
+
+		<Object IsSquad="true" Player="3" TintValue="1" EditorName="cov_inf_eliteCommando_01_Squad_1694" ID="1694" Position="194.934296,14.4766998,515.806885" Forward="0.991699994,0,-0.128900006" Right="-0.128900006,0,-0.991699994" Group="-1" VisualVariationIndex="0">cov_inf_eliteCommando_01</Object>
+		<Object IsSquad="true" Player="3" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1690" ID="1690" Position="175.998596,14.4766998,504.157196" Forward="0.985400021,0,0.170000002" Right="0.170000002,0,-0.985400021" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="true" Player="3" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1691" ID="1691" Position="175.784302,14.4766998,528.717407" Forward="0.97390002,0,-0.227200001" Right="-0.227200001,0,-0.97390002" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_covenantprops_dedbanshe_01_1711" ID="1711" Position="700.56189,19.3295002,180.028503" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">cpgn_covenantprops_dedbanshe_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_snowgate_01_1708" ID="1886" Position="407.992188,5.26249981,576.715576" Forward="-0.397199988,0,-0.917699993" Right="-0.917699993,0,0.397199988" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_snowgate_01D</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_snowgate_01_1708" ID="1708" Position="486.96051,12.3718996,67.9999008" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_snowgate_01D</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_snowgate_01_1708" ID="1888" Position="302.446411,7.69980001,593.857117" Forward="-0.0982000008,0,0.995199978" Right="0.995199978,0,0.0982000008" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_snowgate_01D</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_snowgate_01_1708" ID="1890" Position="585.070374,0.927600026,290.020203" Forward="-0.206900001,0,-0.978399992" Right="-0.978399992,0,0.206900001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_snowgate_01D</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="350.670013,14.1173,337.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="380.670013,14.1173,463.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="388.670013,14.1173,400.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="380.670013,14.1173,400.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="384.670013,14.1173,392.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="monay" ID="1358" Position="355.670013,16.1173,280.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="monay" ID="1358" Position="361.670013,16.1173,280.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="monay" ID="1358" Position="358.670013,16.1173,274.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="383.670013,12.1173,447.643906" Forward="-0.7401,0,-0.6725" Right="-0.6725,0,0.7401" Group="-1" VisualVariationIndex="0">cov_bldg_turretai_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="303.670013,12.1173,418.643906" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">cov_bldg_shadeturret_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="moremoney" ID="1358" Position="390.670013,14.1173,327.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="moremoney" ID="1358" Position="390.670013,14.1173,337.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="moremoney" ID="1358" Position="380.670013,14.1173,327.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="moremoney" ID="1358" Position="380.670013,14.1173,337.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="turretmiddleshade" ID="1358" Position="400.670013,13.1173,300.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">cov_bldg_shadeturret_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="303,12,465" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="293,12,467" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="283,12,470" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,22,560.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cov_bldg_turretai_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,23,519.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cov_bldg_turretai_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,25,475.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cov_bldg_turretai_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="96,10,621" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn07_scarabBoss_02</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="108,10,590" Forward="0.486799985,0,-0.87349999" Right="-0.87349999,0,-0.486799985" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanerefine_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="115,10,605" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_02</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="115,10,609" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="117.5,10,607" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_03</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="117,10,638" Forward="-1,0,-0.00340000005" Right="-0.00340000005,0,1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="127,10,635" Forward="0.6506,0,-0.7594" Right="-0.7594,0,-0.6506" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="127,10,641" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="150,10,641" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">cov_veh_defensescarab_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="126,14,670" Forward="0.6506,0,-0.7594" Right="-0.7594,0,-0.6506" Group="-1" VisualVariationIndex="0">cov_bldg_turretaa_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="159,14,674" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">cov_bldg_turretaa_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="125,14,610" Forward="0.7174,0,-0.6967" Right="-0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">cov_bldg_shadeturret_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="225,14,685" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="210,14,677" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="210,14,685" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="202,14,677" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="202,14,685" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="105,10,450" Forward="0.7401,0,0.6725" Right="0.6725,0,-0.7401" Group="-1" VisualVariationIndex="0">cov_veh_defensescarab_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="105,10,383" Forward="-0.6506,0,0.7594" Right="0.7594,0,0.6506" Group="-1" VisualVariationIndex="0">hook_bldg_minibase_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="152,14,525" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">cov_bldg_builder_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="108,14,556" Forward="0.486799985,0,-0.87349999" Right="-0.87349999,0,-0.486799985" Group="-1" VisualVariationIndex="0">hook_bldg_megaturret_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="157,14,395" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">hook_bldg_teleporter2way_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="162,14,295" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">hook_bldg_teleporter2way_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="238,18,235" Forward="-0.6506,0,0.7594" Right="0.7594,0,0.6506" Group="-1" VisualVariationIndex="0">cov_bldg_turretaa_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="220,18,225" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cov_bldg_turretav_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="233,29.5,330" Forward="0.7457,0,0.6662" Right="0.6662,0,-0.7457" Group="-1" VisualVariationIndex="0">cov_bldg_turretaa_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="226,29,338" Forward="-0.7457,0,-0.6662" Right="-0.6662,0,0.7457" Group="-1" VisualVariationIndex="0">cov_bldg_shadeturret_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="225,29,330" Forward="-0.7457,0,-0.6662" Right="-0.6662,0,0.7457" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="232,29,322.5" Forward="0.7457,0,0.6662" Right="0.6662,0,-0.7457" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_03</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="229,29,323.5" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_02</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="189,14,255" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">cov_inf_grunthorde_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="209,14,252" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">cov_inf_grunthorde_02</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="229,14,255" Forward="-0.00389999989,0,1" Right="1,0,0.00389999989" Group="-1" VisualVariationIndex="0">cov_inf_grunthorde_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="154,40,250" Forward="0.7457,0,0.6662" Right="0.6662,0,-0.7457" Group="-1" VisualVariationIndex="0">cov_bldg_shadeturret_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="153,14,339" Forward="0.00389999989,0,-1" Right="-1,0,-0.00389999989" Group="-1" VisualVariationIndex="0">cpgn_inf_jackalSniper_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="154,40,210" Forward="0.7457,0,0.6662" Right="0.6662,0,-0.7457" Group="-1" VisualVariationIndex="0">cov_veh_locust_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="184,40,175" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cov_veh_locust_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="184,40,165" Forward="-1,0,-0.00340000005" Right="-0.00340000005,0,1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="174,40,164.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="176,40,138" Forward="-1,0,-0.00340000005" Right="-0.00340000005,0,1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanerefine_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="184,40,110" Forward="-1,0,-0.00340000005" Right="-0.00340000005,0,1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="174,40,109.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="165,40,127.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="161,40,127.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="163,40,124" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="163,40,148" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_03</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="163,40,152" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_03</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="159,40,150" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">env_harvest_methanetank_03</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="182,40,80" Forward="-1,0,-0.00340000005" Right="-0.00340000005,0,1" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanerefine_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="182,40,60" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanestorage_01</Object>
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="270,16,12" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_bldg_lightfactory_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="220,20,26.5" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">unsc_buildthog_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="221,20,26.5" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="209,14,267" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="270,16,38" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_bldg_supplyDepot_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,38" Forward="-0.999899983,0.0046000001,0.0120000001" Right="-0.0120000001,-0.000199999995,0.999899983" Group="-1" VisualVariationIndex="0">cov_inf_grunthorde_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,15" Forward="-0.999899983,0.0046000001,0.0120000001" Right="-0.0120000001,-0.000199999995,0.999899983" Group="-1" VisualVariationIndex="0">cov_inf_grunthorde_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,38" Forward="-0.999899983,0.0046000001,0.0120000001" Right="-0.0120000001,-0.000199999995,0.999899983" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,15" Forward="-0.999899983,0.0046000001,0.0120000001" Right="-0.0120000001,-0.000199999995,0.999899983" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,60" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,120" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,160" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,200" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,240" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,280" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="true" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="240,16,320" Forward="0.999899983,0.0046000001,-0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cov_air_vampire_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,40,100" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn13_scarab_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="62,40,100" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="118,40,100" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,40,127.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,40,72" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="60.5,40,100" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">unsc_decor_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="116.5,40,100" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">unsc_decor_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,40,129" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">unsc_decor_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,40,73.5" Forward="1,0,0.00340000005" Right="0.00340000005,0,-1" Group="-1" VisualVariationIndex="0">unsc_decor_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="70,19,190" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_decor_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="15,19,189.5" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_buildthog_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="15,19,188" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="70,19,188.5" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="250,12,492" Forward="0.00389999989,0,-1" Right="-1,0,-0.00389999989" Group="-1" VisualVariationIndex="0">unsc_buildthog_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="250,15,547" Forward="0.00389999989,0,-1" Right="-1,0,-0.00389999989" Group="-1" VisualVariationIndex="0">unsc_buildthog_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="209,14,268" Forward="0.999899983,-0.0046000001,0.0120000001" Right="0.0120000001,-0.000199999995,-0.999899983" Group="-1" VisualVariationIndex="0">unsc_buildthog_doorshield</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="90,15,15" Forward="0.00529999984,0,1" Right="1,0,-0.00529999984" Group="-1" VisualVariationIndex="0">cpgn_scn07_scarabBoss_02</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="122,15,27" Forward="0.7457,0,0.6662" Right="0.6662,0,-0.7457" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanerefine_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="52,15,24" Forward="-0.6506,0,0.7594" Right="0.7594,0,0.6506" Group="-1" VisualVariationIndex="0">cpgn_scn02_methanerefine_01</Object>
+		<Object IsSquad="false" Player="6" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="22.5,19,20" Forward="-0.00529999984,0,-1" Right="-1,0,0.00529999984" Group="-1" VisualVariationIndex="0">cov_bldg_temple_03</Object>
+
+
+
+
+
+
+
+
+
+
+
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_unsctowerd_01_1672" ID="1672" Position="458.833313,25.0039005,37.0876999" Forward="-0.808499992,0,-0.588500023" Right="-0.588500023,0,0.808499992" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_unsctowerd_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_unsctowerd_01_1672" ID="1893" Position="629.114319,14.54,288.425415" Forward="0.993700027,0,-0.112199999" Right="-0.112199999,0,-0.993700027" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_unsctowerd_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn01_watchtowerd_01_1674" ID="1674" Position="526.128784,26.1250992,86.4861984" Forward="-0.772800028,0,0.6347" Right="0.6347,0,0.772800028" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn01_watchtowerd_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="cpgn_scn02_shieldpower_01_1427" ID="1427" Position="280.634094,19.8237,543.172913" Forward="0.94630003,0,-0.323199987" Right="-0.323199987,0,-0.94630003" Group="-1" VisualVariationIndex="0">cpgn_scn02_shieldpower_01</Object>
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="cpgn_tutorial_jammer_01_1697" ID="1697" Position="105.011398,14.7090998,662.637085" Forward="0.999800026,0,0.0208000001" Right="0.0208000001,0,-0.999800026" Group="-1" VisualVariationIndex="0">cpgn_tutorial_jammer_01</Object>
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="cpgn_tutorial_jammer_01_1718" ID="1718" Position="178.611404,12.1866999,688.888428" Forward="-0.557699978,0,-0.829999983" Right="-0.829999983,0,0.557699978" Group="-1" VisualVariationIndex="0">cpgn_tutorial_jammer_01</Object>
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="cpgn_tutorial_jammer_01_1719" ID="1719" Position="138.326401,14.6147003,686.69873" Forward="0.486799985,0,-0.87349999" Right="-0.87349999,0,-0.486799985" Group="-1" VisualVariationIndex="0">cpgn_tutorial_jammer_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_covenant_spiritcrash_01_1668" ID="1668" Position="95.1694031,16.6945992,490.022003" Forward="0.198799998,0,0.980000019" Right="0.980000019,0,-0.198799998" Group="-1" VisualVariationIndex="0">env_covenant_spiritcrash_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_artrubix_02_1607" ID="1607" Position="271.293396,23.5195999,548.338928" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">env_harvest_artrubix_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forebutress_02_1437" ID="1437" Position="263.196198,22.8873997,541.121521" Forward="0.999499977,0,0.0315000005" Right="0.0315000005,0,-0.999499977" Group="-1" VisualVariationIndex="0">env_harvest_forebutress_02s</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forebutress_02_1438" ID="1438" Position="263.447693,23.7106991,474.8125" Forward="-0.999599993,0,0.0280000009" Right="0.0280000009,0,0.999599993" Group="-1" VisualVariationIndex="0">env_harvest_forebutress_0s2</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forebutresssnow_01_550" ID="552" Position="27.7765999,43.2411995,569.534912" Forward="0.00400000019,0,1" Right="1,0,-0.00400000019" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_forebutresssnow_01S</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forebutresssnow_01_550" ID="550" Position="27.4528008,43.1952019,538.11377" Forward="0.00400000019,0,1" Right="1,0,-0.00400000019" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_forebutresssnow_01S</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_1023" ID="1025" Position="457.651611,9.31680012,345.376312" Forward="-0.999100029,0,-0.0432999991" Right="-0.0432999991,0,0.999100029" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_1023" ID="1023" Position="447.265411,9.30440044,403.277405" Forward="-0.94630003,0,-0.323300004" Right="-0.323300004,0,0.94630003" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_1023" ID="1027" Position="422.160492,9.66380024,457.766205" Forward="-0.863200009,0,-0.504899979" Right="-0.504899979,0,0.863200009" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_482" ID="1883" Position="663.015076,14.6105003,393.255798" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_482" ID="492" Position="787.779724,14.6744003,393.167908" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_482" ID="491" Position="725.239014,14.5818005,393.241699" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_482" ID="498" Position="849.392517,14.7854996,393.5224" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreedgelipsnow_01_482" ID="516" Position="909.654175,14.6875,393.822693" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_foreedgelipsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forrundoorcrestsnow_01_1170" ID="1170" Position="45.1903,40.2066994,553.176086" Forward="-1,0,0.00529999984" Right="0.00529999984,0,1" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_forrundoorcrestsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_forundoorsnow_01_485" ID="488" Position="66.7156982,17.2355003,553.163208" Forward="-1,0,0.00150000001" Right="0.00150000001,0,1" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_forundoorsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_iceplane_03_1140" ID="1140" Position="247.642197,-8.12590027,329.5896" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_iceplane_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_1358" ID="1358" Position="348.670013,16.1173,224.643906" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">hook_bldg_pelicanCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_pelicanwreck_03_399" ID="399" Position="240.598602,19.1788006,133.899094" Forward="0.891200006,0,0.453599989" Right="0.453599989,0,-0.891200006" Group="-1" VisualVariationIndex="0">env_harvest_pelicanwreck_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_radiotower_01_1712" ID="1712" Position="434.592987,28.6625996,34.3913994" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">env_harvest_radiotower_01</Object>
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_spc1fort_01_1707" ID="1707" Position="487.670502,12.9785995,63.0480003" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_spc1fort_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_spc1fort_01_1707" ID="1891" Position="588.161194,1.53429997,293.953705" Forward="-0.206900001,0,-0.978399992" Right="-0.978399992,0,0.206900001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_spc1fort_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="808" Position="16.9883995,13.2658005,-1.90649998" Forward="-0.662999988,0,-0.748600006" Right="-0.748600006,0,0.662999988" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="833" Position="3.23930001,20.1798992,13.8997002" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="823" Position="-1.85759997,5.41900015,14.6982002" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="616" Position="419.377594,27.0072994,-5.25719976" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="842" Position="4.5296998,20.8244991,45.3345985" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" ID="848" Position="5.73530006,20.3854008,200.581604" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_511" ID="511" Position="261.517212,20.3882008,80.5718994" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_523" ID="581" Position="218.479904,22.4731007,124.973801" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_524" ID="582" Position="273.467285,18.3353996,160.299393" Forward="-0.975700021,0,0.218999997" Right="0.218999997,0,0.975700021" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_526" ID="526" Position="259.4487,18.9274006,104.4543" Forward="-0.637799978,0,-0.770200014" Right="-0.770200014,0,0.637799978" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_581" ID="585" Position="351.768707,26.5550995,3.77839994" Forward="-0.29550001,0,0.955299973" Right="0.955299973,0,0.29550001" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_582" ID="584" Position="427.463104,32.7453995,1.96290004" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_582" ID="963" Position="113.914299,28.7141991,224.046494" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_583" ID="958" Position="104.8703,35.8666,244.871994" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_583" ID="583" Position="441.258301,34.2084007,11.1337996" Forward="0.985400021,0,0.170000002" Right="0.170000002,0,-0.985400021" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_584" ID="586" Position="455.740387,32.419899,17.6462002" Forward="-0.255499989,0,-0.966799974" Right="-0.966799974,0,0.255499989" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_584" ID="960" Position="220.969604,23.6989994,181.652893" Forward="0.141200006,0,-0.99000001" Right="-0.99000001,0,-0.141200006" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_597" ID="597" Position="428.4263,33.4734993,8.59469986" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_597" ID="962" Position="230.162399,22.6236,179.177505" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_598" ID="598" Position="380.9104,23.5520992,29.2572002" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_613" ID="613" Position="543.780029,34.0489998,94.5353012" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="662" Position="-9.52779961,20.0564003,180.330597" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="728" Position="-2.45160007,17.8539009,215.006393" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="844" Position="3.25,20.4955006,51.5661011" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="651" Position="4.26399994,20.4955006,150.477493" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="961" Position="138.427795,33.6978989,240.255905" Forward="0.442499995,0,-0.896799982" Right="-0.896799982,0,-0.442499995" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="706" Position="-14.8909998,17.6483994,17.5051994" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="858" Position="727.475586,16.6058006,0.369300008" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="617" Position="425.729004,26.6783009,-4.89779997" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="717" Position="-1.36989999,18.2929993,179.011902" Forward="0.693499982,0,0.720399976" Right="0.720399976,0,-0.693499982" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="867" Position="738.461975,17.3775005,10.5997" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="640" Position="-10.7545996,19.8509007,106.475403" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="802" Position="7.02799988,15.3448,119.941399" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="787" Position="5.80760002,15.1393003,43.7032013" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="810" Position="23.9354992,16.5806007,-0.722000003" Forward="-0.662999988,0,-0.748600006" Right="-0.748600006,0,0.662999988" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="796" Position="4.44129992,15.7839003,10.6167002" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="825" Position="2.898,6.69040012,28.5881996" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_617" ID="850" Position="3.83999991,20.0564003,206.654297" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="795" Position="29.0568008,16.1938,-3.25370002" Forward="-0.859200001,0,0.511699975" Right="0.511699975,0,0.859200001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="824" Position="-2.52670002,10.6473999,16.7236996" Forward="0.263200015,0,0.964699984" Right="0.964699984,0,-0.263200015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="834" Position="4.65679979,20.2607994,20.5405998" Forward="0.0750999972,0,-0.997200012" Right="-0.997200012,0,-0.0750999972" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="716" Position="-14.2334995,18.7028999,48.5141983" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="843" Position="4.17759991,20.9053993,38.553299" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="857" Position="749.348999,18.0321999,14.9747" Forward="0.0750999972,0,-0.997200012" Right="-0.997200012,0,-0.0750999972" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="866" Position="754.757874,29.0907001,28.2257996" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="801" Position="3.31049991,15.7546997,103.696899" Forward="0.263200015,0,0.964699984" Right="0.964699984,0,-0.263200015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="705" Position="-13.7542,18.0583,30.5014992" Forward="0.0750999972,0,-0.997200012" Right="-0.997200012,0,-0.0750999972" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="959" Position="129.476807,28.6534996,230.670502" Forward="0.88349998,0,0.468499988" Right="0.468499988,0,-0.88349998" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="639" Position="-9.61779976,20.2607994,119.471703" Forward="0.0750999972,0,-0.997200012" Right="-0.997200012,0,-0.0750999972" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="727" Position="1.5223,18.2637997,107.481102" Forward="0.263200015,0,0.964699984" Right="0.964699984,0,-0.263200015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="818" Position="-28.0475998,13.9912996,179.088699" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="650" Position="7.27799988,20.9053993,148.879593" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="849" Position="6.0618,20.4662991,193.799103" Forward="-0.327499986,0,0.944899976" Right="0.944899976,0,0.327499986" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="619" Position="412.719696,27.0881996,-3.92210007" Forward="0.996200025,0,0.0874999985" Right="0.0874999985,0,-0.996200025" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_619" ID="661" Position="-14.9525003,20.4662991,168.466095" Forward="0.263200015,0,0.964699984" Right="0.964699984,0,-0.263200015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_884" ID="884" Position="753.53363,25.2639008,69.9070969" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01med_01_890" ID="890" Position="733.13092,21.4881992,184.834702" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_512" ID="512" Position="257.074493,19.7898006,95.3899994" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_529" ID="587" Position="277.484589,18.2416992,156.554596" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_585" ID="588" Position="356.179688,25.5172005,1.64049995" Forward="0.985400021,0,0.170000002" Right="0.170000002,0,-0.985400021" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_586" ID="592" Position="414.344086,31.2884007,5.93760014" Forward="0.557699978,0,-0.8301" Right="-0.8301,0,-0.557699978" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_586" ID="964" Position="113.900497,28.3859997,220.996597" Forward="0.836899996,0,-0.547399998" Right="-0.547399998,0,-0.836899996" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_587" ID="589" Position="419.003296,31.0648003,17.5804005" Forward="0.912800014,0,0.408499986" Right="0.408499986,0,-0.912800014" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_587" ID="966" Position="113.657997,33.1341019,233.534698" Forward="0.681599975,0,0.731700003" Right="0.731700003,0,-0.681599975" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_588" ID="967" Position="113.772598,28.3414993,218.974594" Forward="0.949000001,0,0.315299988" Right="0.315299988,0,-0.949000001" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_588" ID="590" Position="429.896301,32.8983994,1.72179997" Forward="0.996900022,0,-0.0790999979" Right="-0.0790999979,0,-0.996900022" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_589" ID="965" Position="123.003998,42.2587013,268.826691" Forward="-0.206900001,0,-0.978399992" Right="-0.978399992,0,0.206900001" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_589" ID="591" Position="441.523804,34.0051994,9.38869953" Forward="-0.57160002,0,-0.820599973" Right="-0.820599973,0,0.57160002" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_608" ID="608" Position="539.623596,22.6807003,67.4091034" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_609" ID="609" Position="593.212219,22.6156998,83.7555008" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_610" ID="610" Position="540.611084,34.5391998,122.331902" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_611" ID="611" Position="585.749023,26.6147003,144.560394" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_614" ID="614" Position="545.540771,32.4794998,92.9637985" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="663" Position="-11.5825005,20.4487991,173.454498" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="718" Position="-13.6676998,18.6854,54.5075989" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="868" Position="749.583679,18.3701,14.7606001" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="851" Position="6.02659988,20.4487991,199.819" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="845" Position="4.7434001,20.8878994,44.5466995" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="836" Position="3.15260005,20.2432995,14.7115002" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="826" Position="0.843299985,13.0872002,21.7120991" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="811" Position="16.3456001,17.0326004,-1.40320003" Forward="-0.662999988,0,-0.748600006" Right="-0.748600006,0,0.662999988" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="788" Position="5.44010019,17.5550995,50.8703995" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="652" Position="-9.53129959,20.8878994,143.477798" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="707" Position="-15.2585001,18.0408001,24.6723995" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="729" Position="-14.7930002,18.2462997,197.644394" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="859" Position="732.809082,16.8374004,4.96670008" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="968" Position="120.614601,26.9799995,215.209503" Forward="0.442499995,0,-0.896799982" Right="-0.896799982,0,-0.442499995" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="641" Position="-11.1220999,20.2432995,113.642601" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="618" Position="418.566986,27.0706997,-5.35400009" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="803" Position="0.349000007,19.0811996,127.447304" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="797" Position="2.52830005,15.3901997,34.9506989" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" ID="820" Position="-26.1828003,15.4172001,171.547806" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_882" ID="882" Position="752.353027,27.3332005,53.9402008" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_883" ID="883" Position="746.064209,29.5573006,78.1645966" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_886" ID="886" Position="755.902405,25.1182003,68.357399" Forward="0.335000008,0,-0.942200005" Right="-0.942200005,0,-0.335000008" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_887" ID="887" Position="748.509827,19.1975994,193.092194" Forward="-0.529799998,0,-0.848100007" Right="-0.848100007,0,0.529799998" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_888" ID="888" Position="758.751526,28.5708008,159.769897" Forward="-0.996200025,0,0.0874999985" Right="0.0874999985,0,0.996200025" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_889" ID="889" Position="743.586792,27.0839996,141.906601" Forward="-0.772800028,0,0.6347" Right="0.6347,0,0.772800028" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead01sml_01_891" ID="891" Position="728.518188,24.4727001,188.657394" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_513" ID="513" Position="269.766296,18.3202,91.6634979" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_527" ID="527" Position="221.416504,21.6240997,127.903503" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_528" ID="528" Position="280.254486,18.5435009,94.3041992" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_592" ID="970" Position="226.867401,22.3082008,191.276199" Forward="-0.335000008,0,-0.942200005" Right="-0.942200005,0,0.335000008" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_592" ID="593" Position="412.234314,31.6021996,2.65300012" Forward="-0.675499976,0,-0.737399995" Right="-0.737399995,0,0.675499976" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_607" ID="607" Position="530.180786,25.8146992,84.4800034" Forward="0.973800004,0,-0.227200001" Right="-0.227200001,0,-0.973800004" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_612" ID="612" Position="546.677673,34.0620003,94.8783035" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="971" Position="144.906296,35.0550003,238.5923" Forward="0.442499995,0,-0.896799982" Right="-0.896799982,0,-0.442499995" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="789" Position="-0.135600001,21.3743,174.779205" Forward="-0.798500001,0,-0.601999998" Right="-0.601999998,0,0.798500001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="730" Position="-11.3196001,18.0986996,188.539001" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="719" Position="-11.1206999,18.5377998,45.1010017" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="653" Position="-6.98430014,20.7402992,134.071198" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="812" Position="-30.1037998,16.5706005,164.937393" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="708" Position="3.94460011,17.8931999,36.2755013" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="642" Position="-12.1533003,20.0956993,123.333199" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="860" Position="738.58197,16.6172009,5.11780024" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="837" Position="2.12140012,20.0956993,24.4020996" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="827" Position="-1.43130004,16.5209007,12.2358999" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="615" Position="408.889893,26.9230995,-6.50519991" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="664" Position="-13.8570995,20.3012009,163.978302" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="804" Position="0.244399995,15.2988005,122.843697" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_615" ID="852" Position="9.5,20.3012009,190.713501" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="828" Position="5.27489996,17.0750999,5.70489979" Forward="0.358200014,0,0.933600008" Right="0.933600008,0,-0.358200014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="790" Position="11.3367996,23.7014999,131.044693" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="720" Position="-10.7420998,18.4060993,40.3847008" Forward="-0.133200005,0,0.991100013" Right="0.991100013,0,0.133200005" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="643" Position="-11.7831001,19.9640007,128.050201" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="861" Position="738.952087,17.2236004,9.83479977" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="805" Position="0.776199996,16.8005009,96.8858032" Forward="-0.0335999988,0,0.99940002" Right="0.99940002,0,0.0335999988" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="709" Position="-15.9195004,17.7614994,39.0800018" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="731" Position="-10.4721003,17.9669991,183.884094" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="665" Position="-15.7860003,20.1695004,159.657898" Forward="0.358200014,0,0.933600008" Right="0.933600008,0,-0.358200014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="813" Position="-29.7336006,17.1956997,169.654495" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="838" Position="2.4914999,19.9640007,29.1191006" Forward="-0.0248000007,0,-0.99970001" Right="-0.99970001,0,0.0248000007" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="853" Position="10.3474998,20.1695004,186.058807" Forward="-0.2315,0,0.972800016" Right="0.972800016,0,0.2315" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="654" Position="-6.60570002,20.6086006,129.354904" Forward="-0.133200005,0,0.991100013" Right="0.991100013,0,0.133200005" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02lrg_01_623" ID="623" Position="404.168701,26.7914009,-6.19350004" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02lrg_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_514" ID="514" Position="263.141205,20.8318005,79.9617996" Forward="0.808499992,0,-0.588500023" Right="-0.588500023,0,-0.808499992" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_532" ID="532" Position="275.446686,18.4249992,159.694" Forward="0.96359998,0,0.267500013" Right="0.267500013,0,-0.96359998" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_591" ID="594" Position="445.401611,31.0170994,30.5986004" Forward="-0.909300029,0,-0.416200012" Right="-0.416200012,0,0.909300029" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_591" ID="974" Position="203.993698,25.9283009,152.204498" Forward="-0.932099998,0,0.362300009" Right="0.362300009,0,0.932099998" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_593" ID="596" Position="413.515686,30.4316998,8.07129955" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_593" ID="973" Position="240.325607,21.9363995,173.979904" Forward="-0.97390002,0,-0.227200001" Right="-0.227200001,0,0.97390002" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_594" ID="975" Position="135.345398,36.2923012,245.184204" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_594" ID="595" Position="453.532898,32.3777008,18.5618992" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_606" ID="606" Position="534.377014,29.7471008,98.1705017" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="645" Position="-11.948,20.0153999,129.196793" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="733" Position="-10.0198002,18.0184002,182.817596" Forward="0.953999996,0,0.299699992" Right="0.299699992,0,-0.953999996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="620" Position="403.0242,26.8428001,-6.37260008" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="840" Position="2.32669997,20.0153999,30.2656994" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="792" Position="2.47979999,20.4438,132.553604" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="863" Position="747.166992,16.2504997,0.479600012" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="667" Position="-16.0147991,20.2208996,158.522293" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="830" Position="-3.58909988,18.4829998,1.93509996" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="722" Position="-10.3984003,18.4575005,39.2784004" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="711" Position="-16.0844002,17.8129005,40.2266006" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="656" Position="-6.26200008,20.6599998,128.248596" Forward="0.979200006,0,0.202999994" Right="0.202999994,0,-0.979200006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="815" Position="-29.8985004,19.2789001,170.801102" Forward="-0.998899996,0,-0.0460000001" Right="-0.0460000001,0,0.998899996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="855" Position="-1.74010003,20.2208996,59.5912018" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="977" Position="128.696304,24.7226009,210.153702" Forward="0.442499995,0,-0.896799982" Right="-0.896799982,0,-0.442499995" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_620" ID="807" Position="-3.27940011,16.5091991,94.6277008" Forward="0.95660001,0,-0.291299999" Right="-0.291299999,0,-0.95660001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="657" Position="-12.3366003,20.1089001,156.960907" Forward="-0.182600006,0,0.983200014" Right="0.983200014,0,0.182600006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="734" Position="-11.7166996,17.4673004,97.6617966" Forward="0.311100006,0,0.950399995" Right="0.950399995,0,-0.311100006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="879" Position="2.55800009,17.4673004,-6.11409998" Forward="0.311100006,0,0.950399995" Right="0.950399995,0,-0.311100006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="668" Position="-7.58029985,19.6697998,186.632004" Forward="0.311100006,0,0.950399995" Right="0.950399995,0,-0.311100006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="978" Position="119.671402,28.3999004,228.4216" Forward="0.905799985,0,0.423799992" Right="0.423799992,0,-0.905799985" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="831" Position="36.3460999,10.6746998,5.62639999" Forward="0.967800021,0,0.251700014" Right="0.251700014,0,-0.967800021" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="723" Position="-6.10239983,17.9064007,183.605896" Forward="-0.705900013,0,0.708400011" Right="0.708400011,0,0.705900013" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="798" Position="0.641900003,19.1296005,126.811203" Forward="-0.925999999,0,0.377600014" Right="0.377600014,0,0.925999999" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="712" Position="-14.6152,17.2618008,10.9154997" Forward="0.0252,0,-0.99970001" Right="-0.99970001,0,-0.0252" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="846" Position="1.93809998,20.1089001,58.0298996" Forward="-0.977400005,0,-0.211199999" Right="-0.211199999,0,0.977400005" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="646" Position="-10.4787998,19.4643002,99.8856964" Forward="0.0252,0,-0.99970001" Right="-0.99970001,0,-0.0252" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_621" ID="621" Position="432.314789,26.2917004,-4.54029989" Forward="0.999300003,0,0.0375999995" Right="0.0375999995,0,-0.999300003" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="847" Position="2.00189996,20.0891991,58.5766983" Forward="0.79339999,0,0.608699977" Right="0.608699977,0,-0.79339999" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="622" Position="432.846497,26.2719994,-4.68310022" Forward="0.894999981,0,-0.446099997" Right="-0.446099997,0,-0.894999981" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="976" Position="110.365898,32.9244995,232.6819" Forward="0.998099983,0,-0.0623999983" Right="-0.0623999983,0,-0.998099983" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="724" Position="-6.35839987,17.8866997,184.093201" Forward="-0.279900014,0,0.959999979" Right="0.959999979,0,0.279900014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="669" Position="-7.26210022,19.6501007,187.081299" Forward="0.728699982,0,0.684899986" Right="0.684899986,0,-0.728699982" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="647" Position="-10.6281004,19.4445992,99.3557968" Forward="-0.457100004,0,-0.889400005" Right="-0.889400005,0,0.457100004" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="822" Position="0.153099999,18.3451004,0.92049998" Forward="0.311100006,0,0.950399995" Right="0.950399995,0,-0.311100006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="658" Position="-12.2727003,20.0891991,157.507706" Forward="0.311100006,0,0.950399995" Right="0.950399995,0,-0.311100006" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="735" Position="-11.3985004,17.4475994,98.1110992" Forward="0.728699982,0,0.684899986" Right="0.684899986,0,-0.728699982" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_622" ID="713" Position="-7.64820004,17.2420998,13.2638998" Forward="-0.457100004,0,-0.889400005" Right="-0.889400005,0,0.457100004" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="655" Position="-6.4829998,20.8638,120.279701" Forward="0.449600011,0,0.89319998" Right="0.89319998,0,-0.449600011" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="877" Position="746.884827,23.2460995,39.3605003" Forward="0.822799981,0,0.568300009" Right="0.568300009,0,-0.822799981" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="710" Position="-14.6091995,18.0167007,48.0607986" Forward="-0.584900022,0,-0.811100006" Right="-0.811100006,0,0.584900022" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="644" Position="-10.4728003,20.2192001,137.031006" Forward="-0.584900022,0,-0.811100006" Right="-0.811100006,0,0.584900022" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="829" Position="-7.60349989,19.1685009,-4.95230007" Forward="0.822799981,0,0.568300009" Right="0.568300009,0,-0.822799981" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="806" Position="-7.15339994,19.5538998,208.175995" Forward="0.358200014,0,0.933600008" Right="0.933600008,0,-0.358200014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="862" Position="758.963806,29.1693993,22.5589008" Forward="-0.584900022,0,-0.811100006" Right="-0.811100006,0,0.584900022" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="666" Position="-20.0291996,20.4246998,151.634903" Forward="0.822799981,0,0.568300009" Right="0.568300009,0,-0.822799981" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="854" Position="-5.75460005,20.4246998,52.7038002" Forward="0.822799981,0,0.568300009" Right="0.568300009,0,-0.822799981" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="839" Position="3.80189991,20.2192001,38.0998993" Forward="-0.584900022,0,-0.811100006" Right="-0.811100006,0,0.584900022" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="732" Position="-9.44410038,18.2222004,174.866501" Forward="0.358200014,0,0.933600008" Right="0.933600008,0,-0.358200014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="791" Position="34.4026985,20.4032993,-3.35960007" Forward="0.536599994,0,0.843900025" Right="0.843900025,0,-0.536599994" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="624" Position="395.172302,27.0466003,-4.99450016" Forward="0.818300009,0,-0.574800014" Right="-0.574800014,0,-0.818300009" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="972" Position="113.518204,28.5151997,216.264404" Forward="0.977500021,0,-0.210800007" Right="-0.210800007,0,-0.977500021" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_624" ID="721" Position="-10.6194,18.6613007,31.3094997" Forward="0.449600011,0,0.89319998" Right="0.89319998,0,-0.449600011" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_885" ID="885" Position="750.638428,25.5391998,71.3743973" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_892" ID="892" Position="756.15332,23.8614998,195.184006" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_01_893" ID="893" Position="748.595825,25.9843998,140.631195" Forward="0.239199996,0,-0.971000016" Right="-0.971000016,0,-0.239199996" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_02_515" ID="515" Position="261.974487,19.5251007,84.7061996" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_02_603" ID="603" Position="586.739624,21.6196003,71.7932968" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_02_604" ID="604" Position="542.440796,35.1977997,124.471802" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_02_605" ID="605" Position="527.582214,28.8701992,99.2100983" Forward="-0.841499984,0,0.540300012" Right="0.540300012,0,0.841499984" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02med_03_516" ID="599" Position="265.274109,19.5860996,85.0319977" Forward="-0.833400011,0,-0.552600026" Right="-0.552600026,0,0.833400011" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_517" ID="517" Position="273.334991,21.9230003,80.7923965" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_530" ID="530" Position="241.884903,20.3801994,145.371994" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_531" ID="600" Position="275.262695,18.2448006,157.952103" Forward="-0.891200006,0,0.453599989" Right="0.453599989,0,0.891200006" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_596" ID="602" Position="358.019501,24.2873993,5.41800022" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_600" ID="601" Position="598.19812,26.2325993,89.6369019" Forward="-0.479400009,0,0.877600014" Right="0.877600014,0,0.479400009" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="793" Position="40.5298004,19.2301998,0.154799998" Forward="0.358200014,0,0.933600008" Right="0.933600008,0,-0.358200014" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="816" Position="-33.2443008,17.7147007,160.858994" Forward="0.762000024,0,0.647599995" Right="0.647599995,0,-0.762000024" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="736" Position="-9.32569981,18.6359997,193.284607" Forward="-0.965699971,0,-0.259799987" Right="-0.259799987,0,0.965699971" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="648" Position="-15.2938004,20.6329994,119.2547" Forward="1,0,0.00439999998" Right="0.00439999998,0,-1" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="659" Position="-4.52650023,21.2775993,138.593994" Forward="-0.986800015,0,-0.162100002" Right="-0.162100002,0,0.986800015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="625" Position="413.006989,27.4603996,-9.59490013" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="841" Position="-1.01919997,20.6329994,20.3236008" Forward="1,0,0.00439999998" Right="0.00439999998,0,-1" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="832" Position="2.89389992,16.8463993,15.0268002" Forward="-0.943700016,0,0.330799997" Right="0.330799997,0,0.943700016" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="725" Position="-8.66289997,19.0750999,49.6237984" Forward="-0.986800015,0,-0.162100002" Right="-0.162100002,0,0.986800015" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="670" Position="-9.53190041,20.8384991,166.769196" Forward="-0.943700016,0,0.330799997" Right="0.330799997,0,0.943700016" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="714" Position="-19.4302006,18.4305,30.2845001" Forward="1,0,0.00439999998" Right="0.00439999998,0,-1" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_625" ID="979" Position="121.658997,26.7672005,214.309097" Forward="-0.404799998,0,0.914399981" Right="0.914399981,0,0.404799998" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_881" ID="881" Position="743.207214,29.1930008,54.151001" Forward="-0.157700002,0,-0.987500012" Right="-0.987500012,0,0.157700002" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_894" ID="894" Position="749.208984,19.1910992,192.342606" Forward="0.973800004,0,-0.227200001" Right="-0.227200001,0,-0.973800004" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_treedead02sml_01_895" ID="895" Position="754.851318,27.8570995,161.141495" Forward="0.675499976,0,-0.737399995" Right="-0.737399995,0,-0.675499976" Group="2" VisualVariationIndex="0">env_harvest_treedead02sml_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_unscwreckage_03_1713" ID="1713" Position="720.612915,16.9626007,115.8356018" Forward="-0.783299983,0,0.621599972" Right="0.621599972,0,0.783299983" Group="-1" VisualVariationIndex="0">env_harvest_unscwreckage_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_575" ID="1002" Position="59.8381996,12.1426001,517.351929" Forward="0.99970001,0,0.0241" Right="0.0241,0,-0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_575" ID="1000" Position="44.6520996,16.6450996,517.033386" Forward="0.99970001,0,0.0241" Right="0.0241,0,-0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_575" ID="996" Position="61.5758018,12.1570997,432.915192" Forward="0.99970001,0,0.0241" Right="0.0241,0,-0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_575" ID="575" Position="46.9854012,16.7276993,432.570496" Forward="0.99970001,0,0.0241" Right="0.0241,0,-0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_575" ID="998" Position="60.5182991,12.1766996,475.193604" Forward="0.99970001,0,0.0241" Right="0.0241,0,-0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_576" ID="576" Position="46.0351982,16.7647991,474.814209" Forward="0.999599993,0,0.0285999998" Right="0.0285999998,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="1036" Position="60.2509995,11.4400997,635.169983" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="1032" Position="40.1046982,11.4196997,595.438293" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="1037" Position="47.0764999,15.8266001,677.891602" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="578" Position="53.2815018,15.6454,594.48053" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="1035" Position="45.7113991,15.5410004,635.571777" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wallsnow_01_578" ID="1038" Position="61.4090004,11.4413004,677.481812" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wallsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_warthogpile_02_1794" ID="1794" Position="617.901978,19.1963005,85.1175995" Forward="-0.984000027,0,-0.178200006" Right="-0.178200006,0,0.984000027" Group="-1" VisualVariationIndex="0">env_harvest_warthogpile_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_warthogpile_03_1795" ID="1795" Position="610.804871,17.4906998,99.4302979" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_harvest_warthogpile_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_486" ID="561" Position="433.788788,-18.0918007,494.972595" Forward="-0.532199979,0,-0.846599996" Right="-0.846599996,0,0.532199979" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_486" ID="559" Position="491.879395,-18.7644997,434.045685" Forward="-0.917299986,0,-0.398299992" Right="-0.398299992,0,0.917299986" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_486" ID="486" Position="499.006714,-19.2817993,357.943787" Forward="-0.995899975,0,0.0901999995" Right="0.0901999995,0,0.995899975" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="554" Position="3.69889998,10.5792999,660.470276" Forward="-0.99970001,0,0.0233999994" Right="0.0233999994,0,0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="545" Position="2.8815999,11.4782,539.621216" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="547" Position="1.67030001,10.8871002,618.271729" Forward="-0.99970001,0,0.0233999994" Right="0.0233999994,0,0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="543" Position="3.47009993,11.3067999,497.358185" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="555" Position="5.5921998,10.8360996,702.701599" Forward="-0.99970001,0,0.0233999994" Right="0.0233999994,0,0.99970001" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_wastesailsnow_01_541" ID="541" Position="4.15059996,11.2853003,455.101898" Forward="-0.999199986,-0.0285,-0.0292000007" Right="-0.0292000007,-0.00079999998,0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_harvest_wastesailsnow_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_918" ID="918" Position="196.020493,12.9184999,675.983582" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_923" ID="923" Position="407.465912,12.1240997,697.054321" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_924" ID="924" Position="621.565613,13.1485004,670.511475" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_925" ID="925" Position="125.226501,15.1264,480.343201" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_926" ID="926" Position="277.166901,21.2399006,502.241913" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_927" ID="927" Position="509.670502,-21.6844997,446.335388" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_928" ID="928" Position="574.738525,8.11520004,428.240814" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_929" ID="929" Position="724.356079,13.1768999,415.456604" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_930" ID="930" Position="10.6996002,21.4582005,248.528793" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="3" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_931" ID="931" Position="164.797195,14.4766998,531.07843" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_932" ID="932" Position="466.337799,17.5608006,218.536407" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="1" TintValue="1" EditorName="fx_harvest_windysnowflakes_01_933" ID="933" Position="559.718506,18.3924999,186.526596" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">fx_harvest_windysnowflakes_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1268" ID="1268" Position="391.928192,11.9909,320.185486" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1269" ID="1269" Position="355.816315,12.0207005,435.223785" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1280" ID="1280" Position="704.758118,13.1497002,463.46521" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1281" ID="1281" Position="140.628998,25.6718006,354.9039" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1282" ID="1282" Position="151.524704,14.4773998,567.388672" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_flood_01_1283" ID="1283" Position="667.960693,18.8659,147.315399" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">sys_marker_flood_01</Object>
+	</Objects>
+	<EditorOnlyData>
+		<HelperAreas>
+			<HelperAreaObject>
+				<Name>player bound 2</Name>
+				<ID>1327</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>765.43811,27.5156994,0.927200019</Position>
+				<Direction>-0.29550001,0,0.955299973</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Smoke flare 5</Name>
+				<ID>1328</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>380.95871,12.3114996,309.378693</Position>
+				<Direction>-0.29550001,0,0.955299973</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>StartCameraLoc</Name>
+				<ID>1333</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>666.92157,18.1002007,105.447304</Position>
+				<Direction>0.515500009,0,-0.856899977</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Look at point 1</Name>
+				<ID>1347</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>625.592285,17.6203995,79.1551971</Position>
+				<Direction>0.564599991,0,0.825299978</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>look at point 2</Name>
+				<ID>1348</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>694.511597,17.0946007,178.1633</Position>
+				<Direction>-0.389400005,0,0.92110002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>look at point 3</Name>
+				<ID>1349</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>704.186523,16.9626999,72.2826004</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Smoke flare 4</Name>
+				<ID>1350</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>451.98111,17.5608006,234.153503</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Movement lesson player bounds</Name>
+				<ID>1354</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>299.463989,14.9759998,407.235809</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>movement flare 1</Name>
+				<ID>1355</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>655.659302,20.3637009,148.8022</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>movement flare 2</Name>
+				<ID>1356</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>625.967285,19.5806007,186.420105</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>movement flare 3</Name>
+				<ID>1357</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>590.123474,15.8741999,218.835297</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Attack lesson bounds</Name>
+				<ID>1369</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>29.5380001,43.2654991,765.089722</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Attack loc</Name>
+				<ID>1375</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>181.435394,14.4766998,516.420715</Position>
+				<Direction>-0.564599991,0,0.825299978</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>cov start marker</Name>
+				<ID>1377</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>181.349396,14.4766998,516.866211</Position>
+				<Direction>-0.564599991,0,0.825299978</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area1428</Name>
+				<ID>1428</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>282.144806,18.7861996,543.4505</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Attack flare 3</Name>
+				<ID>1485</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>281.538605,20.3959007,511.630707</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>movement2cam bound</Name>
+				<ID>1486</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>255.463303,36.7549019,595.393127</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Attack flare 2</Name>
+				<ID>1487</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>348.879913,12.2219,484.637787</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Attack fllare1</Name>
+				<ID>1506</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>376.429504,11.9464998,396.086914</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>cameraPlayerBounds</Name>
+				<ID>1715</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>576.791809,17.0212002,199.463898</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Special attack lesson</Name>
+				<ID>1720</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>103.886497,14.6176996,655.779724</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Move Flare for last fight</Name>
+				<ID>1721</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>148.650696,13.9336004,653.965515</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>pelican dropoff</Name>
+				<ID>1726</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>251.507004,23.5568008,512.008606</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Pelican enter</Name>
+				<ID>1727</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>363.912994,11.4962997,547.413208</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>EarlyAttackbounds</Name>
+				<ID>1748</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>54.0996017,24.6257992,596.213379</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>SpecialAttack2</Name>
+				<ID>1772</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>140.334198,14.6143999,683.783508</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>SpecialAttack3</Name>
+				<ID>1773</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>180.037094,12.1384001,688.5849</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+		</HelperAreas>
+		<HelperAreaBoxes />
+		<HelpePositions>
+			<HelpePositionObject>
+				<Name>basemarker</Name>
+				<ID>1007</ID>
+				<Group />
+				<Position>441.907898,94.995697,213.746399</Position>
+			</HelpePositionObject>
+			<HelpePositionObject>
+				<Name>Position81</Name>
+				<ID>81</ID>
+				<Group />
+				<Position>614.744629,163.050797,426.070313</Position>
+			</HelpePositionObject>
+		</HelpePositions>
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>768</SimBoundsMaxX>
+	<SimBoundsMaxZ>768</SimBoundsMaxZ>
+	<SoundBank>amb_harvest.bnk</SoundBank>
+	<SoundBank>tutorial_basic.bnk</SoundBank>
+	<ScenarioWorld>Harvest</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+	<GlobalExcludeObjects />
+</Scenario>

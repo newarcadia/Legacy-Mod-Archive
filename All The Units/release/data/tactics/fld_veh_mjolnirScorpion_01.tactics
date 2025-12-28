@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+<Weapon>
+		<Name>Machinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>TankMachinegunTurret</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.1</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>AirMachinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>TankMachinegunTurret</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.1</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>MjolnirMachinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>WraithPlasmaCannon</WeaponType>
+		<Projectile>fx_proj_mjolnirRotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<DOTrate>50</DOTrate>
+		<DOTduration>5</DOTduration>
+		<DOTEffect>fx_proj_plasmadotSm_01</DOTEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.1</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>AirMjolnirMachinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>WraithPlasmaCannon</WeaponType>
+		<Projectile>fx_proj_mjolnirRotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<DOTrate>50</DOTrate>
+		<DOTduration>5</DOTduration>
+		<DOTEffect>fx_proj_plasmadotSm_01</DOTEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.1</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Cannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>WraithMortar</WeaponType>
+		<Projectile>fx_proj_Mjolnircannon_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmamortar_02</ImpactEffect>
+		<DOTrate>50</DOTrate>
+		<DOTduration>5</DOTduration>
+		<DOTEffect>fx_proj_plasmadotMed_01</DOTEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>0.3</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>0.4</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<Hardpoint>CannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>AirCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>WraithMortar</WeaponType>
+		<Projectile>fx_proj_Mjolnircannon_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmamortar_02</ImpactEffect>
+		<DOTrate>1</DOTrate>
+		<DOTduration>5</DOTduration>
+		<DOTEffect>fx_proj_plasmadotMed_01</DOTEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>0.3</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>0.4</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<Hardpoint>CannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>specialAttack</Name>
+		<AttackRate>30</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>WraithMortar</WeaponType>
+		<Projectile>fx_proj_canistershell_01</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<DOTrate>100</DOTrate>
+		<DOTduration>5</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>45</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<Hardpoint>CannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetsFootOfUnit />
+		<Dodgeable />Q</Weapon>
+		<Deflectable />
+	<Action>
+		<Name>CannonAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Cannon</Weapon>
+	</Action>
+	<Action>
+		<Name>AirCannonAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>AirCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>MachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>Machinegun</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>AirMachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>AirMachinegun</Weapon>
+		<SlaveAttackAction>AirCannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>MjolnirMachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MjolnirMachinegunAttack</Anim>
+		<Weapon>MjolnirMachinegun</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirMjolnirMachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MjolnirMachinegunAttack</Anim>
+		<Weapon>AirMjolnirMachinegun</Weapon>
+		<SlaveAttackAction>AirCannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>specialAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SpecialCannonAttack</Anim>
+		<Weapon>specialAttack</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.4</DeflectChanceMin>
+		<DeflectChanceMax>0.4</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+	</Action>
+	<Action>
+		<Name>Deflect_03</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.65</DeflectChanceMin>
+		<DeflectChanceMax>0.65</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+	<PersistentAction>Deflect</PersistentAction>
+	<PersistentAction>Deflect_03</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirMachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirMjolnirMachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MjolnirMachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetType>NonFlying</TargetType>
+			<Action>specialAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>unsc_air_pelican_01</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>CollisionAttack</PersistentAction>
+	</Tactic>
+</TacticData>

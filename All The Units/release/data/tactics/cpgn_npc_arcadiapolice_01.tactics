@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Pistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>6</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>25</MaxRange>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>6</VisualAmmo>
+		<ReloadAnimation>PistolReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>FlashBang</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>20</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_flashGrenade_01</Projectile>
+		<ImpactEffect size="Medium">unsc_flashgrenade_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>0.300000012</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.150000006</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Daze TargetType="infantry" MovementModifier="0" AOEDaze="false" SmartTargeting="true">10.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverFlashBang</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>20</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_flashGrenade_01</Projectile>
+		<ImpactEffect size="Medium">unsc_flashgrenade_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>15</MaxRange>
+		<Accuracy>0.300000012</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.150000006</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Daze TargetType="infantry" MovementModifier="0" AOEDaze="false" SmartTargeting="true">8.0f</Daze>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>12</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>36</PostAttackCooldownMax>
+	</Weapon>
+        <Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+        <Action>
+		<Name>FlashBangAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlashBangAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>FlashBang</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>InCoverFlashBangAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlashBangAttack</Anim>
+		<Weapon>InCoverFlashBang</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+        <Action>
+		<Name>PistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<ReloadAnim>PistolReload</ReloadAnim>
+		<Weapon>Pistol</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PistolAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverFlashBangAttackAction</Action>
+			<TargetType>CanBeFlashBanged</TargetType>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>FlashBangAttackAction</Action>
+			<TargetType>CanBeFlashBanged</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+                <TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

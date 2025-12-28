@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Materials>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">25</SpecPower>
+			<SpecColorR dataType="float">1</SpecColorR>
+			<SpecColorG dataType="float">1</SpecColorG>
+			<SpecColorB dataType="float">1</SpecColorB>
+			<EnvReflectivity dataType="float">1</EnvReflectivity>
+			<EnvSharpness dataType="float">1</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">1</Flags>
+			<BlendType dataType="uint8">0</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\campaign\scn11\supersentinel_01\supersentinel_01_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\campaign\scn11\supersentinel_01\supersentinel_01_nm</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\campaign\scn11\supersentinel_01\supersentinel_01_sp</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\campaign\scn11\supersentinel_01\supersentinel_01_em</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">25</SpecPower>
+			<SpecColorR dataType="float">0</SpecColorR>
+			<SpecColorG dataType="float">0</SpecColorG>
+			<SpecColorB dataType="float">0</SpecColorB>
+			<EnvReflectivity dataType="float">1</EnvReflectivity>
+			<EnvSharpness dataType="float">1</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">1</Flags>
+			<BlendType dataType="uint8">0</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\unsc\vehicle\damage_01\destruction_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\unsc\vehicle\damage_01\destruction_nm</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+</Materials>

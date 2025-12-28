@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+<Weapon>
+		<Name>InCoverMinigun</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>175</DamagePerSecond>
+		<WeaponType>MachinegunTurret</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="Small">cov_plasmapistol_01 </ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Minigun</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>175</DamagePerSecond>
+		<WeaponType>MachinegunTurret</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="Small">cov_plasmapistol_01 </ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverPulseMinigun</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>PulseCannon</WeaponType>
+		<Projectile>fx_proj_plasmaRiflered_01</Projectile>
+		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>PulseMinigun</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>PulseCannon</WeaponType>
+		<Projectile>fx_proj_plasmaRiflered_01</Projectile>
+		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MortarCannon</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>100</Accuracy>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<Hardpoint>Turret</Hardpoint>
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverPulseMinigun2</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>235</DamagePerSecond>
+		<WeaponType>PulseCannon</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="small">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>PulseMinigun2</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>235</DamagePerSecond>
+		<WeaponType>PulseCannon</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="small">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon2</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MortarCannon</WeaponType>
+		<Projectile>fx_proj_plasmaMortar_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>100</Accuracy>
+		<AOERadius>30</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<Hardpoint>Turret</Hardpoint>
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>PulseMinigunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire2</StartAnim>
+		<Anim>MinigunAttack2</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire2</EndAnim>
+		<Weapon>PulseMinigun</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverPulseMinigunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire2</StartAnim>
+		<Anim>MinigunAttack2</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire2</EndAnim>
+		<Weapon>InCoverPulseMinigun</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MinigunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<Anim>MinigunAttack</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire</EndAnim>
+		<Weapon>Minigun</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>InCoverMinigunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<Anim>MinigunAttack</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire</EndAnim>
+		<Weapon>InCoverMinigun</Weapon>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>RocketWeapon</Weapon>
+		<BaseDPSWeapon>Minigun</BaseDPSWeapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>PulseMinigunAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire3</StartAnim>
+		<Anim>MinigunAttack3</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire3</EndAnim>
+		<Weapon>PulseMinigun2</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverPulseMinigunAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<StartAnim noInterrupt="true">Prefire3</StartAnim>
+		<Anim>MinigunAttack3</Anim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire3</EndAnim>
+		<Weapon>InCoverPulseMinigun2</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RocketAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>RocketWeapon2</Weapon>
+		<BaseDPSWeapon>Minigun</BaseDPSWeapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>10</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>3</WorkRange>
+		<WorkRate>0.3</WorkRate>
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MinigunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverMinigun</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PulseMinigunAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverPulseMinigun</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PulseMinigunAttackAction2</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverPulseMinigun2</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction2</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>cpgn_scn11_unitspawn_01</TargetType>
+			<TargetType>cpgn_scn11_vehiclespawn_01</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>CyclopsRepairable</TargetType>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

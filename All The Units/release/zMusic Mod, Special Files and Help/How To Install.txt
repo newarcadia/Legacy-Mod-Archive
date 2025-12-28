@@ -1,0 +1,19 @@
+How To Install "All The Units"
+
+Create a text file called or use the one provided, doesn't matter much, just a text document; " ModManifest " into the directory "C:\Users\<Username>\AppData\Local\Halo Wars"
+
+The "All The Units" folder can go anywhere. (But I personally like to put mod folders on my desktop to keep track of them.)
+
+Open "All The Units" folder copy it's directory and paste it into "ModManifest.text"  
+
+Example: C:\Users\<Username>\Desktop\All The Units
+
+
+
+If you have downloaded a previous version of my mod and wish to update simply download the latest version on Nexus
+
+https://www.nexusmods.com/halowarsdefinitiveedition/mods/1
+
+This text file was created by Lord_Nutritious, a kind fellow who let me use this text file apposed to creating my own. #lazy
+Don't forget to check out their mod, all of their main UNSC Troops are in All The Units!
+https://www.moddb.com/mods/halo-wars-nutritious-edition

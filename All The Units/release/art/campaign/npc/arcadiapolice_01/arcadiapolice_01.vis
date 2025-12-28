@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>campaign\npc\arcadiapolice_01\arcadiapolice_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\idle_01</file>
+				<weight>60</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\idle_02</file>
+				<weight>40</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\combat_crouchjog_forward_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\jog_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\combat_crouchjog_forward_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_headshot_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_headshot_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\civilian_01\citizen_01\death_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_01_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_01_2</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_02_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\clamshell_02_2</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FlashBangAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\grenade_attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.296" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\grenade_attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.377" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PistolAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PistolAttack">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\\pistol_attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.22" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.22" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.22" end="1" name="play_weapon_unsc_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.22" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\\pistol_attack_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.22" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.22" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.22" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.22" end="1" name="play_weapon_unsc_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\\pistol_attack_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.22" end="1" name="play_weapon_unsc_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.226" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.226" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.226" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PistolReload" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\arcadiapolice_01\pistol_reload_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.333" end="1" name="play_weapon_unsc_pistol_reload" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+			<anim type="Train" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="Train2" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="Train3" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="Train4" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_04</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="Train5" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_05</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="Train6" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\train_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain2" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="bone_backattach" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain3" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain4" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_04</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain5" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_05</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="ElephantTrain6" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\elephant_01\marine_elephant_train_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock2" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock3" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock4" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_04</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock5" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_05</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="TrainAirlock6" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\scn11\unitspawn_01\unitspawn_marine_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\pistol_01\pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

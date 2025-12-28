@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>60</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel5</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>120</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel2</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>180</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentine3</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>240</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel2</PersistentAction>
+		<PersistentAction>SpawnSentine3</PersistentAction>
+		<PersistentAction>SpawnSentinel5</PersistentAction>
+		</Tactic>
+</TacticData>

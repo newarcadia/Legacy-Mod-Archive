@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverFrosthrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>FrostThrower</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Frostthrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>FrostThrower</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>15</MaxRange>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverCyrothrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>65</DamagePerSecond>
+		<WeaponType>CyroThrower</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<AOERadius>15</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Cyrothrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>65</DamagePerSecond>
+		<WeaponType>CyroThrower</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>15</MaxRange>
+		<AOERadius>15</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Haze</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>FrostThrower</WeaponType>
+		<ImpactEffect size="Medium">unsc_flashgrenade_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>15</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<Daze TargetType="infantry" MovementModifier="0.5" SmartTargeting="true">5.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>FrostThrower</WeaponType>
+		<Projectile>fx_proj_iceShard_01</Projectile>
+		<ImpactEffect size="small">unsc_iceShard_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>15</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<PostAttackCooldownMin>20</PostAttackCooldownMin>
+		<PostAttackCooldownMax>20</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>FrostthrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlameThrowerAttack1</Anim>
+		<AnimLowDetail actionCountThreshold="20">FlameThrowerAttackLowDetail</AnimLowDetail>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<EndAnim noInterrupt="false">Postfire</EndAnim>
+		<Weapon>Frostthrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>InCoverFrostthrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlameThrowerAttack1</Anim>
+		<AnimLowDetail actionCountThreshold="20">FlameThrowerAttackLowDetail</AnimLowDetail>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<EndAnim noInterrupt="false">Postfire</EndAnim>
+		<Weapon>InCoverFrostthrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>CyrothrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CyroThrowerAttack1</Anim>
+		<AnimLowDetail actionCountThreshold="20">CyroThrowerAttackLowDetail</AnimLowDetail>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<EndAnim noInterrupt="false">Postfire</EndAnim>
+		<Weapon>Cyrothrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverCyrothrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CyroThrowerAttack1</Anim>
+		<AnimLowDetail actionCountThreshold="20">CyroThrowerAttackLowDetail</AnimLowDetail>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<EndAnim noInterrupt="false">Postfire</EndAnim>
+		<Weapon>InCoverCyrothrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>HazeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Haze</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Haze</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>IceShard</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<BaseDPSWeapon>Frostthrower</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.25</DodgeChanceMin>
+		<DodgeChanceMax>0.25</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>5</DodgeCooldown>
+	</Action>
+	<Action>
+		<Name>Dodge_5</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.5</DodgeChanceMin>
+		<DodgeChanceMax>0.5</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>5</DodgeCooldown>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+	<PersistentAction>Dodge</PersistentAction>
+	<PersistentAction>Dodge_5</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>HazeAttackAction</Action>
+			<TargetType>CanBeFlashBanged</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FrostthrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverFrostthrowerAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>CyrothrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverCyrothrowerAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

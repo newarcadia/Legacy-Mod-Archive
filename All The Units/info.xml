@@ -1,0 +1,13 @@
+<mod id="hw1-all-the-units">
+  <name>All The Units</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/All%20The%20Units/assets/banner.png?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/All%20The%20Units/assets/icon.png?raw=true</icon>
+  <description>All The Units is a more than massive UNSC mod for Halo Wars! Lots of New Units, Tech, and a entire new way to build your main base as the UNSC. This mod for the UNSC only, and the Campaign. This mod contains around 35-40 different troops that may be trained as well all sorts of custom Tech, including main base Tech.</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/all_the_units_release.zip</download>
+  <version>1.4.0</version>
+  <flags>
+    <flag>Legacy</flag>
+  </flags>
+</mod>

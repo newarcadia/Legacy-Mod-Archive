@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>campaign\infantry\bombGrunt_01\bombGrunt_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+			<point pointType="Launch" bone="bone_launchpoint" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 Spine1" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 Head" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Calf" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Calf" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\clamshell_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ClamshellRocket" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\clamshell_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\projectiles\missiles\missile_smoke_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\projectiles\bullets\artillery_shell\artillery_shell_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="FlailRocket" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\projectiles\missiles\missile_smoke_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\projectiles\bullets\artillery_shell\artillery_shell_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="SpinRocket" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\projectiles\missiles\missile_smoke_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\projectiles\bullets\artillery_shell\artillery_shell_01" tobone="Bip01 Spine1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Gather">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Build" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Repair" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+		<anim type="Plant" exitAction="Freeze" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\infantry\bombGrunt_01\plant_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalBomb</meshEnable>
+		</anim>
+	</model>
+	<logic type="SquadMode">
+		<logicdata value="Lockdown" modelref="Lockdown" weight="1" />
+		<logicdata value="" modelref="Default" weight="1" />
+	</logic>
+	<model name="Lockdown">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\shadeturret_01\shadeturret_base_01</file>
+				<damagefile>covenant\building\shadeturret_01\shadeturret_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="BoneTurret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShadePlasmaAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneTurret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.096" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneLeg03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.22" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.223" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneLeg01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.378" end="1" name="play_common_metal_debris_med" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneTurret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.096" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneLeg03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.22" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.223" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="BoneLeg01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.378" end="1" name="play_common_metal_debris_med" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\building_FX\Cov\damage\plasmafire_03" tobone="BoneBody" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+	<model name="Turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\shadeturret_01\shadeturret_turret_01</file>
+			</asset>
+			<point pointType="Launch" bone="bone_launchpoint" pointData="Metal" />
+			<point pointType="Impact" bone="BoneFloating" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShadePlasmaAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.252" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.276" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.35" end="1" name="play_cov_shade_turret_fire" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.449" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\building\shadeturret_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.378" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\building_FX\Cov\damage\teenystreamer_01" tobone="BoneFloating" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\Cov\damage\plasmafire_02" tobone="BoneFloating" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

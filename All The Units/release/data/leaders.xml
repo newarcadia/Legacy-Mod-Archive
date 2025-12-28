@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Leaders>
+	<Leader Name="Gaia" Icon="">
+		<Civ>Gaia</Civ>
+	</Leader>
+	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderCutter</Tech>
+		<NameID>7000</NameID>
+		<DescriptionID>7001</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">2000</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_startcommand_03" DoppleOnStart="true">game_base_Socket_01</StartingUnit>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_nothing_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_buildinglotminibaserepair</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,65">unsc_bldg_buildinglot_07</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,-25">unsc_bldg_buildinglot_05</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="47,0,80">unsc_bldg_repairradiopelican</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-33,0,-82">cpgn_map_megasupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-23,0,-82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-43,0,-82">cpgn_map_megasupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-53,0,-82">rsrc_supplies_crate_01</StartingSquad>           
+                <StartingSquad FlyIn="false" Offset="80,0,32">unsc_veh_deployelephant_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-38,0,82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-47,0,82">cpgn_map_supersupply_01</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="-41,0,71">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="52,0,29">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="46,0,29">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="40,0,34">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-7,0,52">unsc_bldg_buildingvehiclespawner</StartingSquad>
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="160">40</Pop>
+		<Pop Type="Spartan" Max="9">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+      		<Pop Type="Nitro" Max="1">1</Pop>
+		<Pop Type="Onno" Max="1">1</Pop>
+		<Pop Type="Ace" Max="1">1</Pop>
+     		<Pop Type="Forge" Max="1">1</Pop>
+		<Pop Type="Anders" Max="1">1</Pop>
+		<Pop Type="Alice" Max="1">1</Pop>
+		<Pop Type="Jones" Max="1">1</Pop>
+		<Pop Type="Jerome" Max="1">1</Pop>
+		<Pop Type="Douglas" Max="1">1</Pop>
+      		<Pop Type="Forgey" Max="1">1</Pop> 
+		<Pop Type="Yanders" Max="1">1</Pop>
+		<Pop Type="MPelican" Max="2">2</Pop>
+		<Pop Type="Police" Max="1">1</Pop>
+		<Pop Type="Policecar" Max="1">1</Pop>
+		<Pop Type="Air1" Max="1">1</Pop>
+		<Pop Type="Gremlin1" Max="1">1</Pop>
+		<Pop Type="Vulture" Max="5">5</Pop>
+		<Pop Type="Scorpion" Max="5">5</Pop>
+		<Pop Type="Turret1" Max="1">1</Pop>
+		<Pop Type="Warthog1" Max="1">1</Pop>    
+		<Pop Type="Airlock" Max="1">1</Pop> 
+		<Pop Type="Airlock1" Max="1">1</Pop> 
+		<Pop Type="Airlock2" Max="1">1</Pop> 
+		<Pop Type="AABattery" Max="1">1</Pop> 
+		<Pop Type="AABattery1" Max="1">1</Pop> 
+		<Pop Type="Generator" Max="1">1</Pop> 
+		<Pop Type="PTower" Max="2">2</Pop> 
+		<Pop Type="Socket1" Max="1">1</Pop> 
+		<Pop Type="Socket2" Max="1">1</Pop> 
+		<Pop Type="Socket" Max="1">1</Pop> 
+		<Pop Type="Landingpad" Max="1">1</Pop> 
+		<Pop Type="RPelican" Max="1">1</Pop> 
+		<Pop Type="TurretSocket1" Max="1">1</Pop>
+		<Pop Type="TurretSocket2" Max="1">1</Pop>
+		<Pop Type="TurretSocket3" Max="1">1</Pop>
+		<Pop Type="Odstfence" Max="1">1</Pop>
+		<Pop Type="Tower" Max="1">1</Pop>
+		<Pop Type="Tankcombo" Max="1">1</Pop>
+		<Pop Type="Turret" Max="1">1</Pop>
+		<Pop Type="Fenceair" Max="1">1</Pop>
+		<Pop Type="SupportCenter" Max="1">1</Pop>
+		<Pop Type="Gate" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry" Max="1">1</Pop>
+		<Pop Type="Warthog2" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry1" Max="1">1</Pop>
+		<Pop Type="Turretfence" Max="1">1</Pop>
+		<Pop Type="CobraTiger" Max="1">1</Pop>
+		<Pop Type="Air2" Max="1">1</Pop>
+		<Pop Type="Rusk" Max="1">1</Pop>
+		<Pop Type="Ashen" Max="1">1</Pop>
+		<Pop Type="Becker" Max="1">1</Pop>
+		<Pop Type="Teleporter1way" Max="1">1</Pop>
+		<Pop Type="Teleporter2way" Max="2">2</Pop>
+		<Pop Type="Aida" Max="1">1</Pop>
+		<Pop Type="FenceVehicles" Max="1">1</Pop>
+		<Pop Type="Fencerair" Max="1">1</Pop>
+		<Pop Type="Fence4Infantry" Max="1">1</Pop>
+		<Pop Type="SuperSpecialInfantry" Max="1">1</Pop>
+		<Pop Type="SpecialFenceVehicle" Max="1">1</Pop>
+		<Pop Type="SuperSpecialAirFence" Max="1">1</Pop>
+		<Pop Type="SupplyOffice" Max="1">1</Pop>
+		<Pop Type="FenceVehiclesFinal" Max="1">1</Pop>
+		<Pop Type="FenceInfantryFinal" Max="1">1</Pop>
+		<Pop Type="FenceAirFinal" Max="1">1</Pop>
+		<Pop Type="TurretFinal" Max="1">1</Pop>
+		<Pop Type="SatiliteAir" Max="1">1</Pop>
+		<Pop Type="SuperFortress" Max="1">1</Pop>
+		<Pop Type="Buildthog" Max="1">1</Pop>
+        </Leader>
+	<Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" LeaderPickerOrder="3" StatsID="2" DefaultPlayerSlotFlags="0x2">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderForge</Tech>
+		<NameID>7002</NameID>
+		<DescriptionID>7003</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>14thdivision</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
+		<Resource Type="Supplies">2000</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_startcommand_03" DoppleOnStart="true">game_base_Socket_01</StartingUnit>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_nothing_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_buildinglotminibaserepair</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,65">unsc_bldg_buildinglot_07</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,-25">unsc_bldg_buildinglot_05</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="47,0,80">unsc_bldg_repairradiopelican</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-33,0,-82">cpgn_map_megasupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-23,0,-82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-43,0,-82">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-53,0,-82">rsrc_supplies_crate_01</StartingSquad>           
+                <StartingSquad FlyIn="false" Offset="25,0,78">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-38,0,82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-47,0,82">cpgn_map_supersupply_01</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="-41,0,71">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="52,0,29">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="46,0,29">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="40,0,34">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-7,0,52">unsc_bldg_buildingvehiclespawner</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,32">unsc_inf_cyclops_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,52">unsc_veh_hedgehog_01</StartingSquad>  
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="160">40</Pop>
+		<Pop Type="Spartan" Max="9">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+      		<Pop Type="Nitro" Max="1">1</Pop>
+		<Pop Type="Onno" Max="1">1</Pop>
+		<Pop Type="Ace" Max="1">1</Pop>
+     		<Pop Type="Forge" Max="1">1</Pop>
+		<Pop Type="Anders" Max="1">1</Pop>
+		<Pop Type="Alice" Max="1">1</Pop>
+		<Pop Type="Jones" Max="1">1</Pop>
+		<Pop Type="Jerome" Max="1">1</Pop>
+		<Pop Type="Douglas" Max="1">1</Pop>
+      		<Pop Type="Forgey" Max="1">1</Pop> 
+		<Pop Type="Yanders" Max="1">1</Pop>
+		<Pop Type="MPelican" Max="2">2</Pop>
+		<Pop Type="Police" Max="1">1</Pop>
+		<Pop Type="Policecar" Max="1">1</Pop>
+		<Pop Type="Air1" Max="1">1</Pop>
+		<Pop Type="Gremlin1" Max="1">1</Pop>
+		<Pop Type="Vulture" Max="5">5</Pop>
+		<Pop Type="Scorpion" Max="5">5</Pop>
+		<Pop Type="Turret1" Max="1">1</Pop>
+		<Pop Type="Warthog1" Max="1">1</Pop>    
+		<Pop Type="Airlock" Max="1">1</Pop> 
+		<Pop Type="Airlock1" Max="1">1</Pop> 
+		<Pop Type="Airlock2" Max="1">1</Pop> 
+		<Pop Type="AABattery" Max="1">1</Pop> 
+		<Pop Type="AABattery1" Max="1">1</Pop> 
+		<Pop Type="Generator" Max="1">1</Pop> 
+		<Pop Type="PTower" Max="2">2</Pop> 
+		<Pop Type="Socket1" Max="1">1</Pop> 
+		<Pop Type="Socket2" Max="1">1</Pop> 
+		<Pop Type="Socket" Max="1">1</Pop> 
+		<Pop Type="Landingpad" Max="1">1</Pop> 
+		<Pop Type="RPelican" Max="1">1</Pop> 
+		<Pop Type="TurretSocket1" Max="1">1</Pop>
+		<Pop Type="TurretSocket2" Max="1">1</Pop>
+		<Pop Type="TurretSocket3" Max="1">1</Pop>
+		<Pop Type="Odstfence" Max="1">1</Pop>
+		<Pop Type="Tower" Max="1">1</Pop>
+		<Pop Type="Tankcombo" Max="1">1</Pop>
+		<Pop Type="Turret" Max="1">1</Pop>
+		<Pop Type="Fenceair" Max="1">1</Pop>
+		<Pop Type="SupportCenter" Max="1">1</Pop>
+		<Pop Type="Gate" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry" Max="1">1</Pop>
+		<Pop Type="Warthog2" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry1" Max="1">1</Pop>
+		<Pop Type="Turretfence" Max="1">1</Pop>
+		<Pop Type="CobraTiger" Max="1">1</Pop>
+		<Pop Type="Air2" Max="1">1</Pop>
+		<Pop Type="Rusk" Max="1">1</Pop>
+		<Pop Type="Ashen" Max="1">1</Pop>
+		<Pop Type="Becker" Max="1">1</Pop>
+		<Pop Type="Teleporter1way" Max="1">1</Pop>
+		<Pop Type="Teleporter2way" Max="2">2</Pop>
+		<Pop Type="Aida" Max="1">1</Pop>
+		<Pop Type="FenceVehicles" Max="1">1</Pop>
+		<Pop Type="Fencerair" Max="1">1</Pop>
+		<Pop Type="Fence4Infantry" Max="1">1</Pop>
+		<Pop Type="SuperSpecialInfantry" Max="1">1</Pop>
+		<Pop Type="SpecialFenceVehicle" Max="1">1</Pop>
+		<Pop Type="SuperSpecialAirFence" Max="1">1</Pop>
+		<Pop Type="SupplyOffice" Max="1">1</Pop>
+		<Pop Type="FenceVehiclesFinal" Max="1">1</Pop>
+		<Pop Type="FenceInfantryFinal" Max="1">1</Pop>
+		<Pop Type="FenceAirFinal" Max="1">1</Pop>
+		<Pop Type="TurretFinal" Max="1">1</Pop>
+		<Pop Type="SatiliteAir" Max="1">1</Pop>
+		<Pop Type="SuperFortress" Max="1">1</Pop>
+		<Pop Type="Buildthog" Max="1">1</Pop>
+        </Leader>
+	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="4" StatsID="3" DefaultPlayerSlotFlags="0x4">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAnders</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
+		<Resource Type="Supplies">2000</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_startcommand_03" DoppleOnStart="true">game_base_Socket_01</StartingUnit>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_nothing_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_buildinglotminibaserepair</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,65">unsc_bldg_buildinglot_07</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,-25">unsc_bldg_buildinglot_05</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="47,0,80">unsc_bldg_repairradiopelican</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-33,0,-82">cpgn_map_megasupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-23,0,-82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-43,0,-82">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-53,0,-82">rsrc_supplies_crate_01</StartingSquad>           
+                <StartingSquad FlyIn="false" Offset="25,0,78">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-38,0,82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-47,0,82">cpgn_map_supersupply_01</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="-41,0,71">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="52,0,29">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="46,0,29">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="40,0,34">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-7,0,52">unsc_bldg_buildingvehiclespawner</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,32">unsc_veh_gremlin_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,52">unsc_veh_warthog_01</StartingSquad> 
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="160">40</Pop>
+		<Pop Type="Spartan" Max="9">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+      		<Pop Type="Nitro" Max="1">1</Pop>
+		<Pop Type="Onno" Max="1">1</Pop>
+		<Pop Type="Ace" Max="1">1</Pop>
+     		<Pop Type="Forge" Max="1">1</Pop>
+		<Pop Type="Anders" Max="1">1</Pop>
+		<Pop Type="Alice" Max="1">1</Pop>
+		<Pop Type="Jones" Max="1">1</Pop>
+		<Pop Type="Jerome" Max="1">1</Pop>
+		<Pop Type="Douglas" Max="1">1</Pop>
+      		<Pop Type="Forgey" Max="1">1</Pop> 
+		<Pop Type="Yanders" Max="1">1</Pop>
+		<Pop Type="MPelican" Max="2">2</Pop>
+		<Pop Type="Police" Max="1">1</Pop>
+		<Pop Type="Policecar" Max="1">1</Pop>
+		<Pop Type="Air1" Max="1">1</Pop>
+		<Pop Type="Gremlin1" Max="1">1</Pop>
+		<Pop Type="Vulture" Max="5">5</Pop>
+		<Pop Type="Scorpion" Max="5">5</Pop>
+		<Pop Type="Turret1" Max="1">1</Pop>
+		<Pop Type="Warthog1" Max="1">1</Pop>    
+		<Pop Type="Airlock" Max="1">1</Pop> 
+		<Pop Type="Airlock1" Max="1">1</Pop> 
+		<Pop Type="Airlock2" Max="1">1</Pop> 
+		<Pop Type="AABattery" Max="1">1</Pop> 
+		<Pop Type="AABattery1" Max="1">1</Pop> 
+		<Pop Type="Generator" Max="1">1</Pop> 
+		<Pop Type="PTower" Max="2">2</Pop> 
+		<Pop Type="Socket1" Max="1">1</Pop> 
+		<Pop Type="Socket2" Max="1">1</Pop> 
+		<Pop Type="Socket" Max="1">1</Pop> 
+		<Pop Type="Landingpad" Max="1">1</Pop> 
+		<Pop Type="RPelican" Max="1">1</Pop> 
+		<Pop Type="TurretSocket1" Max="1">1</Pop>
+		<Pop Type="TurretSocket2" Max="1">1</Pop>
+		<Pop Type="TurretSocket3" Max="1">1</Pop>
+		<Pop Type="Odstfence" Max="1">1</Pop>
+		<Pop Type="Tower" Max="1">1</Pop>
+		<Pop Type="Tankcombo" Max="1">1</Pop>
+		<Pop Type="Turret" Max="1">1</Pop>
+		<Pop Type="Fenceair" Max="1">1</Pop>
+		<Pop Type="SupportCenter" Max="1">1</Pop>
+		<Pop Type="Gate" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry" Max="1">1</Pop>
+		<Pop Type="Warthog2" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry1" Max="1">1</Pop>
+		<Pop Type="Turretfence" Max="1">1</Pop>
+		<Pop Type="CobraTiger" Max="1">1</Pop>
+		<Pop Type="Air2" Max="1">1</Pop>
+		<Pop Type="Rusk" Max="1">1</Pop>
+		<Pop Type="Ashen" Max="1">1</Pop>
+		<Pop Type="Becker" Max="1">1</Pop>
+		<Pop Type="Teleporter1way" Max="1">1</Pop>
+		<Pop Type="Teleporter2way" Max="2">2</Pop>
+		<Pop Type="Aida" Max="1">1</Pop>
+		<Pop Type="FenceVehicles" Max="1">1</Pop>
+		<Pop Type="Fencerair" Max="1">1</Pop>
+		<Pop Type="Fence4Infantry" Max="1">1</Pop>
+		<Pop Type="SuperSpecialInfantry" Max="1">1</Pop>
+		<Pop Type="SpecialFenceVehicle" Max="1">1</Pop>
+		<Pop Type="SuperSpecialAirFence" Max="1">1</Pop>
+		<Pop Type="SupplyOffice" Max="1">1</Pop>
+		<Pop Type="FenceVehiclesFinal" Max="1">1</Pop>
+		<Pop Type="FenceInfantryFinal" Max="1">1</Pop>
+		<Pop Type="FenceAirFinal" Max="1">1</Pop>
+		<Pop Type="TurretFinal" Max="1">1</Pop>
+		<Pop Type="SatiliteAir" Max="1">1</Pop>
+		<Pop Type="SuperFortress" Max="1">1</Pop>
+		<Pop Type="Buildthog" Max="1">1</Pop>
+      	</Leader>
+	<Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
+		<Civ>UNSC</Civ>
+		<NameID>23718</NameID>
+		<DescriptionID>23719</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+	</Leader>
+	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
+		<Civ />
+		<NameID>23722</NameID>
+		<DescriptionID>23723</DescriptionID>
+		<FlashCivID>2</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
+	</Leader>
+	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="6" StatsID="4" DefaultPlayerSlotFlags="0x8">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderArbiter</Tech>
+		<NameID>7010</NameID>
+		<DescriptionID>7011</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>arbiter</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
+		<Resource Type="Supplies">1200</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+	        <StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_spectre_02</StartingSquad>
+	        <StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghostshield_01</StartingSquad>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="150">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="MegaTurret" Max="3">3</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Fuelroddudes" Max="5">5</Pop>
+		<Pop Type="Bombgrunt" Max="8">8</Pop>
+	</Leader>
+	<Leader Name="Brute Chieftain" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="7" StatsID="5" DefaultPlayerSlotFlags="0x10">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderBrute</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">1200</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_brutechopper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_brutechopper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_prowler_02</StartingSquad>
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="150">40</Pop>
+		<Pop Type="Temple" Max="2">2</Pop>
+		<Pop Type="MegaTurret" Max="1">1</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Fuelroddudes" Max="5">5</Pop>
+		<Pop Type="Bombgrunt" Max="8">8</Pop>
+ 	</Leader>
+	<Leader Name="Prophet of Mercy" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="8" StatsID="6" DefaultPlayerSlotFlags="0x20">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderProphet</Tech>
+		<NameID>7014</NameID>
+		<DescriptionID>7015</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>prophet</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
+		<Resource Type="Supplies">1200</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghostshield_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghostshield_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_shadow_01</StartingSquad>
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="120">40</Pop>		
+		<Pop Type="Leader" Max="2">2</Pop>
+		<Pop Type="Mercy" Max="1">1</Pop>
+		<Pop Type="Truth" Max="1">1</Pop>
+		<Pop Type="MegaTurret" Max="3">3</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Fuelroddudes" Max="5">5</Pop>
+		<Pop Type="Bombgrunt" Max="8">8</Pop>	
+		<Pop Type="Mercy" Max="1">1</Pop>	
+		<Pop Type="Truth" Max="1">1</Pop>	
+        </Leader>
+	<Leader Name="YapYap" LeaderPickerOrder="9" Random="false">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderYapYap</Tech>
+		<NameID>7016</NameID>
+		<DescriptionID>7017</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>arbiter</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomcov.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_grunt.ddx</UIControlBackground>
+		<Resource Type="Supplies">1200</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_bldg_shadeturretmobile_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghostshield_grunt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_needlerghostshield_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_needlerghostshield_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cpgn_inf_bombGrunt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cpgn_inf_bombGrunt_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="120">40</Pop>
+		<Pop Type="Leader" Max="3">3</Pop>
+		<Pop Type="MegaTurret" Max="3">3</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Fuelroddudes" Max="5">5</Pop> 
+		<Pop Type="Bombgrunt" Max="8">8</Pop>      
+		<Pop Type="Goblin" Max="1">1</Pop>      
+        </Leader>
+	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderCutter</Tech>
+		<NameID>7020</NameID>
+		<DescriptionID>7021</DescriptionID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+		<Resource Type="Supplies">2000</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_startcommand_03" DoppleOnStart="true">game_base_Socket_01</StartingUnit>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_nothing_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="42,0,-59">unsc_bldg_buildinglotminibaserepair</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,65">unsc_bldg_buildinglot_07</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="48,0,-25">unsc_bldg_buildinglot_05</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="47,0,80">unsc_bldg_repairradiopelican</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-33,0,-82">cpgn_map_megasupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-23,0,-82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-43,0,-82">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-53,0,-82">rsrc_supplies_crate_01</StartingSquad>           
+                <StartingSquad FlyIn="false" Offset="25,0,78">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-38,0,82">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-47,0,82">cpgn_map_supersupply_01</StartingSquad> 
+                <StartingSquad FlyIn="false" Offset="-41,0,71">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="52,0,29">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="46,0,29">cpgn_map_supersupply_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="40,0,34">rsrc_supplies_crate_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="-7,0,52">unsc_bldg_buildingvehiclespawner</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,32">unsc_inf_marinebr_01</StartingSquad>
+                <StartingSquad FlyIn="false" Offset="80,0,52">unsc_veh_warthog_01</StartingSquad>            
+                <RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="160">40</Pop>
+		<Pop Type="Spartan" Max="9">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+      		<Pop Type="Nitro" Max="1">1</Pop>
+		<Pop Type="Onno" Max="1">1</Pop>
+		<Pop Type="Ace" Max="1">1</Pop>
+     		<Pop Type="Forge" Max="1">1</Pop>
+		<Pop Type="Anders" Max="1">1</Pop>
+		<Pop Type="Alice" Max="1">1</Pop>
+		<Pop Type="Jones" Max="1">1</Pop>
+		<Pop Type="Jerome" Max="1">1</Pop>
+		<Pop Type="Douglas" Max="1">1</Pop>
+      		<Pop Type="Forgey" Max="1">1</Pop> 
+		<Pop Type="Yanders" Max="1">1</Pop>
+		<Pop Type="MPelican" Max="2">2</Pop>
+		<Pop Type="Police" Max="1">1</Pop>
+		<Pop Type="Policecar" Max="1">1</Pop>
+		<Pop Type="Air1" Max="1">1</Pop>
+		<Pop Type="Gremlin1" Max="1">1</Pop>
+		<Pop Type="Vulture" Max="5">5</Pop>
+		<Pop Type="Scorpion" Max="5">5</Pop>
+		<Pop Type="Turret1" Max="1">1</Pop>
+		<Pop Type="Warthog1" Max="1">1</Pop>    
+		<Pop Type="Airlock" Max="1">1</Pop> 
+		<Pop Type="Airlock1" Max="1">1</Pop> 
+		<Pop Type="Airlock2" Max="1">1</Pop> 
+		<Pop Type="AABattery" Max="1">1</Pop> 
+		<Pop Type="AABattery1" Max="1">1</Pop> 
+		<Pop Type="Generator" Max="1">1</Pop> 
+		<Pop Type="PTower" Max="2">2</Pop> 
+		<Pop Type="Socket1" Max="1">1</Pop> 
+		<Pop Type="Socket2" Max="1">1</Pop> 
+		<Pop Type="Socket" Max="1">1</Pop> 
+		<Pop Type="Landingpad" Max="1">1</Pop> 
+		<Pop Type="RPelican" Max="1">1</Pop> 
+		<Pop Type="TurretSocket1" Max="1">1</Pop>
+		<Pop Type="TurretSocket2" Max="1">1</Pop>
+		<Pop Type="TurretSocket3" Max="1">1</Pop>
+		<Pop Type="Odstfence" Max="1">1</Pop>
+		<Pop Type="Tower" Max="1">1</Pop>
+		<Pop Type="Tankcombo" Max="1">1</Pop>
+		<Pop Type="Turret" Max="1">1</Pop>
+		<Pop Type="Fenceair" Max="1">1</Pop>
+		<Pop Type="SupportCenter" Max="1">1</Pop>
+		<Pop Type="Gate" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry" Max="1">1</Pop>
+		<Pop Type="Warthog2" Max="1">1</Pop>
+		<Pop Type="Fenceinfantry1" Max="1">1</Pop>
+		<Pop Type="Turretfence" Max="1">1</Pop>
+		<Pop Type="CobraTiger" Max="1">1</Pop>
+		<Pop Type="Air2" Max="1">1</Pop>
+		<Pop Type="Rusk" Max="1">1</Pop>
+		<Pop Type="Ashen" Max="1">1</Pop>
+		<Pop Type="Becker" Max="1">1</Pop>
+		<Pop Type="Teleporter1way" Max="1">1</Pop>
+		<Pop Type="Teleporter2way" Max="2">2</Pop>
+		<Pop Type="Aida" Max="1">1</Pop>
+		<Pop Type="FenceVehicles" Max="1">1</Pop>
+		<Pop Type="Fencerair" Max="1">1</Pop>
+		<Pop Type="Fence4Infantry" Max="1">1</Pop>
+		<Pop Type="SuperSpecialInfantry" Max="1">1</Pop>
+		<Pop Type="SpecialFenceVehicle" Max="1">1</Pop>
+		<Pop Type="SuperSpecialAirFence" Max="1">1</Pop>
+		<Pop Type="SupplyOffice" Max="1">1</Pop>
+		<Pop Type="FenceVehiclesFinal" Max="1">1</Pop>
+		<Pop Type="FenceInfantryFinal" Max="1">1</Pop>
+		<Pop Type="FenceAirFinal" Max="1">1</Pop>
+		<Pop Type="TurretFinal" Max="1">1</Pop>
+		<Pop Type="SatiliteAir" Max="1">1</Pop>
+		<Pop Type="SuperFortress" Max="1">1</Pop>
+		<Pop Type="Buildthog" Max="1">1</Pop>
+        </Leader>
+	<Leader Name="Prophet of Pudding" Icon="ui\game\icon\covenant\leader\Prophet of truth" Test="true" Alpha="0">
+		<Civ>Covenant</Civ>
+		<Tech>cov_prophetofpudding</Tech>
+		<NameID>7022</NameID>
+		<DescriptionID>7023</DescriptionID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
+		<Resource Type="Supplies">1050</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+                <StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+</Leaders>

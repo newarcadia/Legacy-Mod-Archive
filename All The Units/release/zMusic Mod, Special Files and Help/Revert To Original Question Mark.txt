@@ -1,0 +1,4 @@
+If somethings wrong, and you don't know what you replaced, reverting to original may
+help.
+
+Just copy the contents in the folder and replace the ones in the Data Folder.

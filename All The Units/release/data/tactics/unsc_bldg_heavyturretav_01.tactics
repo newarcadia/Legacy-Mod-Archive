@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>	
+	<Weapon>
+		<Name>Railgun</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>75.5</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_lightRailgun_01</Projectile>
+		<ImpactEffect size="Medium">unsc_lightcannon_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>AddOnTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<UseGroupRange />
+	</Weapon>
+         <Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_01</Projectile>
+		<ImpactEffect size="Large">Tankshell</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.3</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.1</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>2000</PhysicsForceMin>
+		<PhysicsForceMax>3000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Infantry">11</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>RailgunAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>AddOnAttack</Anim>
+		<Weapon>Railgun</Weapon>
+	</Action>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>Artillery</Weapon>
+		<SlaveAttackAction>RailgunAttackAction</SlaveAttackAction>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>
