@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">blood_gulch</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\sw_interior_sky_en.ddx</TerrainEnv>
+	<Lightset>blood_gulch</Lightset>
+	<Pathing>blood_gulch</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Neutral</Team>
+			<Team ID="2">Neutral</Team>
+			<Team ID="3">Neutral</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Grouped" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="760.840088,-50.9533997,206.833206" Forward="0.389400005,0,0.92110002" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="624,120,768" Forward="-0.997500002,0,0.0706999972" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25966,Rebels" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture>\ui\flash\minimaps\PHXscn14.ddx</MinimapTexture>
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres />
+		<Lines>
+			<Lines ID="1401" Name="DesignPath1401" Position="963.973083,-46.6884995,74.6738968">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>658.0999,-29.2111,66.7782|653.5006,-26.3244,65.4371|628.5144,-36.4706,103.5760|409.0021,29.0284,109.2889|141.5883,24.0129,89.7417|53.6596,69.1437,153.4137|44.4115,84.4518,676.3240|77.2865,90.1256,739.9324|97.5686,89.1089,810.1642|130.0546,91.6035,824.6482|354.8762,106.1516,837.1183|396.3634,136.0275,884.6489|508.4225,152.8668,938.0925|866.5782,152.6440,909.9279|955.5342,154.7791,779.1318|909.2183,152.6440,705.9972|846.4978,114.3975,609.4515|836.0569,56.1407,558.0532|838.1864,21.5526,446.2939|863.8963,-59.0403,395.0047|925.8847,-43.6076,363.5471|960.4592,-46.3664,335.6964|963.9731,-46.6885,74.6739</Points>
+			</Lines>
+			<Lines ID="1407" Name="DesignPath1407" Position="641.119019,-47.5069008,223.408707">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>0</Value1>
+					<Value2>1</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>641.689087,-46.6701012,266.483612</Points>
+			</Lines>
+			<Lines ID="1408" Name="DesignPath1408" Position="411.977386,15.0313997,196.848099">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>0</Value1>
+					<Value2>2</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>413.153107,13.1267004,323.612915</Points>
+			</Lines>
+			<Lines ID="1409" Name="DesignPath1409" Position="643.042725,14.7730999,488.510193">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>1</Value1>
+					<Value2>1</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>645.220581,15.2355003,532.82782</Points>
+			</Lines>
+			<Lines ID="1410" Name="DesignPath1410" Position="371.989105,83.3364029,469.035706">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>1</Value1>
+					<Value2>2</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>371.3396,83.370697,599.525513</Points>
+			</Lines>
+			<Lines ID="1411" Name="DesignPath1411" Position="277.9888,84.1288986,776.391479">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>2</Value1>
+					<Value2>1</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>276.238586,84.1288986,681.794678</Points>
+			</Lines>
+			<Lines ID="1412" Name="DesignPath1412" Position="487.379608,152.125504,806.988281">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>995</Value>
+					<Value1>2</Value1>
+					<Value2>2</Value2>
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>491.384186,152.544495,644.3479</Points>
+			</Lines>
+		</Lines>
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="testbases" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="true" Player="3" ID="1613" TintValue="1" EditorName="cov_air_banshee_01_Squad_1613" Position="499.5349,152.6444,760.3409" Forward="-0.9854,0,0.17" Right="0.17,0,0.9854" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="true" Player="3" ID="1612" TintValue="1" EditorName="cov_air_banshee_01_Squad_1612" Position="411.7342,126.0089,787.6188" Forward="-0.9738,0,-0.2272" Right="-0.2272,0,0.9738" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="true" Player="3" ID="1611" TintValue="1" EditorName="cov_air_banshee_01_Squad_1611" Position="421.5654,129.5452,688.9102" Forward="-0.9996,0,-0.0292" Right="-0.0292,0,0.9996" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="true" Player="3" ID="1610" TintValue="1" EditorName="cov_air_banshee_01_Squad_1610" Position="635.8577,152.644,828.0953" Forward="-0.8085,0,-0.5885" Right="-0.5885,0,0.8085" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+		<Object IsSquad="false" Player="3" ID="226" TintValue="1" EditorName="cov_bldg_shadeTurret_01_226" Position="275.7476,85.5033,655.4628" Forward="-0.5507,0,0.8347" Right="0.8347,0,0.5507" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="false" Player="3" ID="228" TintValue="1" EditorName="cov_bldg_shadeTurret_01_228" Position="496.9249,15.6186,362.7145" Forward="-0.6441,0,0.7649" Right="0.7649,0,0.6441" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="false" Player="3" ID="225" TintValue="1" EditorName="cov_bldg_shadeTurret_01_225" Position="199.5875,84.1289,748.6442" Forward="0.5984,0,-0.8012" Right="-0.8012,0,-0.5984" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="false" Player="3" ID="227" TintValue="1" EditorName="cov_bldg_shadeTurret_01_227" Position="340.3724,84.1289,477.1479" Forward="0.6443,0,0.7648" Right="0.7648,0,-0.6443" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="false" Player="3" ID="224" TintValue="1" EditorName="cov_bldg_shadeTurret_01_224" Position="274.3631,84.1289,494.4812" Forward="0.7833,0,0.6216" Right="0.6216,0,-0.7833" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="true" Player="3" ID="1614" TintValue="1" EditorName="cov_inf_hunter_01_Squad_1614" Position="519.4734,152.644,838.6317" Forward="-0.9463,0,-0.3233" Right="-0.3233,0,0.9463" Group="-1" VisualVariationIndex="0">cov_inf_hunter_01</Object>
+		<Object IsSquad="true" Player="3" ID="1617" TintValue="1" EditorName="cov_inf_hunter_01_Squad_1617" Position="534.2341,152.644,799.6772" Forward="-0.9975,0,0.0707" Right="0.0707,0,0.9975" Group="-1" VisualVariationIndex="1">cov_inf_hunter_01</Object>
+		<Object IsSquad="true" Player="3" ID="1615" TintValue="1" EditorName="cov_inf_hunter_01_Squad_1615" Position="504.535,152.644,863.873" Forward="-0.9463,0,-0.3233" Right="-0.3233,0,0.9463" Group="-1" VisualVariationIndex="0">cov_inf_hunter_01</Object>
+		<Object IsSquad="true" Player="3" ID="1616" TintValue="1" EditorName="cov_inf_hunter_01_Squad_1616" Position="565.8318,152.644,707.3896" Forward="-0.9975,0,0.0707" Right="0.0707,0,0.9975" Group="-1" VisualVariationIndex="1">cov_inf_hunter_01</Object>
+		<Object IsSquad="true" Player="3" ID="1321" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1321" Position="639.6246,14.8958,438.5834" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1324" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1324" Position="295.8301,84.1289,489.224" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1323" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1323" Position="486.0224,55.0555,562.1025" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1325" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1325" Position="248.1079,84.1289,787.2239" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1320" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1320" Position="373.1817,14.7731,309.067" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1322" TintValue="1" EditorName="cov_inf_jackal_01_Squad_1322" Position="673.9397,14.7731,366.4741" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">cov_inf_jackal_01</Object>
+		<Object IsSquad="true" Player="3" ID="1329" TintValue="1" EditorName="cov_veh_ghost_01_Squad_1329" Position="492.2663,14.7731,423.3858" Forward="-0.6119,0,-0.791" Right="-0.791,0,0.6119" Group="-1" VisualVariationIndex="0">cov_veh_ghost_01</Object>
+		<Object IsSquad="true" Player="3" ID="1328" TintValue="1" EditorName="cov_veh_ghost_01_Squad_1328" Position="207.3422,84.1289,531.262" Forward="0.9996,0,-0.0292" Right="-0.0292,0,-0.9996" Group="-1" VisualVariationIndex="0">cov_veh_ghost_01</Object>
+		<Object IsSquad="true" Player="3" ID="1330" TintValue="1" EditorName="cov_veh_ghost_01_Squad_1330" Position="321.3382,84.1289,501.1237" Forward="0.932,0,0.3624" Right="0.3624,0,-0.932" Group="-1" VisualVariationIndex="0">cov_veh_ghost_01</Object>
+		<Object IsSquad="true" Player="3" ID="1326" TintValue="1" EditorName="cov_veh_wraith_01_Squad_1326" Position="167.6479,84.1289,539.7831" Forward="0.9996,0,-0.0292" Right="-0.0292,0,-0.9996" Group="-1" VisualVariationIndex="0">cov_veh_wraith_01</Object>
+		<Object IsSquad="true" Player="3" ID="1327" TintValue="1" EditorName="cov_veh_wraith_01_Squad_1327" Position="552.4897,152.644,669.9988" Forward="-0.9996,0,-0.0292" Right="-0.0292,0,0.9996" Group="-1" VisualVariationIndex="0">cov_veh_wraith_01</Object>	
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_2" Position="0,100,0" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_3" Position="1024,100,1024" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_4" Position="160,84.1289,639.7831" Forward="0.932,0,0.3624" Right="0.3624,0,-0.932" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_5" Position="624,120,768" Forward="-0.997500002,0,0.0706999972" Right="0.0706999972,0,0.997500002" Group="-1" VisualVariationIndex="0">game_base_Socket_0122</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_6" Position="1024,100,0" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_7" Position="0,100,1024" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_8" Position="250.962204,15.7715998,160.84671" Forward="-0.882500017,0,0.186399996" Right="0.186399996,0,0.982500017" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_9" Position="-512,100,0" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_0111</Object>
+		<Object IsSquad="false" Player="0" ID="228" TintValue="1" EditorName="game_base_Socket_01_10" Position="256,100,256" Forward="0,0,0" Right="0,0,0" Group="-1" VisualVariationIndex="0">game_base_Socket_012</Object>
+		<Object IsSquad="false" Player="0" ID="1243" TintValue="1" EditorName="cpgn_inf_spartanMg_01_Squad_1243" Position="820.629211,-51.0010986,210.207504" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1244" TintValue="1" EditorName="cpgn_inf_spartanRocket_01_Squad_1244" Position="814.746216,-51.0010986,219.146606" Forward="-0.891200006,0,0.453599989" Right="0.453599989,0,0.891200006" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1245" TintValue="1" EditorName="cpgn_inf_spartanSniper_01_Squad_1245" Position="810.755615,-51.0010986,209.735794" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1242" TintValue="1" EditorName="cpgn_npc_forgeWarthog_01_Squad_1242" Position="794.651489,-50.9533997,227.220993" Forward="-0.863200009,0,-0.504800022" Right="-0.504800022,0,0.863200009" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1249" TintValue="1" EditorName="cpgn_scn14_reactor_01_Squad_1249" Position="717.022095,-50.7089005,236.361298" Forward="-0.675499976,0,-0.737399995" Right="-0.737399995,0,0.675499976" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1654" TintValue="1" EditorName="cpgn_utility_airBlock_01_1654" Position="892.525818,152.643997,795.982483" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1655" TintValue="1" EditorName="cpgn_utility_airBlock_01_1655" Position="760.639893,152.644104,738.762573" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1656" TintValue="1" EditorName="cpgn_utility_airBlock_01_1656" Position="758.344116,152.644104,847.198914" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1659" TintValue="1" EditorName="cpgn_utility_airBlock_01_1659" Position="664.110229,152.643997,611.460327" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1661" TintValue="1" EditorName="cpgn_utility_airBlock_01_1661" Position="807.669312,125.425003,583.143982" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1307" TintValue="1" EditorName="env_harvest_methanetank_01_1307" Position="665.883118,14.7730999,373.075104" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1308" TintValue="1" EditorName="env_harvest_methanetank_01_1308" Position="481.812714,56.6725006,566.455872" Forward="0.564599991,0,0.825399995" Right="0.825399995,0,-0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1309" TintValue="1" EditorName="env_harvest_methanetank_01_1309" Position="383.475891,14.7730999,309.589508" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1310" TintValue="1" EditorName="env_harvest_methanetank_01_1310" Position="314.877197,84.1288986,484.475708" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1314" TintValue="1" EditorName="env_harvest_methanetank_02_1314" Position="296.068298,84.1288986,493.340515" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1311" TintValue="1" EditorName="env_harvest_methanetank_02_1311" Position="683.890686,14.7730999,369.779785" Forward="0.931999981,0,0.362399995" Right="0.362399995,0,-0.931999981" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1312" TintValue="1" EditorName="env_harvest_methanetank_02_1312" Position="491.209991,53.9384995,567.106201" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1313" TintValue="1" EditorName="env_harvest_methanetank_02_1313" Position="669.072327,14.7730999,381.689789" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1318" TintValue="1" EditorName="env_harvest_methanetank_03_1318" Position="375.759613,14.7730999,320.655212" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1316" TintValue="1" EditorName="env_harvest_methanetank_03_1316" Position="397.103912,14.7736998,316.7677" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1317" TintValue="1" EditorName="env_harvest_methanetank_03_1317" Position="680.102417,14.7730999,366.568695" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1315" TintValue="1" EditorName="env_harvest_methanetank_03_1315" Position="492.6185,58.6063995,579.431885" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1621" TintValue="1" EditorName="fld_egg_stalkBase_01_Squad_1621" Position="765.617004,14.9689999,387.199005" Forward="0.389499992,0,0.921000004" Right="0.921000004,0,-0.389499992" Group="-1" VisualVariationIndex="2">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1620" TintValue="1" EditorName="fld_egg_stalkBase_01_Squad_1620" Position="739.130981,14.6577997,517.149292" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="-1" VisualVariationIndex="1">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1618" TintValue="1" EditorName="rsrc_supplies_crate_01_Squad_1618" Position="632.846375,15.5881004,348.366791" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="2">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1619" TintValue="1" EditorName="rsrc_supplies_crate_01_Squad_1619" Position="773.135803,14.7833996,366.723206" Forward="-0.931999981,0,0.362399995" Right="0.362399995,0,0.931999981" Group="-1" VisualVariationIndex="1">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1622" TintValue="1" EditorName="rsrc_supplies_crate_01_Squad_1622" Position="771.26947,14.8184004,408.228607" Forward="-0.515500009,0,-0.856899977" Right="-0.856899977,0,0.515500009" Group="-1" VisualVariationIndex="1">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1623" TintValue="1" EditorName="fld_egg_stalkBase_01_Squad_1623" Position="761.272583,31.1700001,561.352783" Forward="-0.808499992,0,-0.588500023" Right="-0.588500023,0,0.808499992" Group="-1" VisualVariationIndex="1">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1624" TintValue="1" EditorName="TeleporterEntranceB" Position="745.859375,14.8529997,467.888397" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1626" TintValue="1" EditorName="TelePorterExitB" Position="729.752075,15.8522997,408.830688" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fld_inf_tentacle_01</Object>
+		<Object IsSquad="false" Player="0" ID="1625" TintValue="1" EditorName="fld_inf_tentacle_01_Squad_1625" Position="693.136719,16.4466,546.864624" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1381" TintValue="1" EditorName="game_collectable_blackBox_14_1381" Position="477.025085,21.9428997,151.266006" Forward="0.605199993,0,0.79610002" Right="0.79610002,0,-0.605199993" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1297" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1297" Position="304.9617,84.1891022,483.568298" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1294" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1294" Position="649.930115,14.7730999,444.97699" Forward="0.479499996,0,0.877600014" Right="0.877600014,0,-0.479499996" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1298" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1298" Position="255.777893,84.1288986,776.88147" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1295" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1295" Position="675.734009,14.7730999,377.166992" Forward="-0.479400009,0,0.877600014" Right="0.877600014,0,0.479400009" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1293" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1293" Position="387.848114,14.7730999,321.999512" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1296" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1296" Position="487.427307,56.4213982,574.306213" Forward="-0.96359998,0,0.267500013" Right="0.267500013,0,0.96359998" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1301" TintValue="1" EditorName="rsrc_supplies_crate_01_1301" Position="928.591003,-46.3946991,347.109985" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1630" TintValue="1" EditorName="rsrc_supplies_crate_01_1630" Position="669.419128,-49.8951988,98.4886017" Forward="0.931999981,0,0.362399995" Right="0.362399995,0,-0.931999981" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="124" TintValue="1" EditorName="rsrc_supplies_crate_01_124" Position="256.78421,15.5782003,353.11969" Forward="-0.350699991,0,-0.936500013" Right="-0.936500013,0,0.350699991" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1629" TintValue="1" EditorName="rsrc_supplies_crate_01_1629" Position="728.985413,-50.9524994,220.535797" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1634" TintValue="1" EditorName="rsrc_supplies_crate_01_1634" Position="721.446411,-50.9441986,214.123596" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1353" TintValue="1" EditorName="rsrc_supplies_crate_01_1353" Position="722.07312,-51.528801,169.588196" Forward="0.239299998,0,-0.970899999" Right="-0.970899999,0,-0.239299998" Group="-1" VisualVariationIndex="1">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="127" TintValue="1" EditorName="rsrc_supplies_crate_01_127" Position="362.03891,18.2127991,150.398697" Forward="0.996200025,0,0.0873999968" Right="0.0873999968,0,-0.996200025" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="123" TintValue="1" EditorName="rsrc_supplies_crate_01_123" Position="245.975906,16.2929993,358.384888" Forward="0.745700002,0,-0.666199982" Right="-0.666199982,0,-0.745700002" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1631" TintValue="1" EditorName="rsrc_supplies_crate_01_1631" Position="661.449829,-49.4566994,104.454498" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1351" TintValue="1" EditorName="rsrc_supplies_crate_01_1351" Position="715.741516,-51.7154007,163.3293" Forward="0.783299983,0,0.621599972" Right="0.621599972,0,-0.783299983" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1352" TintValue="1" EditorName="rsrc_supplies_crate_01_1352" Position="718.520081,-51.7167015,153.639496" Forward="-0.479400009,0,0.877600014" Right="0.877600014,0,0.479400009" Group="-1" VisualVariationIndex="2">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1300" TintValue="1" EditorName="rsrc_supplies_crate_01_1300" Position="920.335388,-47.2756996,337.663696" Forward="-0.891200006,0,0.453599989" Right="0.453599989,0,0.891200006" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1299" TintValue="1" EditorName="rsrc_supplies_crate_01_1299" Position="913.457214,-46.1954994,347.400208" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1632" TintValue="1" EditorName="rsrc_supplies_crate_01_1632" Position="917.118713,-51.0010986,104.839699" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="126" TintValue="1" EditorName="rsrc_supplies_crate_01_126" Position="376.617615,17.8638,157.9841" Forward="0.756799996,0,-0.653699994" Right="-0.653699994,0,-0.756799996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="125" TintValue="1" EditorName="rsrc_supplies_crate_01_125" Position="365.843597,17.9790001,157.188599" Forward="-0.675499976,0,-0.737399995" Right="-0.737399995,0,0.675499976" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1628" TintValue="1" EditorName="rsrc_supplies_crate_01_1628" Position="736.266418,-50.9197006,228.323502" Forward="0.644200027,0,0.764800012" Right="0.764800012,0,-0.644200027" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="122" TintValue="1" EditorName="game_base_socket_01_122" Position="253.962204,15.7715998,264.84671" Forward="-0.982500017,0,0.186399996" Right="0.186399996,0,0.982500017" Group="-1" VisualVariationIndex="0">game_base_socket_0133</Object>
+		<Object IsSquad="false" Player="0" ID="1633" TintValue="1" EditorName="rsrc_supplies_crate_01_1633" Position="923.909485,-51.0010986,113.688698" Forward="-0.973800004,0,-0.227200001" Right="-0.227200001,0,0.973800004" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1635" TintValue="1" EditorName="TeleporterExitA" Position="715.35907,-50.3522987,201.2285" Forward="-0.841499984,0,0.540300012" Right="0.540300012,0,0.841499984" Group="-1" VisualVariationIndex="3">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1636" TintValue="1" EditorName="TeleporterEntranceA" Position="711.434082,-51.3513985,185.845001" Forward="-0.991699994,0,-0.128800005" Right="-0.128800005,0,0.991699994" Group="-1" VisualVariationIndex="3">rsrc_supplies_crate_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="41" NextTriggerID="38" NextConditionID="37" NextEffectID="39" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="21" Type="Sound" Name="" IsNull="false">set_switch_music_shield_int</TriggerVar>
+			<TriggerVar ID="22" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="497" Y="152" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+					<Effect ID="20" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">21</Input>
+						<Input Name="Queue" SigID="3" Optional="true">22</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="41" NextTriggerID="38" NextConditionID="37" NextEffectID="39" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="21" Type="Sound" Name="" IsNull="false">set_switch_music_shield_int</TriggerVar>
+					<TriggerVar ID="22" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="497" Y="152" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+							<Effect ID="20" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">21</Input>
+								<Input Name="Queue" SigID="3" Optional="true">22</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="blood_gulch" Type="Scenario" NextTriggerVarID="79" NextTriggerID="69" NextConditionID="67" NextEffectID="71" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="20" Type="Squad" Name="" IsNull="false">87</TriggerVar>
+			<TriggerVar ID="21" Type="Squad" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="23" Type="Squad" Name="" IsNull="false">86</TriggerVar>
+			<TriggerVar ID="24" Type="Squad" Name="" IsNull="false">6</TriggerVar>
+			<TriggerVar ID="32" Type="String" Name="" IsNull="false">B tel</TriggerVar>
+			<TriggerVar ID="33" Type="String" Name="" IsNull="false">a tel</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="14" Name="Teleporter 1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="110" Y="120" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+						<Input Name="Source" SigID="1" Optional="false">20</Input>
+						<Input Name="Target" SigID="2" Optional="false">21</Input>
+					</Effect>
+					<Effect ID="25" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+						<Input Name="String" SigID="1" Optional="false">33</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="16" Name="Teleporter 2" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="133" Y="327" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+						<Input Name="Source" SigID="1" Optional="false">23</Input>
+						<Input Name="Target" SigID="2" Optional="false">24</Input>
+					</Effect>
+					<Effect ID="24" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+						<Input Name="String" SigID="1" Optional="false">32</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="blood_gulch" Type="Scenario" NextTriggerVarID="79" NextTriggerID="69" NextConditionID="67" NextEffectID="71" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="20" Type="Squad" Name="" IsNull="false">_TeleporterEntranceA_,_87_</TriggerVar>
+					<TriggerVar ID="21" Type="Squad" Name="" IsNull="false">_TeleporterExitA_,_5_</TriggerVar>
+					<TriggerVar ID="23" Type="Squad" Name="" IsNull="false">_TeleporterEntranceB_,_86_</TriggerVar>
+					<TriggerVar ID="24" Type="Squad" Name="" IsNull="false">_TelePorterExitB_,_6_</TriggerVar>
+					<TriggerVar ID="32" Type="String" Name="" IsNull="false">B tel</TriggerVar>
+					<TriggerVar ID="33" Type="String" Name="" IsNull="false">a tel</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="14" Name="Teleporter 1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="110" Y="120" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+								<Input Name="Source" SigID="1" Optional="false">20</Input>
+								<Input Name="Target" SigID="2" Optional="false">21</Input>
+							</Effect>
+							<Effect ID="25" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+								<Input Name="String" SigID="1" Optional="false">33</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="16" Name="Teleporter 2" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="133" Y="327" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+								<Input Name="Source" SigID="1" Optional="false">23</Input>
+								<Input Name="Target" SigID="2" Optional="false">24</Input>
+							</Effect>
+							<Effect ID="24" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+								<Input Name="String" SigID="1" Optional="false">32</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<NextID>1703</NextID>
+	<EditorOnlyData>
+		<HelperAreas />
+		<HelperAreaBoxes />
+		<HelpePositions />
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>scenario_14.bnk</SoundBank>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld>SWI</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+</Scenario>

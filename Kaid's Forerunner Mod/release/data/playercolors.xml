@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<playerColors>
+	<skirmish>
+		<color num="0" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+
+
+<!--UNSC-->
+		<color num="1" objects="145 163 85" corpse="35 55 12" selection="69 110 24" minimap="69 110 24" ui="69 110 24" />
+		<color num="2" objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<color num="3" objects="82 125 179" corpse="33 55 75" selection="65 110 150" minimap="65 110 150" ui="65 110 150" />
+		<color num="4" objects="215 99 68" corpse="100 30 0" selection="200 60 0" minimap="200 60 0" ui="200 60 0" />
+		<color num="5" objects="83 83 83" corpse="25 25 15" selection="50 50 30" minimap="50 50 30" ui="50 50 30" />
+		<color num="6" objects="185 160 125" corpse="93 50 63" selection="185 160 125" minimap="185 160 125" ui="185 160 125" />
+
+<!--COV-->
+		<color num="7" objects="165 95 245" corpse="83 48 172" selection="165 95 245" minimap="165 95 245" ui="165 95 245" />
+		<color num="8" objects="0 175 200" corpse="0 83 100" selection="0 175 200" minimap="0 175 200" ui="0 175 200" />
+		<color num="9" objects="210 20 0" corpse="105 10 0" selection="210 20 0" minimap="210 20 0" ui="210 20 0" />
+		<color num="10" objects="40 50 20" corpse="20 25 10" selection="40 50 20" minimap="40 50 20" ui="40 50 20" />
+		<color num="11" objects="255 215 50" corpse="128 107 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="12" objects="215 190 175" corpse="108 95 87" selection="215 200 175" minimap="215 200 175" ui="215 200 175" />
+		
+<!--BOTH-->
+		<color num="13" objects="50 10 10" corpse="30 5 5" selection="60 10 10" minimap="60 10 10" ui="40 10 10" />
+		<color num="14" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		
+		
+		<color num="15" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+
+		<color num="20" objects="255 0 0" corpse="255 0 0" selection="255 0 0" minimap="255 0 0" ui="255 0 0" />
+		<color num="21" objects="255 0 0" corpse="255 0 0" selection="255 0 0" minimap="255 0 0" ui="255 0 0" />
+
+		<color num="30" objects="0 255 0" corpse="0 255 0" selection="0 255 0" minimap="0 255 0" ui="0 255 0" />
+		
+<!--FLD-->
+		<color num="31" objects="150 99 138" corpse="88 88 88" selection="150 99 138" minimap="150 99 138" ui="150 99 138" />
+		<color num="32" objects="37 128 52" corpse="88 88 88" selection="37 128 52" minimap="37 128 52" ui="37 128 52" />
+		<color num="33" objects="157 153 4" corpse="88 88 88" selection="157 153 4" minimap="157 153 4" ui="157 153 4" />
+		<color num="34" objects="100 60 80" corpse="88 88 88" selection="100 60 80" minimap="100 60 80" ui="100 60 80" />
+		<color num="35" objects="205 151 29" corpse="88 88 88" selection="205 151 29" minimap="205 151 29" ui="205 151 29" />
+		<color num="36" objects="93 164 133" corpse="88 88 88" selection="93 164 133" minimap="93 164 133" ui="93 164 133" />
+<!--Fore-->
+		
+		<color num="37" objects="250 0 144" corpse="88 88 88" selection="240 0 144" minimap="250 0 144" ui="250 0 144" />
+		<color num="38" objects="197 240 40" corpse="88 88 88" selection="187 240 40" minimap="197 240 40" ui="197 240 40" />
+		<color num="39" objects="26 77 238" corpse="88 88 88" selection="26 77 228" minimap="26 77 238" ui="26 77 238" />
+		<color num="40" objects="250 20 28" corpse="88 88 88" selection="250 20 28" minimap="250 20 28" ui="250 20 28" />
+		<color num="41" objects="106 135 202" corpse="88 88 88" selection="106 135 202" minimap="106 135 202" ui="106 135 202" />
+		<color num="42" objects="88 243 83" corpse="88 88 88" selection="88 243 83" minimap="88 243 83" ui="88 243 83" />
+		<color num="43" objects="120 140 83" corpse="88 88 88" selection="120 140 83" minimap="120 143 83" ui="120 143 83" />
+		<color num="44" objects="120 140 200" corpse="88 88 88" selection="120 140 200" minimap="120 143 200" ui="120 143 200" />
+		<color num="45" objects="0 0 255" corpse="0 0 255" selection="0 0 255" minimap="0 0 255" ui="0 0 255" />
+
+
+		
+
+		<friendOrFoeSelf objects="66 127 255" corpse="0 40 105" selection="0 80 211" minimap="0 80 211" ui="0 80 211" />
+		<friendOrFoeAlly objects="229 197 18" corpse="115 99 9" selection="229 197 18" minimap="229 197 18" ui="229 197 18" />
+		<friendOrFoeNeutral objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<friendOrFoeEnemy objects="190 0 0" corpse="95 0 0" selection="190 0 0" minimap="190 0 0" ui="190 0 0" />`</skirmish>
+	<spc>
+		<color num="0" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="1" objects="145 163 85" corpse="58 65 20" selection="115 130 40" minimap="115 130 40" ui="115 130 40" />
+		<color num="2" objects="0 30 200" corpse="0 15 100" selection="0 30 200" minimap="0 30 200" ui="0 30 200" />
+		<color num="3" objects="255 215 50" corpse="128 108 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="4" objects="185 160 125" corpse="93 80 63" selection="185 160 125" minimap="185 160 125" ui="185 160 125" />
+		<color num="5" objects="50 50 30" corpse="25 25 15" selection="50 50 30" minimap="50 50 30" ui="50 50 30" />
+		<color num="6" objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<color num="7" objects="165 95 245" corpse="83 48 123" selection="165 95 245" minimap="165 95 245" ui="165 95 245" />
+		<color num="8" objects="0 175 200" corpse="0 88 100" selection="0 175 200" minimap="0 175 200" ui="0 175 200" />
+		<color num="9" objects="210 20 0" corpse="105 10 0" selection="210 20 0" minimap="210 20 0" ui="210 20 0" />
+		<color num="10" objects="40 50 20" corpse="20 25 10" selection="40 50 20" minimap="40 50 20" ui="40 50 20" />
+		<color num="11" objects="255 215 50" corpse="128 108 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="12" objects="215 190 175" corpse="105 95 88" selection="215 200 175" minimap="215 200 175" ui="215 200 175" />
+		<color num="13" objects="50 10 10" corpse="30 5 5" selection="60 10 10" minimap="60 10 10" ui="40 10 10" />
+		<color num="14" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="15" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="20" objects="255 0 0" corpse="255 0 0" selection="255 0 0" minimap="255 0 0" ui="255 0 0" />
+		<color num="21" objects="255 0 0" corpse="255 0 0" selection="255 0 0" minimap="255 0 0" ui="255 0 0" />
+
+		<color num="30" objects="0 255 0" corpse="0 255 0" selection="0 255 0" minimap="0 255 0" ui="0 255 0" />
+		
+<!--FLD-->
+		<color num="31" objects="150 99 138" corpse="88 88 88" selection="150 99 138" minimap="150 99 138" ui="150 99 138" />
+		<color num="32" objects="37 128 52" corpse="88 88 88" selection="37 128 52" minimap="37 128 52" ui="37 128 52" />
+		<color num="33" objects="157 153 4" corpse="88 88 88" selection="157 153 4" minimap="157 153 4" ui="157 153 4" />
+		<color num="34" objects="100 60 80" corpse="88 88 88" selection="100 60 80" minimap="100 60 80" ui="100 60 80" />
+		<color num="35" objects="205 151 29" corpse="88 88 88" selection="205 151 29" minimap="205 151 29" ui="205 151 29" />
+		<color num="36" objects="93 164 133" corpse="88 88 88" selection="93 164 133" minimap="93 164 133" ui="93 164 133" />
+<!--Fore-->
+		
+		<color num="37" objects="250 0 144" corpse="88 88 88" selection="240 0 144" minimap="250 0 144" ui="250 0 144" />
+		<color num="38" objects="197 240 40" corpse="88 88 88" selection="187 240 40" minimap="197 240 40" ui="197 240 40" />
+		<color num="39" objects="26 77 238" corpse="88 88 88" selection="26 77 228" minimap="26 77 238" ui="26 77 238" />
+		<color num="40" objects="250 20 28" corpse="88 88 88" selection="250 20 28" minimap="250 20 28" ui="250 20 28" />
+		<color num="41" objects="106 135 202" corpse="88 88 88" selection="106 135 202" minimap="106 135 202" ui="106 135 202" />
+		<color num="42" objects="88 243 83" corpse="88 88 88" selection="88 243 83" minimap="88 243 83" ui="88 243 83" />
+		<color num="43" objects="120 140 83" corpse="88 88 88" selection="120 140 83" minimap="120 143 83" ui="120 143 83" />
+		<color num="44" objects="120 140 200" corpse="88 88 88" selection="120 140 200" minimap="120 143 200" ui="120 143 200" />
+		<color num="45" objects="0 0 255" corpse="0 0 255" selection="0 0 255" minimap="0 0 255" ui="0 0 255" />
+		
+		<friendOrFoeSelf objects="66 127 255" corpse="0 40 105" selection="0 80 211" minimap="0 80 211" ui="0 80 211" />
+		<friendOrFoeAlly objects="229 197 18" corpse="115 99 9" selection="229 197 18" minimap="229 197 18" ui="229 197 18" />
+		<friendOrFoeNeutral objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<friendOrFoeEnemy objects="190 0 0" corpse="95 0 0" selection="190 0 0" minimap="190 0 0" ui="190 0 0" />`</spc>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="1" />
+		<player num="2" color="2" />
+		<player num="3" color="3" />
+		<player num="4" color="4" />
+		<player num="5" color="5" />
+		<player num="6" color="6" />
+		<player num="7" color="13" />
+		<player num="8" color="14" />UNSC</civ>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="7" />
+		<player num="2" color="8" />
+		<player num="3" color="9" />
+		<player num="4" color="10" />
+		<player num="5" color="11" />
+		<player num="6" color="12" />
+		<player num="7" color="13" />
+		<player num="8" color="14" />Covenant</civ>
+	<civ>
+		<player num="0" color="31" />
+		<player num="1" color="32" />
+		<player num="2" color="33" />
+		<player num="3" color="34" />
+		<player num="4" color="35" />
+		<player num="5" color="36" />
+		<player num="6" color="37" />
+		<player num="7" color="13" />
+		<player num="8" color="14" />Flood</civ>
+	<civ>
+		<player num="0" color="38" />
+		<player num="1" color="39" />
+		<player num="2" color="40" />
+		<player num="3" color="41" />
+		<player num="4" color="42" />
+		<player num="5" color="43" />
+		<player num="6" color="44" />
+		<player num="7" color="13" />
+		<player num="8" color="14" />Forerunner</civ>
+</playerColors>

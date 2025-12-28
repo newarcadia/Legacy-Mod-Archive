@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+
+
+
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	
+	<Action>
+		<Name>LayMine</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_egg_mine_01</SquadType>
+		<Anim>SpawnEgg</Anim>
+	</Action>
+	
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>5.0f</MaxRoll>
+		<DetonateOnDeath />
+	</Action>
+	
+	
+	<Tactic>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>	
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LayMine</Action>
+		</TargetRule>
+
+	
+		
+
+
+	</Tactic>
+</TacticData>

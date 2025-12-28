@@ -1,0 +1,56 @@
+<Materials>
+    <Material>
+        <NameValues>
+            <SpecPower>75</SpecPower>
+            <SpecColorR>0.2235294</SpecColorR>
+            <SpecColorG>0.5960785</SpecColorG>
+            <SpecColorB>0.7372549</SpecColorB>
+            <EnvReflectivity>0.2</EnvReflectivity>
+            <EnvSharpness>0</EnvSharpness>
+            <EnvFresnel>0.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\forerunner\building\factory_01\factory_02_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,0,0">
+                <Map Name="\forerunner\building\factory_01\factory_02_nm" Channel="0" Flags="7"/>
+
+            </normal>
+            <gloss UVWVel="0,0,0">
+                <Map Name="\forerunner\building\factory_01\factory_02_sp" Channel="0" Flags="7"/>
+            </gloss>
+            <opacity UVWVel="0,0,0">
+            </opacity>
+            <xform UVWVel="0,0,0">
+            </xform>
+            <emissive UVWVel="0,0,0">
+                <Map Name="\forerunner\building\fore_bldg_engineering\supply3hole_02_em" Channel="0" Flags="7"/>
+            </emissive>
+            <ao UVWVel="0,0,0">
+                <Map Name="\forerunner\building\factory_01\factory_02_ao" Channel="0" Flags="7"/>
+            </ao>
+            <env UVWVel="0,0,0">
+                <Map Name="\environment\sky\cloudy_sky_dome_en" Channel="0" Flags="7"/>
+            </env>
+            <envmask UVWVel="0,0,0">
+                <Map Name="\forerunner\building\factory_01\factory_02_rm" Channel="0" Flags="7"/>
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+
+
+</Materials>

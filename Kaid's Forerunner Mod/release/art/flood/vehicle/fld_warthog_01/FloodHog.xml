@@ -1,0 +1,304 @@
+<Materials>
+    <Material>
+        <NameValues>
+            <SpecPower>120</SpecPower>
+            <SpecColorR>1</SpecColorR>
+            <SpecColorG>1</SpecColorG>
+            <SpecColorB>1</SpecColorB>
+            <EnvReflectivity>.35</EnvReflectivity>
+            <EnvSharpness>.5</EnvSharpness>
+            <EnvFresnel>.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\warthog_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,4,0">
+                <Map Name="\unsc\vehicle\warthog_01\warthog_01_nm" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\warthog_01_sp" Channel="0" Flags="7"/>
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\warthog_01_xf" Channel="0" Flags="7"/>
+            </xform>
+            <emissive UVWVel="0,0,0">
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+
+    <Material>
+        <NameValues>
+            <SpecPower>500</SpecPower>
+            <SpecColorR>0.5254902</SpecColorR>
+            <SpecColorG>0.5254902</SpecColorG>
+            <SpecColorB>0.5254902</SpecColorB>
+            <EnvReflectivity>0</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>5</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_nm" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_sp" Channel="0" Flags="7"/>
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+                <Map Name="\unsc\infantry\marine_01\marine_01_xf" Channel="0" Flags="7"/>
+            </xform>
+            <emissive UVWVel="0,0,0">
+
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+    <Material>
+        <NameValues>
+            <SpecPower>500</SpecPower>
+            <SpecColorR>0.5137255</SpecColorR>
+            <SpecColorG>0.509804</SpecColorG>
+            <SpecColorB>0.509804</SpecColorB>
+            <EnvReflectivity>0</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_nm" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0,0,0">
+                <Map Name="\flood\vehicle\fld_warthog_01\infected_marine_01_sp" Channel="0" Flags="7"/>
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+                <Map Name="\unsc\infantry\spartan_01\spartan_01_xf" Channel="0" Flags="7"/>
+            </xform>
+            <emissive UVWVel="0,0,0">
+
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+    <Material>
+        <NameValues>
+            <SpecPower>250</SpecPower>
+            <SpecColorR>1</SpecColorR>
+            <SpecColorG>1</SpecColorG>
+            <SpecColorB>1</SpecColorB>
+            <EnvReflectivity>1</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>1</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>7</Flags>
+            <BlendType>1</BlendType>
+            <Opacity>13</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\unsc_windshield_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,4,0">
+                <Map Name="\environment\sky\sw_interior_sky_en" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0,0,0">
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+
+            </xform>
+            <emissive UVWVel="0,0,0">
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+    <Material>
+        <NameValues>
+            <SpecPower>3</SpecPower>
+            <SpecColorR>0</SpecColorR>
+            <SpecColorG>0</SpecColorG>
+            <SpecColorB>0</SpecColorB>
+            <EnvReflectivity>1</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\damage_01\destruction_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,4,0">
+                <Map Name="\unsc\vehicle\damage_01\destruction_nm" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0,0,0">
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+
+            </xform>
+            <emissive UVWVel="0,0,0">
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+    <Material>
+        <NameValues>
+            <SpecPower>25</SpecPower>
+            <SpecColorR>1</SpecColorR>
+            <SpecColorG>1</SpecColorG>
+            <SpecColorB>1</SpecColorB>
+            <EnvReflectivity>1</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\unsc_emissive_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,4,0">
+
+            </normal>
+            <gloss UVWVel="0,0,0">
+            </gloss>
+            <opacity UVWVel="0,0,0">
+
+            </opacity>
+            <xform UVWVel="0,0,0">
+
+            </xform>
+            <emissive UVWVel="0,0,0">
+                <Map Name="\unsc\vehicle\warthog_01\unsc_emissive_01_em" Channel="0" Flags="7"/>
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+
+</Materials>

@@ -1,0 +1,17 @@
+<mod id="hw1-automatic-200-multiplayer">
+  <name>Automatic 200 Multiplayer Mod</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Automatic%20200%20Multiplayer/assets/banner.png?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Automatic%20200%20Multiplayer/assets/icon.png?raw=true</icon>
+  <description>
+    A funky little mod that replaces the difficulty multipliers of Legendary difficulty with the insanely difficult modifiers of Automatic 200 difficulty. What are those modifiers? 133% increased income, 133% increased damage, and 60% damage reduction.
+
+    This mod is multiplayer compatible, but NOT campaign compatible! (yet?)
+  </description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/automatic_200_multiplayer_release.zip</download>
+  <version>1.0.1</version>
+  <flags>
+    <flag>English</flag>
+  </flags>
+</mod>

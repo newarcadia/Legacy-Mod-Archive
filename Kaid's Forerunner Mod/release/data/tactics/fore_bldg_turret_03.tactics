@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon1</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>130</MaxRange>
+		<Accuracy>0.6</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0.25</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<AOELinearDamage />
+		<AOERadius>15</AOERadius>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret1</Hardpoint>
+		<ImpactCameraShake duration="0.3" strength="0.1" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.25" rightRumbleType="Fixed" rightStrength="0.25" duration="0.5" />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">0.1</Value>
+				<Value time="0.2">0.05</Value>
+				<Value time="0.5">0</Value>
+			</ColorTransformFactor>
+			<ColorTransformR>
+				<Value time="0">1,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformB>
+		</ImpactCameraEffect>
+	</Weapon>
+	<Action>
+		<Name>LightCannon1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttackFL</Anim>
+		<Weapon>LightCannon1</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+	</Action>
+
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<Action>LightCannon1AttackAction</Action>	
+		</TargetRule>
+	</Tactic>
+</TacticData>

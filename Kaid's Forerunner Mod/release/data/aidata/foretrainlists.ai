@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="CovMix_1" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_securitydrone_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_air_constructor_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01</c>
+			<c>2</c>
+		</Row>	
+		<Row>
+			<c>fore_air_sentinel_03</c>
+			<c>1</c>
+		</Row>	
+		<Row>
+			<c>fore_air_HeavySentinel_01</c>
+			<c>2</c>
+		</Row>	
+		<Row>
+			<c>fore_air_enforcer_01</c>
+			<c>1</c>
+		</Row>	
+
+	</Table>
+	<Table Name="CovMix_2" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_securitydrone_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>fore_air_constructor_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_02</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_04</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>fore_air_HeavySentinel_01</c>
+			<c>2</c>
+		</Row>	
+
+	</Table>
+	<Table Name="CovMix_3" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_securitydrone_01</c>
+			<c>5</c>
+		</Row>
+		<Row>
+			<c>fore_air_constructor_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>3</c>
+		</Row>
+
+	</Table>
+	<Table Name="CovProphetElites" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_sentinel_03</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_02</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_veh_crawler_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_enforcer_01</c>
+			<c>1</c>
+		</Row>
+
+	</Table>
+	<Table Name="CovGeneral_1" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_securitydrone_01</c>
+			<c>5</c>
+		</Row>
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>fore_air_HeavySentinel_01</c>
+			<c>3</c>
+		</Row>	
+		
+
+	</Table>
+	<Table Name="CovGeneral_2" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_HeavySentinel_01</c>
+			<c>2</c>
+		</Row>	
+
+	</Table>
+	<Table Name="CovGeneral_3" Type="SquadBuildList">
+		<Row>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_air_incinerator_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_air_enforcer_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_02</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fore_air_monitor_04</c>
+			<c>2</c>
+		</Row>
+	</Table>
+
+
+</Tables>

@@ -1,0 +1,13 @@
+<mod id="hw1-desperate-desolation">
+  <name>Desperate Desolation</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Desperate%20Desolation/assets/banner.png?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Desperate%20Desolation/assets/icon.png?raw=true</icon>
+  <description>This is meant to be time consuming and difficult for pvp. (thats the fun part) All buildings and units have been altered to be stronger or weaker, rebels and sentinels are tough opponents now and flood has LOTS of numbers. supplies are precious, they are generated very slowly and everything is expensive. that may seem rediculous and it is but so are cyclopses. this mod is meant to take time and make you think about economy over strategy, i expect lots of bugs, please post any you find. WARNING: some lines of text have been changed and may be deceving and really stupid.</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/desperate_desolation_release.zip</download>
+  <version>1.2.0</version>
+  <flags>
+    <flag>Legacy</flag>
+  </flags>
+</mod>

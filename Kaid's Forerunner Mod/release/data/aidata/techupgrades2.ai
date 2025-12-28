@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="UnscBasic" Type="TechUpgradeTable">
+		<Row>
+			<c>flood_unit_upgrade1</c>
+			<c>fld_inf_infectionform_04</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>flood_unit_upgrade2</c>
+			<c>fld_inf_infectionform_04</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>flood_unit_upgrade3</c>
+			<c>fld_inf_infectionform_04</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>flood_infection_upgrade1</c>
+			<c>fld_inf_infectionform_04</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>flood_infection_upgrade2</c>
+			<c>fld_inf_infectionform_05</c>
+			<c>4</c>
+		</Row>
+	</Table>
+
+	<Table Name="CovBasic" Type="TechUpgradeTable">
+	
+		<Row>
+			<c>fore_beam_upgrade1</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_plating_upgrade1</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_shielding_upgrade1</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_beam_upgrade2</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_plating_upgrade2</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_shielding_upgrade2</c>
+			<c>fore_air_sentinel_01</c>
+			<c>4</c>
+		</Row>
+		
+		<Row>
+			<c>fore_herobeam_upgrade1</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_heroplating_upgrade1</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_heroshielding_upgrade1</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_herobeam_upgrade2</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_heroplating_upgrade2</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>fore_heroshielding_upgrade2</c>
+			<c>fore_hero_monitor_01</c>
+			<c>4</c>
+		</Row>
+	
+	</Table>
+</Tables>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>forerunner\building\fore_bldg_engineering\engbay2</file>
+			</asset>
+			<attach type="ModelFile" name="forerunner\building\fore_bldg_engineering\engbay" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />		
+		</component>
+		<anim type="Idle">
+			<asset type="Anim">
+				<file>forerunner\building\fore_bldg_engineering\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="LightFile" name="forerunner\building\fore_bldg_engineering\factory_idle_01" tobone="bone_breeding_chamber" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

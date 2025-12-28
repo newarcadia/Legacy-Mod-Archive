@@ -1,0 +1,13 @@
+<mod id="hw1-kaids-forerunner-mod">
+  <name>Kaid's Forerunner Mod</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Kaid's%20Forerunner%20Mod/assets/banner.png?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Kaid's%20Forerunner%20Mod/assets/icon.png?raw=true</icon>
+  <description>Goal: To make the Forerunner Defense System function as a playable faction alongside the base/vanilla game factions. This is my first attempt at developing a fully fleshed out mod/addon for public use. I wanted to at least release my current build to start getting feedback on balancing. While testing against vanilla AI kind of works it is hard to gauge if prices and the tech progression fits in an actual multiplayer match.</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/kaid_forerunner_mod_release.zip</download>
+  <version>1.2.0</version>
+  <flags>
+    <flag>Legacy</flag>
+  </flags>
+</mod>

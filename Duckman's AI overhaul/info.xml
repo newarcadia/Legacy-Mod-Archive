@@ -1,0 +1,14 @@
+<mod id="hw1-duckman-ai-overhaul">
+  <name>Duckman's AI/Skirmish overhaul</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Duckman's%20AI%20overhaul/assets/banner.png?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Duckman's%20AI%20overhaul/assets/icon.png?raw=true</icon>
+  <description>If you like halowars1 and want to play vs ai but cant due to the ai being terrible and want a new fresh take on the game's balance than this is the best mod out there for that. Every unit has been altered to fit the balance of this mod and make the ai much more difficult and most importantly uncheeseable. Play by yourself or with friends online against a new level of bots that will make you really need to play halowars1 at its fullest to defeat. This mod is meant for people looking for a fun challenge. One that doesn't cheat too hard like automatic ai difficulty does, but instead makes the bots more intelligent and consistent. Plenty of bug fixes that the base game had in it and many more viable strategies than the base game. Every unit should feel usable and effective as long as the situation calls for it. I really hope you enjoy as much as me and my friends have.</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/duckman_ai_overhaul_release.zip</download>
+  <version>1.0.5</version>
+  <flags>
+    <flag>English</flag>
+    <flag>Overhaul</flag>
+  </flags>
+</mod>
