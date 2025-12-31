@@ -1,0 +1,67 @@
+ALL-
+Turret lvl 2 and 3 cost decreased / lower tech / lower price to build / longer range / more hp
+Ai will build more turrets
+Ai take reduced damage but DONT deal more damage. unless using automatic diffculty
+Ai build better and use hero powers more
+Ai dont build what they cant use. Ex: forge, he does not ever build cyclops because it just makes the ai trash.
+All units target better when the player does not manually select a target to attack. Ai target better as well.
+Fixed some weird bugs like grizzlies being worse than scorpions in 50% of situations.
+
+UNSC - 
+Pelican cost decreased / carry less units
+Healing cost increase / much bigger radius / heal enemies too
+Disruption cost decrease
+Main powers cooldown decreased
+Marines buffed
+Flamethrower upgrades cost decreased
+Scorpion miniturret nerfed
+Cobra upgrades cost decreased / longer range lockdown
+Hornet cost / wingman cost increased
+
+Cutter - 
++ 10 supply cap
+Elephant cost / tech cost decreased
+ODST tech cost reduced / drop pod cooldown decreased / health increased
+Mac blast buffed / cost increased
+always starts with full base
+
+Forge - 
++ 2 spartan cap
+Cyclops upgrade cost decreased
+Carpet bomb buffed
+grizzle research cost increase / hp buffed
+
+Anders - 
++ 1 tech lvl
+No starting warthog
+Passive research cost reductions nerfed
+Hawk cost increased
+Cryo cost reduced / effect slightly changed
+
+Covenant - 
+Hero revive cost reduced
+Grunt buffed / upgrade cost reduced
+Jackel upgrade cost reduced
+Ghost cost and upgrade cost reduced
+Wraith upgrade cost reduced / shield larger
+Scarab time to build increased
+
+Arbiter - 
++ 15 supply cap
+Power - healing increased / damage aura area and damage increased / move speed increased  / cost per attack decreased
+Suicide grunt cost / upgrade cost reduced
+
+Brute chief - 
+Power - damage increased / pickup object area,limit, and damage increased / orb size increased / range increased
+Chopper upgrade cost reduced / Hp increased
+Brute upgrade cost reduced / no tech cost / Brutes spawn 1 brute at half cost
+
+Prophet - 
+Recall leader cost heavily reduced
+Power - cost reduced / targeting speed increased / range increased
+Tech increase cost reduced
+Shield recharge upgrade cost reduced
+Elite honor guard upgrade cost reduced / buffed
+
+Honestly there is probably a bit more but i cant remember them all as this mod was started a year ago and abandoned
+but it feels good and there are no bugs

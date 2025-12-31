@@ -12,7 +12,7 @@
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
@@ -35,7 +35,7 @@
 		<FlashImg>14thdivision</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
@@ -47,7 +47,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
-		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Spartan" Max="5">5</Pop>
 	</Leader>
 	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="4" StatsID="3" DefaultPlayerSlotFlags="0x4">
 		<Civ>UNSC</Civ>
@@ -58,10 +58,10 @@
 		<FlashImg>oni</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">1</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -89,7 +89,7 @@
 		<FlashImg>arbiter</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
@@ -101,7 +101,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Unit" Max="99">50</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>
@@ -114,7 +114,7 @@
 		<FlashImg>bruteleader</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
@@ -139,7 +139,7 @@
 		<FlashImg>prophet</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">1000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
@@ -150,7 +150,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<ReverseHotDropCost Type="Supplies">10</ReverseHotDropCost>
 		<Pop Type="Unit" Max="99">40</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
@@ -163,14 +163,13 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
 	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="5" Random="false">
+	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
 		<Civ />
 		<NameID>23722</NameID>
 		<DescriptionID>23723</DescriptionID>
 		<FlashCivID>2</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
-		<StartingUnit Offset="0, 0, 0">game_base_socket_01</StartingUnit>
 	</Leader>
 	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
 		<Civ>UNSC</Civ>

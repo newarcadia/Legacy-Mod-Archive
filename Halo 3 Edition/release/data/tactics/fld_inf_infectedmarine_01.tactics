@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AssaultRifle</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>7.5</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>bullet_slow</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>80</MaxVelocityLead>
+		<MaxRange>14</MaxRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>0.1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>32</VisualAmmo>
+		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>25</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>collision</WeaponType>
+		<MaxRange>3</MaxRange>
+		<AOERadius>0.85</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.4</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>AssaultRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AssaultRifleAttack</Anim>
+		<ReloadAnim>AssaultRifleReload</ReloadAnim>
+		<WalkForwardAnim>CombatWalkForwardAssaultRifleAttack</WalkForwardAnim>
+		<WalkBackAnim>CombatWalkBackAssaultRifleAttack</WalkBackAnim>
+		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
+		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
+		<Weapon>AssaultRifle</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AssaultRifleAttackAction</Action>
+		</TargetRule>
+			<TargetRule>
+			<Relation>Enemy</Relation>
+			<MeleeAttacker />
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

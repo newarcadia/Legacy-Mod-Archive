@@ -192,10 +192,10 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='1012' category='Techs' subtitle='false'>DEFENSE TURRETS</String>
       <String _locID='1013' category='Techs' subtitle='false'>Adds a light auto-cannon to all Elephants. This turret is only operable when the Elephant is deployed.</String>
-      <String _locID='1014' category='Techs' subtitle='false'>NEW BLOOD</String>
-      <String _locID='1015' category='Techs' subtitle='false'>Adds another Marine to the squad. This increases the combat effectiveness of the squad.</String>
-      <String _locID='1016' category='Techs' subtitle='false'>RPG ABILITY</String>
-      <String _locID='1017' category='Techs' subtitle='false'>Marine active Grenade Ability upgraded to active Rocket Ability. Rockets can attack from a longer range than Grenades.</String>
+      <String _locID='1014' category='Techs' subtitle='false'>SERGEANT</String>
+      <String _locID='1015' category='Techs' subtitle='false'>Adds a sergeant equipped with a br to the squad. This increases the combat effectiveness of the squad.</String>
+      <String _locID='1016' category='Techs' subtitle='false'>RPG</String>
+      <String _locID='1017' category='Techs' subtitle='false'>Adds an marine with the M41SSR which is a man-portable, shoulder-fired, two-tube, 102mm rocket launcher.</String>
       <String _locID='1018' category='Techs' subtitle='false'>
       </String>
       <String _locID='1019' category='Techs' subtitle='false'>
@@ -206,8 +206,8 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='1022' category='Techs' subtitle='false'>GUNNER</String>
       <String _locID='1023' category='Techs' subtitle='false'>Adds Machine Gun attack to the Warthogs, giving them combat capability.</String>
-      <String _locID='1024' category='Techs' subtitle='false'>GRENADIER</String>
-      <String _locID='1025' category='Techs' subtitle='false'>Adds a Marine armed with a Grenade Launcher to improve attack strength.</String>
+      <String _locID='1024' category='Techs' subtitle='false'>ROCKET MARINE</String>
+      <String _locID='1025' category='Techs' subtitle='false'>Adds a Marine armed with a Rocket Launcher to improve attack strength.</String>
       <String _locID='1026' category='Techs' subtitle='false'>WOLVERINE 1</String>
       <String _locID='1027' category='Techs' subtitle='false'>Improves Wolverine damage and defense (for now).</String>
       <String _locID='1028' category='Techs' subtitle='false'>VOLLEY ABILITY</String>
@@ -224,16 +224,16 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='1037' category='Techs' subtitle='false'>
       </String>
-      <String _locID='1038' category='Techs' subtitle='false'>HORNET 1</String>
-      <String _locID='1039' category='Techs' subtitle='false'>Improves Hornet damage and defense.</String>
+      <String _locID='1038' category='Techs' subtitle='false'>HORNET MISSILE LAUNCHER</String>
+      <String _locID='1039' category='Techs' subtitle='false'>Adds two Two Class-2 Guided Munition Launch Systems which help the hornet againist other aircraft and ground vehicles but have a very slow rate of fire.</String>
       <String _locID='1040' category='Techs' subtitle='false'>WINGMEN</String>
       <String _locID='1041' category='Techs' subtitle='false'>Adds a couple of Marines riding shotgun to augment damage capabilities.</String>
       <String _locID='1042' category='Techs' subtitle='false'>Hawk 1</String>
       <String _locID='1043' category='Techs' subtitle='false'>Improves Hawk damage and defense.</String>
       <String _locID='1044' category='Techs' subtitle='false'>Hawk 2</String>
       <String _locID='1045' category='Techs' subtitle='false'>Improves Hawk damage and defense.</String>
-      <String _locID='1046' category='Techs' subtitle='false'>MEDIC</String>
-      <String _locID='1047' category='Techs' subtitle='false'>Adds a Combat Medic to the squad. The Medic heals the squad after combat.</String>
+      <String _locID='1046' category='Techs' subtitle='false'>HEALTH KITS</String>
+      <String _locID='1047' category='Techs' subtitle='false'>Adds an extra marine and health kits to the squad. The health kit heals the squad after combat.</String>
       <String _locID='1048' category='Techs' subtitle='false'>COBRA 1</String>
       <String _locID='1049' category='Techs' subtitle='false'>Improves Cobra damage and defense (for now).</String>
       <String _locID='1050' category='Techs' subtitle='false'>DEFLECTION PLATING</String>
@@ -267,10 +267,10 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='1075' category='Techs' subtitle='false'>
       </String>
-      <String _locID='1076' category='Techs' subtitle='false'>PEONS</String>
-      <String _locID='1077' category='Techs' subtitle='false'>Grunt squads have one additional Grunt.</String>
-      <String _locID='1078' category='Techs' subtitle='false'>NEEDLER</String>
-      <String _locID='1079' category='Techs' subtitle='false'>Grunt squads are now equipped with needlers.</String>
+      <String _locID='1076' category='Techs' subtitle='false'>GRUNT MAJOR</String>
+      <String _locID='1077' category='Techs' subtitle='false'>Gives grunt lances a grunt major.</String>
+      <String _locID='1078' category='Techs' subtitle='false'>ELITE/BRUTE PROMOTION</String>
+      <String _locID='1079' category='Techs' subtitle='false'>Grunt major is now equipped with a needler and the elite minor is now promoted to a major.</String>
       <String _locID='1080' category='Techs' subtitle='false'>DEFENSE GAUNTLET</String>
       <String _locID='1081' category='Techs' subtitle='false'>Adds extra shielding to deflect incoming projectiles.</String>
       <String _locID='1082' category='Techs' subtitle='false'>BEAM RIFLE</String>
@@ -312,7 +312,7 @@ MASTER STRING TABLE INDEX
       <String _locID='1113' category='Techs' subtitle='false'>
       </String>
       <String _locID='1114' category='Techs' subtitle='false'>GAUSS CANNON</String>
-      <String _locID='1115' category='Techs' subtitle='false'>Upgrades Warthog machine gun to a gauss cannon. Improves damage and defense.</String>
+      <String _locID='1115' category='Techs' subtitle='false'>Upgrades Warthog machine gun to a gauss cannon.</String>
       <String _locID='1116' category='Techs' subtitle='false'>Supplies to Energy</String>
       <String _locID='1117' category='Techs' subtitle='false'>Trade Supplies for Energy</String>
       <String _locID='1118' category='Techs' subtitle='false'>Request organics</String>
@@ -345,8 +345,8 @@ MASTER STRING TABLE INDEX
       <String _locID='1143' category='Techs' subtitle='false'>Shadow tech for Locust</String>
       <String _locID='1144' category='Techs' subtitle='false'>OVERDRIVE ABILITY</String>
       <String _locID='1145' category='Techs' subtitle='false'>Enables the Locust Overdrive Ability. This ability uses the Locust's shield generator output to overcharge its beam weapon. Attack power is drastically increased at the expense of the Locust's shields.</String>
-      <String _locID='1146' category='Techs' subtitle='false'>DEACON</String>
-      <String _locID='1147' category='Techs' subtitle='false'>Inspires the Grunt squad, improving their combat abilities.</String>
+      <String _locID='1146' category='Techs' subtitle='false'>GRUNT ULTRA</String>
+      <String _locID='1147' category='Techs' subtitle='false'>Adds a grunt ultra which is the highest rank these little guys can achieve. The grunt ultra is equipped with a plasma pistol that he shoots twice as fast as a minor and major and likes to lob grenades.</String>
       <String _locID='1148' category='Techs' subtitle='false'>Big Monument </String>
       <String _locID='1149' category='Techs' subtitle='false'>Bigger Monuments are worth more </String>
       <String _locID='1150' category='Techs' subtitle='false'>BLESSED WAREHOUSE</String>
@@ -367,10 +367,10 @@ MASTER STRING TABLE INDEX
       <String _locID='1165' category='Techs' subtitle='false'>Adds front-firing 35mm guns, improving the Chopper's attack.</String>
       <String _locID='1166' category='Techs' subtitle='false'>STABILIZERS</String>
       <String _locID='1167' category='Techs' subtitle='false'>Improves autocannon accuracy and damage.</String>
-      <String _locID='1168' category='Techs' subtitle='false'>BRUTE 1</String>
-      <String _locID='1169' category='Techs' subtitle='false'>Shadow tech for Brutes</String>
-      <String _locID='1170' category='Techs' subtitle='false'>JUMP PACK ABILITY</String>
-      <String _locID='1171' category='Techs' subtitle='false'>Enables the Jump Pack Ability, allowing Brutes to quickly cross the battlefield.</String>
+      <String _locID='1168' category='Techs' subtitle='false'>MAJOR UPGRADE</String>
+      <String _locID='1169' category='Techs' subtitle='false'>Brute minors get upgraded to brute majors and the captain gets upgraded to captain major too. The pack grows adding an additional pack member.</String>
+      <String _locID='1170' category='Techs' subtitle='false'>ULTRA UPGRADE</String>
+      <String _locID='1171' category='Techs' subtitle='false'>The pack continues to grow adding 3 more brothers and upgrading all brutes to ultra and captain ultra.</String>
       <String _locID='1172' category='Techs' subtitle='false'>FOLLOWERS</String>
       <String _locID='1173' category='Techs' subtitle='false'>Increases the maximum size of your army by 10.</String>
       <String _locID='1174' category='Techs' subtitle='false'>
@@ -379,7 +379,7 @@ MASTER STRING TABLE INDEX
       </String>
       <!-- ID's  3000 -  4999  reserved for squad names and descriptions -->
       <String _locID='3000' category='Squads' subtitle='false'>MARINE</String>
-      <String _locID='3001' category='Squads' subtitle='false'>Marines are the main UNSC infantry unit. They are good against most everything. They have an active Grenade Ability that can eventually be upgraded to an active Rocket Ability.</String>
+      <String _locID='3001' category='Squads' subtitle='false'>Marines are the backbone of the UNSC's ground forces. Dropping into hostile territory, securing beachheads, and taking the fight to the enemy, the Marines live up their credo: "First to Fight".</String>
       <String _locID='3002' category='Squads' subtitle='false'>
       </String>
       <String _locID='3003' category='Squads' subtitle='false'>
@@ -399,7 +399,7 @@ MASTER STRING TABLE INDEX
       <String _locID='3011' category='Squads' subtitle='false'>
       </String>
       <String _locID='3012' category='Squads' subtitle='false'>ODST</String>
-      <String _locID='3013' category='Squads' subtitle='false'>ODSTs are an elite version of UNSC Marines. They excel at everything a Marine is good at, but can also be hot-dropped anywhere on the battlefield from Spirit of Fire.</String>
+      <String _locID='3013' category='Squads' subtitle='false'>ODSTs are an elite version of UNSC Marines. They excel at everything a Marine is good at, but can also be hot-dropped anywhere on the battlefield from Forward Unto Dawn.</String>
       <String _locID='3014' category='Squads' subtitle='false'>SPARTAN</String>
       <String _locID='3015' category='Squads' subtitle='false'>Prototype UNSC super soldiers, the Spartans possess extreme combat skills. Spartans have an active ability to Jack enemy vehicles and Commandeer friendly vehicles. This boosts the combat power of those vehicles.</String>
       <String _locID='3016' category='Squads' subtitle='false'>WARTHOG</String>
@@ -422,15 +422,15 @@ MASTER STRING TABLE INDEX
       <String _locID='3029' category='Squads' subtitle='false'>Mainline air unit, the Hawk is a sophisticated laser-armed attack craft.</String>
       <String _locID='3030' category='Squads' subtitle='false'>VULTURE</String>
       <String _locID='3031' category='Squads' subtitle='false'>Vultures are the most advanced UNSC war machine. Costly to produce, the Vultures dish out damage at an alarming rate.</String>
-      <String _locID='3032' category='Squads' subtitle='false'>Shortsword</String>
-      <String _locID='3033' category='Squads' subtitle='false'>
+      <String _locID='3032' category='Squads' subtitle='false'>SHORTSWORD</String>
+      <String _locID='3033' category='Squads' subtitle='false'>Shortsword is an atmospheric strategic bomber.
       </String>
       <String _locID='3034' category='Squads' subtitle='false'>
       </String>
       <String _locID='3035' category='Squads' subtitle='false'>
       </String>
-      <String _locID='3036' category='Squads' subtitle='false'>GRUNT SQUAD</String>
-      <String _locID='3037' category='Squads' subtitle='false'>Mainline troop, slow and short range yet still the best returns per cost in combat.</String>
+      <String _locID='3036' category='Squads' subtitle='false'>GRUNT LANCE</String>
+      <String _locID='3037' category='Squads' subtitle='false'>Their discipline is hierarchy-reliant and dependant upon strong leadership and strength of numbers. Leaderless, they present significantly less resistance.</String>
       <String _locID='3038' category='Squads' subtitle='false'>SUICIDE GRUNTS</String>
       <String _locID='3039' category='Squads' subtitle='false'>
       </String>
@@ -443,14 +443,14 @@ MASTER STRING TABLE INDEX
       <String _locID='3044' category='Squads' subtitle='false'>ELITE</String>
       <String _locID='3045' category='Squads' subtitle='false'>
       </String>
-      <String _locID='3046' category='Squads' subtitle='false'>BRUTE</String>
-      <String _locID='3047' category='Squads' subtitle='false'>Specialized, heavy infantry with powerful Brute guns, these squads dish out lots of damage.</String>
-      <String _locID='3048' category='Squads' subtitle='false'>JACKAL</String>
-      <String _locID='3049' category='Squads' subtitle='false'>Counter-infantry unit, often armed with sniper rifles, Jackals can make quick work of enemy infantry.</String>
+      <String _locID='3046' category='Squads' subtitle='false'>BRUTE PACK</String>
+      <String _locID='3047' category='Squads' subtitle='false'>The Brutes waste no time in applying their pack and Alpha male mentality to their new Covenant role. They are powerful, dangerous and prone to acts of berserker violence.</String>
+      <String _locID='3048' category='Squads' subtitle='false'>JACKAL SNIPER</String>
+      <String _locID='3049' category='Squads' subtitle='false'>Physically less powerful than some other Covenant species, Jackals are employed mainly as sharpshooters thanks to their excellent vision and dexterity.</String>
       <String _locID='3050' category='Squads' subtitle='false'>HUNTER</String>
-      <String _locID='3051' category='Squads' subtitle='false'>Counter-vehicle unit, powerful fuel rod cannons are a credible threat even against tanks.</String>
-      <String _locID='3052' category='Squads' subtitle='false'>ARBITER</String>
-      <String _locID='3053' category='Squads' subtitle='false'>Leader of the Covenant forces, the Arbiter is equipped with dual plasma swords for uber-melee death.</String>
+      <String _locID='3051' category='Squads' subtitle='false'>Hunters are actually an assemblage of wormlike entities that create a communal, armor-plated form. They always fight in pairs, are the strongest Covenant fighting units, and wield powerful assault cannons. Their political motivation is completely unknown.</String>
+      <String _locID='3052' category='Squads' subtitle='false'>THEL 'VADAM</String>
+      <String _locID='3053' category='Squads' subtitle='false'>The disgraced Commander of the Covenant Fleet of Particular Justice was stripped of his rank and forced to don the ancient Armor of the Arbiter an Elite custom where a warrior is sent on a suicide mission to claim great honor in death.</String>
       <String _locID='3054' category='Squads' subtitle='false'>
       </String>
       <String _locID='3055' category='Squads' subtitle='false'>
@@ -488,7 +488,7 @@ MASTER STRING TABLE INDEX
       <String _locID='3079' category='Squads' subtitle='false'>
       </String>
       <String _locID='3080' category='Squads' subtitle='false'>ELITE HONOR GUARD</String>
-      <String _locID='3081' category='Squads' subtitle='false'>Specialty troops that guard the Prophet. These stealthy infantry wield powerful plasma swords capable of shredding any target.</String>
+      <String _locID='3081' category='Squads' subtitle='false'>Specialty troops that wield powerful energy swords capable of shredding any target.</String>
       <String _locID='3082' category='Squads' subtitle='false'>GRIZZLY</String>
       <String _locID='3083' category='Squads' subtitle='false'>The UNSC Grizzly is a beefed-up version of the Scorpion. The Grizzly is even better at killing everything than the Scorpion, and starts with dual cannons and the ability to fire canister shells.</String>
       <String _locID='3084' category='Squads' subtitle='false'>BRUTE CHOPPER</String>
@@ -502,6 +502,16 @@ MASTER STRING TABLE INDEX
       <String _locID='3090' category='Squads' subtitle='false'>PELICAN</String>
       <String _locID='3091' category='Squads' subtitle='false'>
       </String>
+	  <String _locID='3092' category='Squads' subtitle='false'>JOHN-117</String>
+      <String _locID='3093' category='Squads' subtitle='false'>John-117 is the last of the elite SPARTAN II soldiers. John-117 is an expert in all weapons and can run faster, jump higher and hit harder than any normal human.</String>
+	  <String _locID='3094' category='Squads' subtitle='false'>BRUTE JUMPERS</String>
+      <String _locID='3095' category='Squads' subtitle='false'>These brutes get straight into the fight and are cheap and fast. Use them in numbers and the flank the enemy or ambush them.</String>
+	  <String _locID='3096' category='Squads' subtitle='false'>BRUTE STALKERS</String>
+      <String _locID='3097' category='Squads' subtitle='false'>These brutes prefer stealth and are used to flank behind enemy lines or protect high profile targets like chieftains.</String>
+	  <String _locID='3098' category='Squads' subtitle='false'>HEAVY GRUNTS</String>
+      <String _locID='3099' category='Squads' subtitle='false'>These grunts are very weak but pack a punch when out of range of enemies so they keep them behind other units so they don't die instantly.</String>
+	  <String _locID='3100' category='Squads' subtitle='false'>HUNTER MAJOR</String>
+      <String _locID='3101' category='Squads' subtitle='false'>Hunters are actually an assemblage of wormlike entities that create a communal, armor-plated form. They always fight in pairs, are the strongest Covenant fighting units, and wield powerful assault cannons. Their political motivation is completely unknown.</String>
       <!-- ID's   5000 -  5999  reserved for powers -->
       <String _locID='5000' category='Powers' subtitle='false'>HEAL &amp; REPAIR</String>
       <String _locID='5001' category='Powers' subtitle='false'>Heal any units and repair any buildings in an area.</String>
@@ -844,12 +854,12 @@ MASTER STRING TABLE INDEX
       <String _locID='6033' category='Abilities' subtitle='false'>UNPACK</String>
       <String _locID='6034' category='Abilities' subtitle='false'>UNPACK TURRET</String>
       <!-- ID's   7000 -  7999  reserved for leaders -->
-      <String _locID='7000' category='Leaders' subtitle='false'>Captain Cutter</String>
-      <String _locID='7001' category='Leaders' subtitle='false'>Unique Unit: ELEPHANT, Leader Power: MAC Blast, Super Unit: ODST, Bonus: All bases start at 1 higher tech level.</String>
-      <String _locID='7002' category='Leaders' subtitle='false'>Sergeant Forge</String>
+      <String _locID='7000' category='Leaders' subtitle='false'>John-117</String>
+      <String _locID='7001' category='Leaders' subtitle='false'>Unique Unit: ELEPHANT, Leader Power: MAC Blast, Super Unit: John-117, Bonus: All bases start at 1 higher tech level.</String>
+      <String _locID='7002' category='Leaders' subtitle='false'>Avery Johnson</String>
       <String _locID='7003' category='Leaders' subtitle='false'>Unique Unit: CYCLOPS, Leader Power: Carpet Bomb, Super Unit: GRIZZLY, Bonus: Builds Heavy Supply Pads right away.</String>
-      <String _locID='7004' category='Leaders' subtitle='false'>Professor Anders</String>
-      <String _locID='7005' category='Leaders' subtitle='false'>Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
+      <String _locID='7004' category='Leaders' subtitle='false'>Miranda Keyes</String>
+      <String _locID='7005' category='Leaders' subtitle='false'>Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: ODST, HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
       <String _locID='7006' category='Leaders' subtitle='false'>
       </String>
       <String _locID='7007' category='Leaders' subtitle='false'>
@@ -858,12 +868,12 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='7009' category='Leaders' subtitle='false'>
       </String>
-      <String _locID='7010' category='Leaders' subtitle='false'>Arbiter</String>
-      <String _locID='7011' category='Leaders' subtitle='false'>Unique Unit: SUICIDE GRUNT, Leader Power: Rage</String>
-      <String _locID='7012' category='Leaders' subtitle='false'>Brute Chieftain</String>
-      <String _locID='7013' category='Leaders' subtitle='false'>Unique Unit: BRUTE, BRUTE CHOPPER, Leader Power: Vortex</String>
-      <String _locID='7014' category='Leaders' subtitle='false'>Prophet of Regret</String>
-      <String _locID='7015' category='Leaders' subtitle='false'>Unique Unit: ELITE HONOR GUARD, Leader Power: Cleansing</String>
+      <String _locID='7010' category='Leaders' subtitle='false'>Thel 'Vadam</String>
+      <String _locID='7011' category='Leaders' subtitle='false'>Unique Unit: ELITE HONOR GUARD, GHOST, SPEC OPS ELITES</String>
+      <String _locID='7012' category='Leaders' subtitle='false'>Cethegus</String>
+      <String _locID='7013' category='Leaders' subtitle='false'>Unique Unit: BRUTE, BRUTE CHOPPER</String>
+      <String _locID='7014' category='Leaders' subtitle='false'>Prophet of Truth</String>
+      <String _locID='7015' category='Leaders' subtitle='false'>Unique Unit: BRUTE CHOPPER, HUNTER MAJOR</String>
       <String _locID='7016' category='Leaders' subtitle='false'>
       </String>
       <String _locID='7017' category='Leaders' subtitle='false'>
@@ -1017,7 +1027,7 @@ MASTER STRING TABLE INDEX
       <String _locID='10102' category='Objects' subtitle='false'>FACTORY</String>
       <String _locID='10103' category='Objects' subtitle='false'>Most Covenant vehicles are pieced together and upgraded at the Factory.</String>
       <String _locID='10104' category='Objects' subtitle='false'>SHADE TURRET</String>
-      <String _locID='10105' category='Objects' subtitle='false'>3 defensive Shade Turrets</String>
+      <String _locID='10105' category='Objects' subtitle='false'>Cheap option to the normal base defense turrets but doesn't pack as much of a punch and is weakly defended.</String>
       <String _locID='10106' category='Objects' subtitle='false'>MEGA TURRET</String>
       <String _locID='10107' category='Objects' subtitle='false'>
       </String>
@@ -1045,13 +1055,13 @@ MASTER STRING TABLE INDEX
       <String _locID='10122' category='Objects' subtitle='false'>BRUTE</String>
       <String _locID='10123' category='Objects' subtitle='false'>
       </String>
-      <String _locID='10124' category='Objects' subtitle='false'>JACKAL</String>
+      <String _locID='10124' category='Objects' subtitle='false'>JACKAL SNIPER</String>
       <String _locID='10125' category='Objects' subtitle='false'>
       </String>
       <String _locID='10126' category='Objects' subtitle='false'>HUNTER</String>
       <String _locID='10127' category='Objects' subtitle='false'>
       </String>
-      <String _locID='10128' category='Objects' subtitle='false'>ARBITER</String>
+      <String _locID='10128' category='Objects' subtitle='false'>THEL 'VADAM</String>
       <String _locID='10129' category='Objects' subtitle='false'>
       </String>
       <String _locID='10130' category='Objects' subtitle='false'>Gorgon</String>
@@ -1088,7 +1098,7 @@ MASTER STRING TABLE INDEX
       <String _locID='10151' category='Objects' subtitle='false'>Builds Sentinels</String>
       <String _locID='10152' category='Objects' subtitle='false'>Forerunner Structure</String>
       <String _locID='10153' category='Objects' subtitle='false'>Builds Sentinels</String>
-      <String _locID='10154' category='Objects' subtitle='false'>SENTINEL</String>
+      <String _locID='10154' category='Objects' subtitle='false'>Sentinel aggressor</String>
       <String _locID='10155' category='Objects' subtitle='false'>Air unit with a standard Forerunner beam weapon</String>
       <String _locID='10156' category='Objects' subtitle='false'>Explosives</String>
       <String _locID='10157' category='Objects' subtitle='false'>
@@ -1149,6 +1159,17 @@ MASTER STRING TABLE INDEX
       <String _locID='10198' category='Objects' subtitle='false'>Use infantry to capture this site which can be used to produce supplies</String>
       <String _locID='10199' category='Objects' subtitle='false'>Use infantry to capture this site which can be used to produce power</String>
       <String _locID='10200' category='Objects' subtitle='false'>Attack this site to force it back to neutral</String>
+	  <String _locID='10201' category='Objects' subtitle='false'>ELITE TEMPLE</String>
+      <String _locID='10202' category='Objects' subtitle='false'>The Elite Temple rallies elite units to the cause.</String>
+	  <String _locID='10203' category='Objects' subtitle='false'>John-117</String>
+      <String _locID='10204' category='Objects' subtitle='false'>
+      </String>
+	  <String _locID='10205' category='Objects' subtitle='false'>Sentinel aggressor major</String>
+      <String _locID='10206' category='Objects' subtitle='false'>
+	  </String>
+	  <String _locID='10207' category='Objects' subtitle='false'>Sentinel aggressor captain</String>
+      <String _locID='10208' category='Objects' subtitle='false'>
+	  </String>
       <!-- ID's  20000 -  29999 reserved for UI -->
       <String _locID='20000' category='Code' subtitle='false'>Energy to %1!s!</String>
       <String _locID='20001' category='Code' subtitle='false'>SUPPLIES TO %1!s!</String>
@@ -1173,7 +1194,7 @@ MASTER STRING TABLE INDEX
       <String _locID='22209' category='Campaign' scenario='1' subtitle='false'>Use Marines to Destroy Barrier Power Source</String>
       <String _locID='22210' category='Campaign' scenario='1' subtitle='false'>Forge Must Survive</String>
       <String _locID='22215' category='Squads' subtitle='false'>HORNET</String>
-      <String _locID='22216' category='Squads' subtitle='false'>Hornets are the main UNSC air unit. They come armed with Gatling cannons and explosive rockets giving them more than adequate offense against most any enemy.</String>
+      <String _locID='22216' category='Squads' subtitle='false'>Hornets are the main UNSC air unit. They come armed with two twin-linked rotary cannons and explosive rockets when upgraded giving them more than adequate offense against most enemies.</String>
       <String _locID='22217' category='Objects' subtitle='false'>Hornet</String>
       <String _locID='22218' category='Objects' subtitle='false'>
       </String>
@@ -1337,8 +1358,8 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='22394' category='Techs' subtitle='false'>
       </String>
-      <String _locID='22395' category='Techs' subtitle='false'>ELECTRIC SHOT</String>
-      <String _locID='22396' category='Techs' subtitle='false'>The Brute Shot causes electrical stun damage when it hits.</String>
+      <String _locID='22395' category='Techs' subtitle='false'>WAR CHIEFTAIN</String>
+      <String _locID='22396' category='Techs' subtitle='false'>The captain gets replaced by a war cheiftain who is equipped with a fuel rod.</String>
       <String _locID='22397' category='Techs' subtitle='false'>
       </String>
       <String _locID='22398' category='Techs' subtitle='false'>
@@ -1360,8 +1381,8 @@ MASTER STRING TABLE INDEX
       <String _locID='22418' category='Skirmish' subtitle='false'>2v2 Maze</String>
       <String _locID='22419' category='Objects' subtitle='false'>Special Ops Center</String>
       <String _locID='22420' category='Objects' subtitle='false'>Special Ops Description</String>
-      <String _locID='22421' category='Techs' subtitle='false'>FLASH BANG ABILITY</String>
-      <String _locID='22422' category='Techs' subtitle='false'>Equips Flamethrowers with active Flash Bang ability that stuns any enemy infantry for a short time.</String>
+      <String _locID='22421' category='Techs' subtitle='false'>FIREBOMB ABILITY</String>
+      <String _locID='22422' category='Techs' subtitle='false'>Equips Flamethrowers with firebombs that set enemy units on fire for a short time.</String>
       <String _locID='22423' category='Techs' subtitle='false'>NAPALM ADHERENT</String>
       <String _locID='22424' category='Techs' subtitle='false'>Slow-burning, sticky napalm burns enemies for several seconds after the initial attack.</String>
       <String _locID='22425' category='Techs' subtitle='false'>OXIDE TANK</String>
@@ -1478,8 +1499,8 @@ MASTER STRING TABLE INDEX
       <String _locID='22538' category='Objects' subtitle='false'>Charges Leader Power</String>
       <String _locID='22539' category='Techs' subtitle='false'>NEEDLER</String>
       <String _locID='22540' category='Techs' subtitle='false'>Adds bonus Anti-Air attack to the Turret.</String>
-      <String _locID='22541' category='Techs' subtitle='false'>TWIN ENGINE</String>
-      <String _locID='22542' category='Techs' subtitle='false'>Elephant speed is greatly improved by the addition of a second engine.</String>
+      <String _locID='22541' category='Techs' subtitle='false'>REAR TURRETS</String>
+      <String _locID='22542' category='Techs' subtitle='false'>Adds two machine guns on the rear at both sides increasing its combat efficenty.</String>
       <String _locID='22543' category='Techs' subtitle='false'>CERAMIC ARMOR</String>
       <String _locID='22544' category='Techs' subtitle='false'>An additional set of composite alloy plates boost the Elephant's damage mediation.</String>
       <String _locID='22545' category='Techs' subtitle='false'>
@@ -1552,10 +1573,10 @@ MASTER STRING TABLE INDEX
       <String _locID='22634' category='Techs' subtitle='false'>Brutes, Brute Choppers, and Brute Tanks are cheaper</String>
       <String _locID='22635' category='Techs' subtitle='false'>Brute war weapons</String>
       <String _locID='22636' category='Techs' subtitle='false'>Brutes, Brute Choppers and Brute Tanks deal more damage against buildings.</String>
-      <String _locID='22637' category='Squads' subtitle='false'>PROPHET OF REGRET</String>
-      <String _locID='22638' category='Squads' subtitle='false'>Leader of the Covenant forces, the Prophet of Regret also brings unique combat abilities to the battlefield. In addition to his combat strength, he can call down the Cleansing Power to incinerate his enemies.</String>
-      <String _locID='22639' category='Objects' subtitle='false'>Prophet</String>
-      <String _locID='22640' category='Objects' subtitle='false'>Prophet description</String>
+      <String _locID='22637' category='Squads' subtitle='false'>PROPHET OF TRUTH</String>
+      <String _locID='22638' category='Squads' subtitle='false'>Leader of the Covenant forces, the Prophet of Truth also brings unique combat abilities to the battlefield.</String>
+      <String _locID='22639' category='Objects' subtitle='false'>Prophet Of Truth</String>
+      <String _locID='22640' category='Objects' subtitle='false'></String>
       <String _locID='22641' category='Campaign' scenario='1' subtitle='false'>Sergeant Forge must try to help scattered groups of pinned-down soldiers and retake Alpha Base.</String>
       <String _locID='22642' category='Campaign' scenario='2' subtitle='false'>With the area around Alpha Base secure, the base must be brought back online. Military units must then be trained and sent to investigate the relic.</String>
       <String _locID='22643' category='Campaign' scenario='3' subtitle='false'>Anders and Forge have been cut off inside the structure. They must be rescued.</String>
@@ -2441,11 +2462,11 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='23524' category='Squads' subtitle='false'>CYCLOPS</String>
       <String _locID='23525' category='Squads' subtitle='false'>The UNSC Cyclops is a unique, special infantry unit.  Experimental exo-skeleton suits provide incredible strength, making the Cyclops ideal for destroying buildings or other large things.</String>
-      <String _locID='23526' category='Objects' subtitle='false'>Brute Chieftain</String>
+      <String _locID='23526' category='Objects' subtitle='false'>BRUTE CHEIFTAIN</String>
       <String _locID='23527' category='Objects' subtitle='false'>
       </String>
-      <String _locID='23528' category='Squads' subtitle='false'>BRUTE CHIEFTAIN</String>
-      <String _locID='23529' category='Squads' subtitle='false'>Leader of the brute forces, carries a gravity hammer able to stun and destroy heavy vehicles.</String>
+      <String _locID='23528' category='Squads' subtitle='false'>BRUTE CHEIFTAIN</String>
+      <String _locID='23529' category='Squads' subtitle='false'>Leader of the brute forces, carries a gravity hammer able to devastate infantry</String>
       <String _locID='23534' category='UI' subtitle='false'>1st - ALPHA - Win</String>
       <String _locID='23535' category='UI' subtitle='false'>2nd - BRAVO - Lose</String>
       <String _locID='23536' category='UI' subtitle='false'>2nd - ALPHA - Lose</String>
@@ -2513,7 +2534,7 @@ MASTER STRING TABLE INDEX
       <String _locID='23597' category='Objects' subtitle='false'>Has a special attack that stuns and slows enemy units.</String>
       <String _locID='23598' category='Objects' subtitle='false'>Recon drone</String>
       <String _locID='23599' category='Objects' subtitle='false'>Scout drone that can cloak and has an expanding visibility range when stationary.</String>
-      <String _locID='23600' category='Squads' subtitle='false'>SENTINEL</String>
+      <String _locID='23600' category='Squads' subtitle='false'>SENTINEL AGGRESSOR</String>
       <String _locID='23601' category='Squads' subtitle='false'>A flying Forerunner unit, the Sentinels inflict corrosive damage with a dangerous beam weapon.</String>
       <String _locID='23602' category='Squads' subtitle='false'>SUPER SENTINEL</String>
       <String _locID='23603' category='Squads' subtitle='false'>The Forerunner Super Sentinel has the unique ability to slow down enemy units while also preempting their attacks.</String>
@@ -2600,8 +2621,7 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='23674' category='UI' scenario='2' subtitle='false'>Use Marines' $$Y$$ Ability vs. Turrets</String>
       <String _locID='23675' category='Squads' subtitle='false'>PELICAN</String>
-      <String _locID='23676' category='Squads' subtitle='false'>
-      </String>
+      <String _locID='23676' category='Squads' subtitle='false'>Mainly used for transport but when upgraded is good against air and ground units.</String>
       <String _locID='23677' subtitle='false'>SPIRIT</String>
       <String _locID='23678' subtitle='false'>
       </String>
@@ -2617,8 +2637,8 @@ MASTER STRING TABLE INDEX
       <String _locID='23688' category='Techs' subtitle='false'>Upgrades Scorpions to Grizzly super units. Grizzlies are heavier tanks that pack a bigger punch than regular Scorpions.</String>
       <String _locID='23689' category='Techs' subtitle='false'>HAWK SUPER UNIT</String>
       <String _locID='23690' category='Techs' subtitle='false'>Upgrades Hornets to Hawk super units. Equipped with laser beams, Hawks are fearsome combat units.</String>
-      <String _locID='23691' category='Techs' subtitle='false'>ODST SUPER UNIT</String>
-      <String _locID='23692' category='Techs' subtitle='false'>Upgrades Marines to Orbital Drop Shock Trooper super units. ODSTs are better than Marines in every way. ODSTs can also be hot-dropped anywhere on the battlefield from Spirit of Fire.</String>
+      <String _locID='23691' category='Techs' subtitle='false'>MIRANDA'S ODST SQUADS</String>
+      <String _locID='23692' category='Techs' subtitle='false'>ODST are inserted directly from orbit into combat behind enemy lines. They have been a critical component of humanity’s military power, particularly during the Insurrection and the Human-Covenant War, arguably second only to the Spartan super-soldier projects.</String>
       <String _locID='23693' category='Cinematics' subtitle='false'>INTRO</String>
       <String _locID='23694' category='Cinematics' subtitle='false'>LABCOATS MEET METAL</String>
       <String _locID='23695' category='Cinematics' subtitle='false'>SAFE AS HOUSES</String>
@@ -2643,8 +2663,8 @@ MASTER STRING TABLE INDEX
       <String _locID='23719' category='UI' subtitle='false'>Play with a random UNSC Leader</String>
       <String _locID='23720' category='UI' subtitle='false'>Random Covenant</String>
       <String _locID='23721' category='UI' subtitle='false'>Play with a random Covenant Leader</String>
-      <String _locID='23722' category='UI' subtitle='false'>Spectator</String>
-      <String _locID='23723' category='UI' subtitle='false'>Use this to create unbalanced teams or to spectate the match.</String>
+      <String _locID='23722' category='UI' subtitle='false'>Random All</String>
+      <String _locID='23723' category='UI' subtitle='false'>Play with a random Leader from either side</String>
       <String _locID='23724' category='Campaign' scenario='3' subtitle='false'>Clear out the remaining Covenant forces.</String>
       <String _locID='23725' category='Campaign' scenario='3' subtitle='false'>Get Forge and Anders to the Marked Landing Zone</String>
       <String _locID='23728' category='Campaign' scenario='6' subtitle='false'>Rhinos are ready to fire! I'm bringing up the targeting computer now. </String>
@@ -3225,8 +3245,9 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID='24342' category='Squads' subtitle='false'>REBEL INFANTRY</String>
       <String _locID='24343' category='Squads' subtitle='false'>Rebel Infantry description</String>
-      <String _locID='24344' category='Squads' subtitle='false'>REBEL SNIPERS</String>
-      <String _locID='24345' category='Squads' subtitle='false'>Rebel Snipers description</String>
+      <String _locID='24344' category='Squads' subtitle='false'>SNIPERS</String>
+      <String _locID='24345' category='Squads' subtitle='false'>
+	  </String>
       <String _locID='24346' category='Squads' subtitle='false'>
       </String>
       <String _locID='24347' category='Squads' subtitle='false'>
@@ -3316,8 +3337,8 @@ MASTER STRING TABLE INDEX
       <String _locID='24409' category='Techs' subtitle='false'>The Cleansing Beam Ability is larger and does more damage.</String>
       <String _locID='24410' category='Techs' subtitle='false'>REGRET'S CONDEMNATION</String>
       <String _locID='24411' category='Techs' subtitle='false'>The Cleansing Beam Ability burns even brighter, doing area damage.</String>
-      <String _locID='24412' category='Techs' subtitle='false'>INHERITANCE</String>
-      <String _locID='24413' category='Techs' subtitle='false'>Adds a stun to the Gravity Hammer.</String>
+      <String _locID='24412' category='Techs' subtitle='false'>BODYGUARDS</String>
+      <String _locID='24413' category='Techs' subtitle='false'>Berserked bodyguards are added to protect the chieftain.</String>
       <String _locID='24414' category='Techs' subtitle='false'>BIRTHRIGHT</String>
       <String _locID='24415' category='Techs' subtitle='false'>When the Chieftain's hammer is charged up, the Chieftain will pull his enemies to him.</String>
       <String _locID='24416' category='Techs' subtitle='false'>DESTINY</String>
@@ -3332,8 +3353,8 @@ MASTER STRING TABLE INDEX
       <String _locID='24425' category='Techs' subtitle='false'>The Arbiter reflects some incoming damage back to his attacker.</String>
       <String _locID='24426' category='Techs' subtitle='false'>VICIOUS BLADES</String>
       <String _locID='24427' category='Techs' subtitle='false'>The Arbiter reflects even more damage and has stronger attacks himself.</String>
-      <String _locID='24428' category='Techs' subtitle='false'>GHASTLY VISION</String>
-      <String _locID='24429' category='Techs' subtitle='false'>The Arbiter becomes permanently cloaked and increases reflected damage even more.</String>
+      <String _locID='24428' category='Techs' subtitle='false'>ACTIVE CAMO</String>
+      <String _locID='24429' category='Techs' subtitle='false'>The Arbiter becomes permanently cloaked</String>
       <String _locID='24430' category='Techs' subtitle='false'>DEFIANT RAGE</String>
       <String _locID='24431' category='Techs' subtitle='false'>Health is restored every time the Arbiter inflicts a fatality in Rage Mode.</String>
       <String _locID='24432' category='Techs' subtitle='false'>SPITEFUL RAGE</String>
@@ -5440,5 +5461,23 @@ MASTER STRING TABLE INDEX
       <String _locID='26751' category='UI' scenario='GameSetup' subtitle='false'>CUSTOM</String>
       <String _locID='26752' category='UI' scenario='GameSetup' subtitle='false'>Automatic</String>
       <String _locID='26753' category='UI' scenario='GameSetup' subtitle='false'>Difficulty</String>
-   </Language>
+	  <String _locID='26754' category='Techs' subtitle='false'>ROCKET LAUNCHER</String>
+      <String _locID='26755' category='Techs' subtitle='false'>Equips John-117 with a rocket launcher dramatically increasing damage.</String>
+	  <String _locID='26756' category='Techs' subtitle='false'>OVERSHIELD</String>
+      <String _locID='26757' category='Techs' subtitle='false'>Cortana has given John-117 an overshield doubling his shields.</String>
+	  <String _locID='26758' category='Squads' subtitle='false'>SPEC OPS ELITE</String>
+      <String _locID='26759' category='Squads' subtitle='false'>Sangheili of this rank are extremely skilled warriors and are sent in to accomplish some of the most dangerous and difficult missions.</String>
+	  <String _locID='26760' category='Objects' subtitle='false'>SPEC OPS ELITE</String>
+      <String _locID='26761' category='Objects' subtitle='false'>
+      </String>
+	  <String _locID='26762' category='Squads' subtitle='false'>SENTINEL AGGRESSOR MAJOR</String>
+      <String _locID='26763' category='Squads' subtitle='false'>A sentinel aggressor with energy shields.</String>
+	  <String _locID='26764' category='Squads' subtitle='false'>SENTINEL AGGRESSOR CAPTAIN</String>
+      <String _locID='26765' category='Squads' subtitle='false'>A sentinel aggressor with energy shields and more durable armour.</String>
+	  <String _locID='26766' category='Squads' subtitle='false'>UNSC MARKSMAN</String>
+      <String _locID='26767' category='Squads' subtitle='false'>UNSC Marksman with snipers who will one shot most infantry and destroy light vehicles.</String>
+	  <String _locID='26768' category='Techs' subtitle='false'>AGE OF THE GREAT JOURNEY</String>
+      <String _locID='26769' category='Techs' subtitle='false'>Improves all Covenant technology.</String>
+	  <String _locID='26770' category='Abilities' subtitle='false'>INVINCIBILITY</String> 
+	</Language>
 </StringTable>

@@ -17,14 +17,15 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_john_117_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
-		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Unit" Max="200">125</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
 	</Leader>
 	<Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" LeaderPickerOrder="3" StatsID="2" DefaultPlayerSlotFlags="0x2">
 		<Civ>UNSC</Civ>
@@ -40,13 +41,16 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Unit" Max="200">125</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="4" StatsID="3" DefaultPlayerSlotFlags="0x4">
@@ -63,13 +67,15 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_marine_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_inf_flameMarine_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Unit" Max="200">125</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
@@ -94,14 +100,15 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_inf_specopselite_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_inf_specopselite_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Unit" Max="200">150</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>
@@ -119,16 +126,16 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_bruteChopper_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_inf_brute_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Unit" Max="200">150</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Leader" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Prophet of Mercy" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="7" StatsID="6" DefaultPlayerSlotFlags="0x20">
 		<Civ>Covenant</Civ>
@@ -144,14 +151,15 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_inf_bruteGrunt_03</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Unit" Max="200">150</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>
@@ -163,14 +171,13 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
 	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="5" Random="false">
+	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
 		<Civ />
 		<NameID>23722</NameID>
 		<DescriptionID>23723</DescriptionID>
 		<FlashCivID>2</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
-		<StartingUnit Offset="0, 0, 0">game_base_socket_01</StartingUnit>
 	</Leader>
 	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
 		<Civ>UNSC</Civ>

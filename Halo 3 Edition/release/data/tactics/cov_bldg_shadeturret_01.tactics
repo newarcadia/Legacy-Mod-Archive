@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadePlasma</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>13</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>plasma_vehicle</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>30</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.1</MovingAccuracy>
+		<MovingMaxDeviation>2.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>ShadePlasmaAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadePlasmaAttack</Anim>
+		<Weapon>ShadePlasma</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadePlasmaAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

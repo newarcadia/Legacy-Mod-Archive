@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>BeamCannon</Name>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>140</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>plasma_fast_anti_flood</WeaponType>
+		<Projectile>fx_proj_beam_01</Projectile>
+		<ImpactEffect size="Medium">foxEmp</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>16</MaxRange>
+		<Accuracy>0.55</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>0.35</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<Daze TargetType="GroundVehicle" MovementModifier="0" SmartTargeting="true">3.0f</Daze>
+		<Daze TargetType="AirCraft" MovementModifier="0" SmartTargeting="true">3.0f</Daze> 
+		<Daze TargetType="TurretBuilding" MovementModifier="0" SmartTargeting="true">3.0f</Daze> 
+		<OverridesRevive />
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>BeamCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>BeamCannon</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>1</HoverAltitudeOffset>
+		<MaxTgtDepressionAngle>45</MaxTgtDepressionAngle>
+		<MaxPitch>15.0f</MaxPitch>
+		<MaxRoll>90.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BeamCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

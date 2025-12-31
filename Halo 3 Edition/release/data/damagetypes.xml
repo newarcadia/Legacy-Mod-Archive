@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DamageTypes>
+	<DamageType AttackRating="true" BaseType="true">Light</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightArmored</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CovenantLeader</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightArmoredInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Medium</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Heavy</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Flood</DamageType>
+	<DamageType Shielded="true">Shielded</DamageType>
+	<DamageType AttackRating="true" BaseType="true">hard_metal_thin</DamageType>
+	<DamageType AttackRating="true" BaseType="true">soft_organic</DamageType>
+	<DamageType AttackRating="true" BaseType="true">soft_floodflesh</DamageType>
+	<DamageType AttackRating="true" BaseType="true">tough_floodflesh</DamageType>
+	<DamageType AttackRating="true" BaseType="true">hard_floodflesh</DamageType>
+	<DamageType AttackRating="true" BaseType="true">hard_metal_thick</DamageType>
+	<DamageType AttackRating="true" BaseType="true">tough_organic</DamageType>
+	<DamageType AttackRating="true" BaseType="true">hard_metal_solid</DamageType>
+	<DamageType AttackRating="true" BaseType="true">soft_floodflesh</DamageType>
+	<DamageType AttackRating="true" BaseType="true">soft_organic_flesh_hunter</DamageType>
+	<DamageType AttackRating="true" BaseType="true">sentinel</DamageType>
+	<DamageType AttackRating="true" BaseType="true">brittle_elec</DamageType>
+	<DamageType Shielded="true">Energy_shield_thin</DamageType>
+	<DamageType>Sprint</DamageType>
+</DamageTypes>

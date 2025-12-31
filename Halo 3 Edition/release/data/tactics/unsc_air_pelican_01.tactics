@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LeftMissileLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>explosion_large</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>75</MaxRange>
+		<AOERadius>2</AOERadius>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>LeftMissileTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>RightMissileLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>explosion_large</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>75</MaxRange>
+		<AOERadius>2</AOERadius>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>RightMissileTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>LeftMissileAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>MissleAttackLeft</Anim>
+		<Weapon>LeftMissileLauncher</Weapon>
+	</Action>
+	<Action>
+		<Name>RightMissileAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissleAttackRight</Anim>
+		<Weapon>RightMissileLauncher</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Transport</Name>
+		<ActionType>Transport</ActionType>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>LeftMissileAttackAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightMissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftMissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>Transport</Action>
+			<Ability>UnscUnload</Ability>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>
