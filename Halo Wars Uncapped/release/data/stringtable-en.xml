@@ -362,7 +362,7 @@ MASTER STRING TABLE INDEX
       <String _locID='1160' category='Techs' subtitle='false'>MISSILE LAUNCHER</String>
       <String _locID='1161' category='Techs' subtitle='false'>Adds bonus Anti-Air attack to the Turret.</String>
       <String _locID='1162' category='Techs' subtitle='false'>REINFORCEMENTS</String>
-      <String _locID='1163' category='Techs' subtitle='false'>Adds +10 to the population cap of your army.</String>
+      <String _locID='1163' category='Techs' subtitle='false'>Adds +5000 to the population cap of your army.</String>
       <String _locID='1164' category='Techs' subtitle='false'>AUTOCANNONS</String>
       <String _locID='1165' category='Techs' subtitle='false'>Adds front-firing 35mm guns, improving the Chopper's attack.</String>
       <String _locID='1166' category='Techs' subtitle='false'>STABILIZERS</String>
@@ -372,7 +372,7 @@ MASTER STRING TABLE INDEX
       <String _locID='1170' category='Techs' subtitle='false'>JUMP PACK ABILITY</String>
       <String _locID='1171' category='Techs' subtitle='false'>Enables the Jump Pack Ability, allowing Brutes to quickly cross the battlefield.</String>
       <String _locID='1172' category='Techs' subtitle='false'>FOLLOWERS</String>
-      <String _locID='1173' category='Techs' subtitle='false'>Increases the maximum size of your army by 10.</String>
+      <String _locID='1173' category='Techs' subtitle='false'>Increases the maximum size of your army by 5000.</String>
       <String _locID='1174' category='Techs' subtitle='false'>
       </String>
       <String _locID='1175' category='Techs' subtitle='false'>
@@ -849,7 +849,7 @@ MASTER STRING TABLE INDEX
       <String _locID='7002' category='Leaders' subtitle='false'>Sergeant Forge</String>
       <String _locID='7003' category='Leaders' subtitle='false'>Unique Unit: CYCLOPS, Leader Power: Carpet Bomb, Super Unit: GRIZZLY, Bonus: Builds Heavy Supply Pads right away.</String>
       <String _locID='7004' category='Leaders' subtitle='false'>Professor Anders</String>
-      <String _locID='7005' category='Leaders' subtitle='false'>Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
+      <String _locID='7005' category='Leaders' subtitle='false'>Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price.</String>
       <String _locID='7006' category='Leaders' subtitle='false'>
       </String>
       <String _locID='7007' category='Leaders' subtitle='false'>
@@ -3740,7 +3740,7 @@ MASTER STRING TABLE INDEX
       <String _locID='24865' category='Objects' subtitle='false'>CATCH SKULL</String>
       <String _locID='24866' category='Objects' subtitle='false'>SUGAR COOKIES SKULL</String>
       <String _locID='24867' category='Objects' subtitle='false'>BOOMSTICK SKULL</String>
-      <String _locID='24868' category='Objects' subtitle='false'>PAIN TRAIN SKULL</String>
+      <String _locID='24868' category='Objects' subtitle='false'>TURBO MODE SKULL</String>
       <String _locID='24869' category='Objects' subtitle='false'>BOUNTIFUL HARVEST SKULL</String>
       <String _locID='24870' category='Objects' subtitle='false'>EMPEROR SKULL</String>
       <String _locID='24871' category='Objects' subtitle='false'>BLACK BOX #1</String>
@@ -3863,7 +3863,7 @@ MASTER STRING TABLE INDEX
       <String _locID='24999' category='UI' subtitle='false'>Catch</String>
       <String _locID='25000' category='UI' subtitle='false'>Sugar Cookies</String>
       <String _locID='25001' category='UI' subtitle='false'>Boomstick</String>
-      <String _locID='25002' category='UI' subtitle='false'>Pain Train</String>
+      <String _locID='25002' category='UI' subtitle='false'>Turbo Mode</String>
       <String _locID='25003' category='UI' subtitle='false'>Bountiful Harvest</String>
       <String _locID='25004' category='UI' subtitle='false'>Emperor</String>
       <String _locID='25005' category='UI' subtitle='false'>When Grunts die, their methane tank always shoots off.</String>
@@ -3878,9 +3878,9 @@ MASTER STRING TABLE INDEX
       <String _locID='25014' category='UI' subtitle='false'>All player units recharge unit abilities in half the time. Final score will decrease.</String>
       <String _locID='25015' category='UI' subtitle='false'>All player units have 50% more hitpoints. Final score will decrease.</String>
       <String _locID='25016' category='UI' subtitle='false'>5% chance any non-player unit blows up upon death with explosive area of effect damage. Final score will decrease.</String>
-      <String _locID='25017' category='UI' subtitle='false'>All player units train 50% faster. Final score will decrease.</String>
-      <String _locID='25018' category='UI' subtitle='false'>Supplies come in 25% faster. Final score will decrease.</String>
-      <String _locID='25019' category='UI' subtitle='false'>All player powers recharge in half the time. Final score will decrease.</String>
+      <String _locID='25017' category='UI' subtitle='false'>SIGNIFICANTLY reduces the time needed to build structures, train units, and research upgrades. Also triples the production rate of Supply Pads/Warehouses. Final score will significantly decrease.</String>
+      <String _locID='25018' category='UI' subtitle='false'>Does nothing. Effects merged into Turbo Mode.</String>
+      <String _locID='25019' category='UI' subtitle='false'>SIGNIFICANTLY reduces the time needed for leader powers to recharge. Final score significantly decreased.</String>
       <String _locID='25020' category='Campaign' scenario='9' subtitle='false'>This new threat is more deadly and smarter than I initially thought.</String>
       <String _locID='25021' category='UI' subtitle='false'>Skull Description</String>
       <String _locID='25022' category='UI' subtitle='false'>SKULL LOCKED</String>
