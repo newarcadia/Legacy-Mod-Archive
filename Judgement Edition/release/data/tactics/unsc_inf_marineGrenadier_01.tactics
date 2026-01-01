@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverGrenadeLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_02</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverGrenadeLauncher2</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_03</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_02</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncher2</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_03</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncherBurst</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_02</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncherBurst2</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_autoGrenade_03</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>InCoverGrenadeLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>InCoverGrenadeLauncher</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverGrenadeLauncherAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>InCoverGrenadeLauncher2</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>GrenadeLauncher</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>GrenadeLauncherAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>GrenadeLauncher2</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeLauncherBurstAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherBurstAttack</Anim>
+		<Weapon>GrenadeLauncherBurst</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>3</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeLauncherBurstAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherBurstAttack</Anim>
+		<Weapon>GrenadeLauncherBurst2</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>3</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>CampaignAction</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>CampaignFoo</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.166999996</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverGrenadeLauncherAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverGrenadeLauncherAttackAction2</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>GrenadeLauncherAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>GrenadeLauncherAttackAction2</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>GrenadeLauncherBurstAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>GrenadeLauncherBurstAttackAction2</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CampaignAction</TargetType>
+			<Action>CampaignAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

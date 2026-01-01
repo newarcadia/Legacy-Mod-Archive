@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\darter_01\darter_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="Turret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\darter_01\thruster_01" tobone="Thruster" syncanims="false" disregardorient="false" />
+			<point pointType="Impact" bone="impactbone01" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone02" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone03" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone04" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone05" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone06" pointData="Metal" />
+			<point pointType="Impact" bone="impactbone07" pointData="Metal" />
+			<point pointType="Board" bone="Board" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Work" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RocketAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="RocketAttack">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanHornetJack" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.724" end="1" name="ani_spartan_jack_success" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\darter_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.0421000011265278</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.317199975252151</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.013" end="1" name="effects\special\teleportVeh_01" tobone="BoneHornet" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.00680000009015203</Value>
+							<Alpha>0.169400006532669</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.323399990797043</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224" end="1" name="effects\special\teleportVeh_01" tobone="BoneHornet" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\darter_01\turret_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.25" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bonelaunchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.75" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.75" end="1" tobone="bonelaunchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hornet\chaingunmuzzle_02" tobone="bonelaunchpoint04" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

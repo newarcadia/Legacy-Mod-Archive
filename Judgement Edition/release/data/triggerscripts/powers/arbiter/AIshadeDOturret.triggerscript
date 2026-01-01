@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="arcDOtower.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="2" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="3" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="4" Type="ProtoObject" Name="towerOBJ" IsNull="false">cov_pow_shadeTurret_01</TriggerVar>
+    <TriggerVar ID="9" Type="Operator" Name="NewOperator9" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="10" Type="Time" Name="NewTime10" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="11" Type="Unit" Name="NewUnit11" IsNull="false" />
+    <TriggerVar ID="12" Type="AnimType" Name="NewAnimType12" IsNull="false">Train</TriggerVar>
+    <TriggerVar ID="14" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="15" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="16" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="17" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="18" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="19" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="20" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="21" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="22" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="23" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="24" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="25" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="26" Type="Trigger" Name="wait" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="27" Type="Time" Name="nullTime" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1337" Y="435" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">15</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">16</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">17</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">18</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">19</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">20</Output>
+          </Condition>
+          <Condition ID="2" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">21</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="9" Type="CreateUnit v1" DBID="154" Version="1" CommentOut="false">
+          <Input Name="ProtoObject" SigID="1" Optional="false">4</Input>
+          <Input Name="Player" SigID="2" Optional="false">2</Input>
+          <Input Name="Location" SigID="3" Optional="false">21</Input>
+          <Input Name="StartBuilt" SigID="4" Optional="false">3</Input>
+          <Output Name="Unit" SigID="5" Optional="true">11</Output>
+          <Output Name="AddUnitList" SigID="6" Optional="true">22</Output>
+          <Output Name="Squad" SigID="7" Optional="true">23</Output>
+          <Output Name="AddSquadList" SigID="8" Optional="true">24</Output>
+          <Output Name="ClearExisting" SigID="9" Optional="true">25</Output>
+        </Effect>
+        <Effect ID="16" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">26</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="4" Name="wait" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4561" Y="676" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="6" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">9</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">10</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="17" Type="PlayAnimationUnit v2" DBID="159" Version="2" CommentOut="false">
+          <Input Name="UnitToAnimate" SigID="1" Optional="false">11</Input>
+          <Input Name="AnimType" SigID="2" Optional="false">12</Input>
+          <Output Name="AnimDuration" SigID="4" Optional="true">27</Output>
+        </Effect>
+        <Effect ID="13" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="reconTraining.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="2" Type="Power" Name="OwnerPower" IsNull="false" />
+    <TriggerVar ID="6" Type="Tech" Name="NewTech6" IsNull="false">brute_devoutmechanics</TriggerVar>
+    <TriggerVar ID="11" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="12" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="13" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="14" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="15" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="16" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="17" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="18" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="19" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="20" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="21" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="22" Type="PlayerList" Name="nullPlayerList" IsNull="true" />
+    <TriggerVar ID="23" Type="Squad" Name="nullSquad" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-71" Y="-193" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">2</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">12</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">13</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">14</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="7" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="Tech" SigID="2" Optional="false">6</Input>
+        </Effect>
+        <Effect ID="3" Type="PowerChargeUseOf v5" DBID="77" Version="5" CommentOut="false">
+          <Input Name="Owner" SigID="1" Optional="false">1</Input>
+          <Input Name="Power" SigID="2" Optional="false">2</Input>
+          <Input Name="Squad" SigID="4" Optional="true">17</Input>
+          <Input Name="Target" SigID="5" Optional="true">18</Input>
+          <Input Name="CostMultiplier" SigID="6" Optional="true">19</Input>
+        </Effect>
+        <Effect ID="22" Type="UsePower v4" DBID="77" Version="4" CommentOut="false">
+          <Input Name="Owner" SigID="1" Optional="false">1</Input>
+          <Input Name="Power" SigID="2" Optional="false">2</Input>
+          <Input Name="Squad" SigID="4" Optional="true">20</Input>
+          <Input Name="Target" SigID="5" Optional="true">21</Input>
+        </Effect>
+        <Effect ID="20" Type="PowerRevoke v3" DBID="457" Version="3" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="true">1</Input>
+          <Input Name="PlayerList" SigID="4" Optional="true">22</Input>
+          <Input Name="Power" SigID="2" Optional="false">2</Input>
+          <Input Name="PowerSquad" SigID="5" Optional="true">23</Input>
+        </Effect>
+        <Effect ID="11" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="6" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

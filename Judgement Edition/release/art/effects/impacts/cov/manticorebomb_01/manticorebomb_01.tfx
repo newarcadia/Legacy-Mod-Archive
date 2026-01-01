@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\manticorebomb_01\manticorebomb_01</particlefile>
+   </default>
+
+</TerrainEffect>

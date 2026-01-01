@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Spikes</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>SpikesUpgraded</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>SpikesUpgraded2</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_floodspitPiercing_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>SpikesAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Spikes</Weapon>
+		<Anim>SpikeAttack</Anim>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>SpikesAttackActionUpgraded</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>SpikesUpgraded</Weapon>
+		<Anim>SpikeAttack</Anim>
+		<MainAttack />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>SpikesAttackActionUpgraded2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>SpikesUpgraded2</Weapon>
+		<Anim>SpikeAttack</Anim>
+		<MainAttack />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpikesAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpikesAttackActionUpgraded</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpikesAttackActionUpgraded2</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

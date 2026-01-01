@@ -1,0 +1,13 @@
+<mod id="hw1-arbiters-apprentice" creator="Crysilos">
+  <name>Arbiter's Apprentice</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Arbiter's%20Apprentice/assets/banner.webp?raw=true</banner>
+  <icon></icon>
+  <description>Adding new units and powers to compliment each leaders vanilla game strengths. New game mechanics that will breath new life into this already great game!</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/arbiters_apprentice_release.zip</download>
+  <version>1.1.0</version>
+  <flags>
+    <flag>English</flag>
+  </flags>
+</mod>

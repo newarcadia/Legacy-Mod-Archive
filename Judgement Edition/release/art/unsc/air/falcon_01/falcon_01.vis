@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\falcon_01</file>
+			</asset>
+			<attach type="ModelRef" name="Prop" tobone="prop1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Prop" tobone="prop2" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\thrust_01" tobone="fx_03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\thrust_01" tobone="fx_04" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\thrust_02" tobone="fx_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\thrust_02" tobone="fx_02" syncanims="false" disregardorient="false" />
+			
+			<!--
+			<attach type="ParticleFile" name="unsc\air\falcon_01\headlight_01" tobone="light1" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\headlight_01" tobone="light2" syncanims="false" disregardorient="false" />
+			-->
+			
+			
+			<attach type="ModelRef" name="MarineBottomLeft" tobone="seatLeft" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="MarineBottomRight" tobone="seatRight" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<point pointType="Board" bone="BoneSpartan" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="CannonAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.00001" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.00001" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.2" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.2" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.2" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpartanHawkJack" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.042100001126527786</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.31719997525215149</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportVeh_01" tobone="BoneBody" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportVeh_01" tobone="BoneBody" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_rail_gun_01</file>
+			</asset>
+		</component>
+		<anim type="LaserAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\cannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\unsc\hawk\laserexhaust_01" tobone="BoneBody" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_weap_unsc_gremlin_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="BoneLaunchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects/vehicle_fx/unsc/hawk/hawkLaserMuzzleblast" tobone="BoneLaunchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="TurbineR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_r_turbine_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\rotor_01" tobone="BoneRotorFxR" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+	<model name="TurbineL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_l_turbine_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\rotor_01" tobone="BoneRotorFxL" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+	<model name="MachineGunR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_r_mg_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttackR" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\mgAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_unsc_hawk_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="BoneLaunchpointR" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="BoneLaunchpointR" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="MachineGunL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hawk_01\hawk_l_mg_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttackL" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\mgAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_unsc_hawk_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="BoneLaunchpointL" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="BoneLaunchpointL" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Prop">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\prop_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachineGunLeftAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachineGunRightAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrenadeLauncherLeftAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrenadeLauncherRightAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanHawkJack" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	
+	
+	
+	<model name="MarineBottomLeft">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\marinebottom_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\marinebottom_01</file>
+			</asset>
+			<attach type="ModelRef" name="MarineTopLeft" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+	</model>
+	<model name="MarineTopLeft">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\marinetop_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\marinetop_01</file>
+			</asset>
+			<attach type="ModelRef" name="GunLeft" tobone="turret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+	</model>
+	<model name="GunLeft">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\grenade_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gun_01</file>
+			</asset>
+		</component>
+		<anim type="MachineGunLeftAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.00001" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.00001" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GrenadeLauncherLeftAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\wolverine_01\wolverine_gl_attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.0001" end="1" name="effects\vehicle_fx\unsc\wolverine\grenadelaunchermuzzle_01" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.0001" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0001" end="1" name="play_weap_unsc_grenade_launcher" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	
+	<model name="MarineBottomRight">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\marinebottom_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\marinebottom_01</file>
+			</asset>
+			<attach type="ModelRef" name="MarineTopRight" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+	</model>
+	<model name="MarineTopRight">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\marinetop_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\marinetop_01</file>
+			</asset>
+			<attach type="ModelRef" name="GunRight" tobone="turret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+	</model>
+	<model name="GunRight">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\grenade_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gun_01</file>
+			</asset>
+		</component>
+		<anim type="MachineGunRightAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.00001" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.00001" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GrenadeLauncherRightAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\wolverine_01\wolverine_gl_attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.0001" end="1" name="effects\vehicle_fx\unsc\wolverine\grenadelaunchermuzzle_01" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.0001" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0001" end="1" name="play_weap_unsc_grenade_launcher" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

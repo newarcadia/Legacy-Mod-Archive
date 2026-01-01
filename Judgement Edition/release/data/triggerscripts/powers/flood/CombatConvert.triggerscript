@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FldLeaderCombatConvert.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="90" Type="Player" Name="NewPlayer90" IsNull="false" />
+    <TriggerVar ID="91" Type="Power" Name="NewPower91" IsNull="false" />
+    <TriggerVar ID="93" Type="ObjectType" Name="NewObjectType93" IsNull="false">CombatForm</TriggerVar>
+    <TriggerVar ID="97" Type="Cost" Name="NewCost97" IsNull="false">0=10,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="98" Type="Integer" Name="Combat Count" IsNull="false" />
+    <TriggerVar ID="99" Type="Integer" Name="zero" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="100" Type="Operator" Name="operator" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="103" Type="Integer" Name="zero" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="104" Type="Operator" Name="operator" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="108" Type="Operator" Name="operator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="109" Type="Time" Name="NewTime109" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="111" Type="Integer" Name="NewInteger111" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="112" Type="MathOperator" Name="NewMathOperator112" IsNull="false">Subtract</TriggerVar>
+    <TriggerVar ID="114" Type="UnitList" Name="NewUnitList114" IsNull="false" />
+    <TriggerVar ID="118" Type="Trigger" Name="startup" IsNull="false">47</TriggerVar>
+    <TriggerVar ID="119" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="120" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="121" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="122" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="123" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="124" Type="Trigger" Name="can use power (t)" IsNull="false">49</TriggerVar>
+    <TriggerVar ID="125" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="126" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="127" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="128" Type="Trigger" Name="check if above 0 (t)" IsNull="false">52</TriggerVar>
+    <TriggerVar ID="129" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="130" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="131" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="132" Type="Trigger" Name="check if track above 0 (t)" IsNull="false">53</TriggerVar>
+    <TriggerVar ID="133" Type="Trigger" Name="loop" IsNull="false">55</TriggerVar>
+    <TriggerVar ID="134" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="135" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="136" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="137" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="138" Type="ObjectList" Name="nullObjectList" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="47" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="6125" Y="1383" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="48" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">90</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">91</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">119</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">120</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">121</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">122</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">123</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="77" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">124</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="49" Name="can use power (t)" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="7493" Y="1418" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="51" Type="CanUsePower v1" DBID="27" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">90</Input>
+            <Input Name="Power" SigID="2" Optional="false">91</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="79" Type="GetUnits v3" DBID="112" Version="3" CommentOut="false">
+          <Input Name="FilterPlayer" SigID="1" Optional="true">90</Input>
+          <Input Name="FilterObjectType" SigID="2" Optional="true">93</Input>
+          <Input Name="FilterLocation" SigID="3" Optional="true">125</Input>
+          <Input Name="FilterDistance" SigID="4" Optional="true">126</Input>
+          <Input Name="FilterUnitList" SigID="7" Optional="true">127</Input>
+          <Output Name="FoundUnits" SigID="5" Optional="true">114</Output>
+          <Output Name="FoundUnitCount" SigID="6" Optional="true">98</Output>
+        </Effect>
+        <Effect ID="84" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">128</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="78" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="52" Name="check if above 0 (t)" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="11363" Y="1504" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="54" Type="CompareInteger v1" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstInteger" SigID="1" Optional="false">98</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">100</Input>
+            <Input Name="SecondInteger" SigID="3" Optional="false">99</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="86" Type="PowerChargeUseOf v5" DBID="77" Version="5" CommentOut="false">
+          <Input Name="Owner" SigID="1" Optional="false">90</Input>
+          <Input Name="Power" SigID="2" Optional="false">91</Input>
+          <Input Name="Squad" SigID="4" Optional="true">129</Input>
+          <Input Name="Target" SigID="5" Optional="true">130</Input>
+          <Input Name="CostMultiplier" SigID="6" Optional="true">131</Input>
+        </Effect>
+        <Effect ID="87" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">132</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="53" Name="check if track above 0 (t)" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="14025" Y="1285" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="56" Type="CompareInteger v1" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstInteger" SigID="1" Optional="false">98</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">104</Input>
+            <Input Name="SecondInteger" SigID="3" Optional="false">103</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="92" Type="RefundCost v1" DBID="51" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">90</Input>
+          <Input Name="ResourceAmount" SigID="2" Optional="false">97</Input>
+        </Effect>
+        <Effect ID="95" Type="MathInt v1" DBID="179" Version="1" CommentOut="false">
+          <Input Name="FirstInt" SigID="1" Optional="false">98</Input>
+          <Input Name="MathOperator" SigID="2" Optional="false">112</Input>
+          <Input Name="SecondInt" SigID="3" Optional="false">111</Input>
+          <Output Name="ResultInt" SigID="4" Optional="false">98</Output>
+        </Effect>
+        <Effect ID="93" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">133</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="101" Type="Kill v4" DBID="37" Version="4" CommentOut="false">
+          <Input Name="KillUnit" SigID="3" Optional="true">134</Input>
+          <Input Name="KillUnitList" SigID="4" Optional="true">114</Input>
+          <Input Name="KillSquad" SigID="5" Optional="true">135</Input>
+          <Input Name="KillSquadList" SigID="6" Optional="true">136</Input>
+          <Input Name="Object" SigID="7" Optional="true">137</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">138</Input>
+        </Effect>
+        <Effect ID="98" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="55" Name="loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="18089" Y="1435" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="58" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">108</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">109</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="96" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">132</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

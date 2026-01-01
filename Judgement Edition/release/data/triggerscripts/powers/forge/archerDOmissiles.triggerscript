@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="archerDOmissiles.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="2" Type="Vector" Name="StartLocation" IsNull="false" />
+    <TriggerVar ID="3" Type="Integer" Name="MissileCount" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="4" Type="Operator" Name="NewOperator4" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="5" Type="Integer" Name="zero" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="8" Type="Float" Name="Outer" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="10" Type="Float" Name="X" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="12" Type="Float" Name="Y" IsNull="false">80</TriggerVar>
+    <TriggerVar ID="14" Type="Float" Name="Z" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="16" Type="Vector" Name="TargetLocation" IsNull="false" />
+    <TriggerVar ID="18" Type="Vector" Name="LaunchLocation" IsNull="false" />
+    <TriggerVar ID="19" Type="ProtoObject" Name="MissileOBJ" IsNull="false">pow_cp_archermissile_02</TriggerVar>
+    <TriggerVar ID="21" Type="Operator" Name="NewOperator4" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="22" Type="Time" Name="NewTime22" IsNull="false">125</TriggerVar>
+    <TriggerVar ID="26" Type="Tech" Name="NewTech26" IsNull="false">forge_archermissiles_upgrade</TriggerVar>
+    <TriggerVar ID="28" Type="TechStatus" Name="NewTechStatus28" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="31" Type="Integer" Name="MissileAdd" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="32" Type="MathOperator" Name="NewMathOperator32" IsNull="false">Add</TriggerVar>
+    <TriggerVar ID="34" Type="Tech" Name="NewTech26" IsNull="false">forge_archermissiles_upgrade</TriggerVar>
+    <TriggerVar ID="35" Type="TechStatus" Name="NewTechStatus28" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="37" Type="ProtoObject" Name="MissileOBJ" IsNull="false">pow_cp_archermissile_01</TriggerVar>
+    <TriggerVar ID="40" Type="Trigger" Name="startup" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="41" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="42" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="43" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="44" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="45" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="46" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="47" Type="Trigger" Name="(c) check upgrade" IsNull="false">15</TriggerVar>
+    <TriggerVar ID="48" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="49" Type="Trigger" Name="(c) check increment" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="50" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="51" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="52" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="53" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="54" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="55" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="56" Type="Trigger" Name="(c) check upgrade" IsNull="false">19</TriggerVar>
+    <TriggerVar ID="57" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="58" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="59" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="60" Type="Trigger" Name="NewTrigger21" IsNull="false">21</TriggerVar>
+    <TriggerVar ID="61" Type="Trigger" Name="wait before looping" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="62" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="63" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="1" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-2269" Y="-95" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">41</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">42</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">43</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">44</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">45</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">46</Output>
+          </Condition>
+          <Condition ID="2" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">2</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="1" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">47</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="15" Name="(c) check upgrade" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-639" Y="-130" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="14" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">1</Input>
+            <Input Name="Tech" SigID="2" Optional="false">26</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">28</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">48</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="24" Type="MathInt v1" DBID="179" Version="1" CommentOut="false">
+          <Input Name="FirstInt" SigID="1" Optional="false">3</Input>
+          <Input Name="MathOperator" SigID="2" Optional="false">32</Input>
+          <Input Name="SecondInt" SigID="3" Optional="false">31</Input>
+          <Output Name="ResultInt" SigID="4" Optional="false">3</Output>
+        </Effect>
+        <Effect ID="21" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">49</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="23" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">49</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="3" Name="(c) check increment" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1647" Y="18" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="CompareInteger v1" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstInteger" SigID="1" Optional="false">3</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">4</Input>
+            <Input Name="SecondInteger" SigID="3" Optional="false">5</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="19" Type="RandomLocation v4" DBID="55" Version="4" CommentOut="false">
+          <Input Name="OrigLocation" SigID="1" Optional="false">2</Input>
+          <Input Name="InnerRadius" SigID="2" Optional="true">50</Input>
+          <Input Name="OuterRadius" SigID="4" Optional="false">8</Input>
+          <Input Name="TestObstructions" SigID="5" Optional="true">51</Input>
+          <Input Name="TestPathing" SigID="6" Optional="true">52</Input>
+          <Input Name="TestProtoObject" SigID="7" Optional="true">53</Input>
+          <Input Name="TestProtoSquad" SigID="8" Optional="true">54</Input>
+          <Output Name="RandLocation" SigID="3" Optional="false">16</Output>
+        </Effect>
+        <Effect ID="7" Type="LocationAdjust v2" DBID="59" Version="2" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">16</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">10</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">12</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">14</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">55</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">18</Output>
+        </Effect>
+        <Effect ID="27" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">56</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="5" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="19" Name="(c) check upgrade" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5838" Y="88" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="18" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">1</Input>
+            <Input Name="Tech" SigID="2" Optional="false">34</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">35</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">57</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="12" Type="LaunchProjectile v3" DBID="57" Version="3" CommentOut="false">
+          <Input Name="ProjectileOwner" SigID="1" Optional="false">1</Input>
+          <Input Name="ProjectileProto" SigID="2" Optional="false">19</Input>
+          <Input Name="StartLoc" SigID="3" Optional="false">18</Input>
+          <Input Name="TargetLoc" SigID="4" Optional="true">16</Input>
+          <Input Name="TargetUnit" SigID="5" Optional="true">58</Input>
+          <Input Name="DamageOverride" SigID="6" Optional="true">59</Input>
+        </Effect>
+        <Effect ID="30" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">60</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="29" Type="LaunchProjectile v3" DBID="57" Version="3" CommentOut="false">
+          <Input Name="ProjectileOwner" SigID="1" Optional="false">1</Input>
+          <Input Name="ProjectileProto" SigID="2" Optional="false">37</Input>
+          <Input Name="StartLoc" SigID="3" Optional="false">18</Input>
+          <Input Name="TargetLoc" SigID="4" Optional="true">16</Input>
+          <Input Name="TargetUnit" SigID="5" Optional="true">62</Input>
+          <Input Name="DamageOverride" SigID="6" Optional="true">63</Input>
+        </Effect>
+        <Effect ID="31" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">60</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="21" Name="NewTrigger21" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="9015" Y="395" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="13" Type="IntDecrement v1" DBID="53" Version="1" CommentOut="false">
+          <Input Name="OriginalInt" SigID="1" Optional="false">3</Input>
+          <Output Name="DecrementedInt" SigID="2" Optional="false">3</Output>
+        </Effect>
+        <Effect ID="14" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">61</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="10" Name="wait before looping" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="10851" Y="121" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="9" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">21</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">22</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="17" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">49</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

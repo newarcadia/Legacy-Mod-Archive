@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\unsc\commandoCyclopsLaser_01\commandoCyclopsLaser_01</particlefile>
+   </default>
+
+</TerrainEffect>

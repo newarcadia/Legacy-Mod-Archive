@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="infantryDOdrop.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="50" Type="ProtoSquadList" Name="NewProtoSquadList33" IsNull="false">forfaction_inf_soldier_01,forfaction_inf_soldier_01,forfaction_inf_soldier_01</TriggerVar>
+    <TriggerVar ID="62" Type="Vector" Name="TargetLocation" IsNull="false" />
+    <TriggerVar ID="67" Type="Trigger" Name="startup" IsNull="false">17</TriggerVar>
+    <TriggerVar ID="68" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="69" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="70" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="71" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="72" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="73" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="74" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="75" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="76" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="77" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="78" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="79" Type="Bool" Name="nullBool" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="17" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-731" Y="1641" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="17" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">68</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">69</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">70</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">71</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">72</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">73</Output>
+          </Condition>
+          <Condition ID="31" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">62</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="41" Type="CreateSquads v1" DBID="875" Version="1" CommentOut="false">
+          <Input Name="FlyInSquads" SigID="1" Optional="false">50</Input>
+          <Input Name="Player" SigID="2" Optional="false">1</Input>
+          <Input Name="CreatePosition" SigID="3" Optional="false">62</Input>
+          <Input Name="Facing" SigID="4" Optional="true">74</Input>
+          <Input Name="FlyInStart" SigID="5" Optional="true">62</Input>
+          <Input Name="FlyInEnd" SigID="6" Optional="true">62</Input>
+          <Input Name="RallyPoint" SigID="7" Optional="true">75</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="8" Optional="true">76</Input>
+          <Output Name="CreatedSquads" SigID="9" Optional="true">77</Output>
+          <Output Name="AddToList" SigID="10" Optional="true">78</Output>
+          <Output Name="ClearExisting" SigID="11" Optional="true">79</Output>
+        </Effect>
+        <Effect ID="45" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

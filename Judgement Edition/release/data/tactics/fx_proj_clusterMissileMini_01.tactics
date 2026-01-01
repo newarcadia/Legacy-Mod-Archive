@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AirToAirMissileLauncher</Name>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>24</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>AirToAirMissileLauncher</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

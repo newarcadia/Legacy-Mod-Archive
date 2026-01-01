@@ -1,0 +1,14 @@
+<mod id="hw1-judgement-edition" creator="IHaloJuryI">
+  <name>Judgement Edition</name>
+  <game>Halo Wars 1</game>
+  <platform>Steam</platform>
+  <banner>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Judgement%20Edition/assets/banner.webp?raw=true</banner>
+  <icon>https://github.com/newarcadia/Legacy-Mod-Archive/blob/main/Judgement%20Edition/assets/icon.webp?raw=true</icon>
+  <description>This mod widely expands the base game, adding new units, buildings, upgrades, leaders, and even custom mechanics!</description>
+  <download>http://github.com/newarcadia/Legacy-Mod-Archive/releases/latest/download/judgement_edition_release.zip</download>
+  <version>1.9.1</version>
+  <flags>
+    <flag>Overhaul</flag>
+    <flag>English</flag>
+  </flags>
+</mod>

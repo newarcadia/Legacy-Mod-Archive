@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LockdownUnload.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Unit" Name="NewUnit1" IsNull="false" />
+    <TriggerVar ID="3" Type="Squad" Name="ParentSquad" IsNull="false" />
+    <TriggerVar ID="4" Type="Operator" Name="NewOperator4" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="5" Type="Time" Name="NewTime5" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="6" Type="SquadMode" Name="NewSquadMode6" IsNull="false">Normal</TriggerVar>
+    <TriggerVar ID="11" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="12" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="13" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="14" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="15" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="16" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="17" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="18" Type="Trigger" Name="check for lockdown" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="19" Type="Bool" Name="linkedBool" IsNull="false" />
+    <TriggerVar ID="20" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="21" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="22" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="23" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="24" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="25" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="26" Type="Trigger" Name="reset" IsNull="false">3</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-499" Y="-26" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">12</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">13</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">14</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">15</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">1</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">16</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">17</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="GetParentSquad v1" DBID="519" Version="1" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">1</Input>
+          <Output Name="ParentSquad" SigID="2" Optional="false">3</Output>
+        </Effect>
+        <Effect ID="2" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">18</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="2" Name="check for lockdown" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2173" Y="-46" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="CheckModeChange v1" DBID="386" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Squad" SigID="1" Optional="false">3</Input>
+            <Output Name="Result" SigID="3" Optional="true">19</Output>
+            <Output Name="IsNormal" SigID="2" Optional="true">20</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="Unload v4" DBID="65" Version="4" CommentOut="false">
+          <Input Name="Squad" SigID="3" Optional="true">3</Input>
+          <Input Name="SquadList" SigID="5" Optional="true">21</Input>
+          <Input Name="GarrisonedSquad" SigID="6" Optional="true">22</Input>
+          <Input Name="GarrisonedSquadList" SigID="7" Optional="true">23</Input>
+        </Effect>
+        <Effect ID="6" Type="ChangeSquadMode v2" DBID="388" Version="2" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">3</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">24</Input>
+          <Input Name="SquadMode" SigID="3" Optional="false">6</Input>
+          <Input Name="SetDirectly" SigID="4" Optional="true">25</Input>
+        </Effect>
+        <Effect ID="7" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">26</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="3" Name="reset" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="5423" Y="84" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="4" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">4</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">5</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="8" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">18</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

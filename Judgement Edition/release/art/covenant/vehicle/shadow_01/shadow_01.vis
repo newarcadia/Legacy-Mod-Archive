@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\shadow_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="bone_turret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="FuelRodLeft" tobone="bone_turretleft" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="FuelRodRight" tobone="bone_turretright" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<point pointType="Board" bone="bone_shadow" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_02" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_03" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\boostcontrail_01" tobone="Bone FX02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\boostcontrail_01" tobone="Bone FX03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\thruster" tobone="Bone FX01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\contrail_01" tobone="Bone FX01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="ShadePlasmaAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="FuelRodLeftAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="FuelRodRightAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\wraith_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="Bone Wraith L RearWing" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86000013" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.219999999" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.223000005" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="Bone Wraith PlasmaTurret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.377999991" end="1" name="play_common_metal_debris_med" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="Bone Wraith" syncanims="false" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\cov\shadow\medicheal_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanWraithJack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spartan_wraith_jack_coolRIG01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelRef" name="Elite" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="PlasmaMortarBurnAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="PlasmaMortarBurnAttack">
+			<asset type="Anim">
+				<file>covenant\vehicle\wraith_01\specialAttack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="HotDropUp" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.39999997615814209</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0599999987" end="1" name="effects\hotdrop\hot_drop_vehSpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="HotDropDown" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.19999998807907104</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport_end" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.204999998" end="1" name="effects\hotdrop\hot_drop_vehSpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.042100001126527786</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.31719997525215149</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\turret_01</file>
+			</asset>
+		</component>
+		<anim type="ShadePlasmaAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.252000004" end="1" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.275999993" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.349999994" end="1" name="play_cov_shade_turret_fire" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="FuelRodLeft">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\fuelrodleft_01</file>
+			</asset>
+		</component>
+		<anim type="FuelRodLeftAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="FuelRodLeftAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="ani_weap_cov_hunter_charge" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/cov/hunter/fuelrod_postblast_01" tobone="launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="FuelRodRight">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\fuelrodright_01</file>
+			</asset>
+		</component>
+		<anim type="FuelRodRightAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="FuelRodRightAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="ani_weap_cov_hunter_charge" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/cov/hunter/fuelrod_postblast_01" tobone="launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Lockdown">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\shadow_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="bone_turret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="FuelRodLeft" tobone="bone_turretleft" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="FuelRodRight" tobone="bone_turretright" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<point pointType="Board" bone="bone_shadow" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_02" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_03" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\boostcontrail_01" tobone="Bone FX02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\boostcontrail_01" tobone="Bone FX03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\thruster" tobone="Bone FX01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\vehicle_fx\cov\banshee\contrail_01" tobone="Bone FX01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="ShadePlasmaAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="FuelRodLeftAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="FuelRodRightAttack" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\wraith_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="Bone Wraith L RearWing" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86000013" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.219999999" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.223000005" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="Bone Wraith PlasmaTurret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.377999991" end="1" name="play_common_metal_debris_med" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="Bone Wraith" syncanims="false" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>covenant\vehicle\shadow_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\cov\shadow\medicheal_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanWraithJack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spartan_wraith_jack_coolRIG01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelRef" name="Elite" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="PlasmaMortarBurnAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="PlasmaMortarBurnAttack">
+			<asset type="Anim">
+				<file>covenant\vehicle\wraith_01\specialAttack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\wraith_dust" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="HotDropUp" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.39999997615814209</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0599999987" end="1" name="effects\hotdrop\hot_drop_vehSpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="HotDropDown" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.19999998807907104</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport_end" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.204999998" end="1" name="effects\hotdrop\hot_drop_vehSpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.042100001126527786</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.31719997525215149</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnVeh_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<logic type="SquadMode">
+		<logicdata value="Lockdown" modelref="Lockdown" weight="1" />
+		<logicdata value="" modelref="Default" weight="1" />
+	</logic>
+</visual>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverRailgun</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>32</DamagePerSecond>
+		<WeaponType>CommandoMarineRailgun</WeaponType>
+		<Projectile>fx_proj_lightRailgun_01</Projectile>
+		<ImpactEffect size="Small">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<UseGroupRange />
+	</Weapon>	
+	<Weapon>
+		<Name>Railgun</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>16</DamagePerSecond>
+		<WeaponType>CommandoMarineRailgun</WeaponType>
+		<Projectile>fx_proj_lightRailgun_01</Projectile>
+		<ImpactEffect size="Small">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>OverchargeRailgun</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>64</DamagePerSecond>
+		<WeaponType>CommandoMarineRailgun</WeaponType>
+		<Projectile>fx_proj_Railgun_01</Projectile>
+		<ImpactEffect size="Small">unsc_lightcannon_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<UseGroupRange />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0" SmartTargeting="true">4.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>InCoverRailgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RailgunAttack</Anim>
+		<Weapon>InCoverRailgun</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>OverchargeRailgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>OverchargeRailgunAttack</Anim>
+		<Weapon>OverchargeRailgun</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>3</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>15</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RailgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RailgunAttack</Anim>
+		<Weapon>Railgun</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>CampaignAction</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>CampaignFoo</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.166999996</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverRailgunAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RailgunAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>OverchargeRailgunAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CampaignAction</TargetType>
+			<Action>CampaignAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>MedicHeal</PersistentAction>
+	</Tactic>
+</TacticData>

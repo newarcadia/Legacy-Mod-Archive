@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Spikes</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>33</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>30</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>SpikesPiercing</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_floodspitPiercing_01</Projectile>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>30</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>SpikesAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Spikes</Weapon>
+		<Anim>PlasmaRifleAttack</Anim>
+		<MainAttack />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>SpikesPiercingAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>SpikesPiercing</Weapon>
+		<Anim>PlasmaRifleAttack</Anim>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MoveAir</Name>
+		<ActionType>MoveAir</ActionType>
+		<AttackRunDelayMin>5</AttackRunDelayMin>
+		<AttackRunDelayMax>10</AttackRunDelayMax>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>30</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>MoveAir</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpikesAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>SpikesPiercingAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

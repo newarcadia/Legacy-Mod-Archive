@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>EggAttack1</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg1</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack2</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg2</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack3</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg3</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack4</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg4</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack5</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg5</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack6</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg6</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack7</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg7</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>EggAttack8</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_floodArtilleryCloud_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>Egg8</Hardpoint>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>EggAttackAction1</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack1</Anim>
+		<Weapon>EggAttack1</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction2</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack2</Anim>
+		<Weapon>EggAttack2</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction3</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack3</Anim>
+		<Weapon>EggAttack3</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction4</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack4</Anim>
+		<Weapon>EggAttack4</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction5</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack5</Anim>
+		<Weapon>EggAttack5</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction6</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack6</Anim>
+		<Weapon>EggAttack6</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction7</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack7</Anim>
+		<Weapon>EggAttack7</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>EggAttackAction8</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>EggAttack8</Anim>
+		<Weapon>EggAttack8</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>120</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>EggAttackAction1</PersistentAction>
+		<PersistentAction>EggAttackAction2</PersistentAction>
+		<PersistentAction>EggAttackAction3</PersistentAction>
+		<PersistentAction>EggAttackAction4</PersistentAction>
+		<PersistentAction>EggAttackAction5</PersistentAction>
+		<PersistentAction>EggAttackAction6</PersistentAction>
+		<PersistentAction>EggAttackAction7</PersistentAction>
+		<PersistentAction>EggAttackAction8</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction1</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction2</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction3</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction4</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction5</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction6</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction7</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>EggAttackAction8</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

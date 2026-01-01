@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\supplypad_01\stalk_02</file>
+			</asset>
+			<attach type="ModelRef" name="Socket" tobone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg1" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg2" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg3" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg4" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg5" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Egg" tobone="egg6" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\supplypad_01\stalkidle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\supplypad_01\stalkidle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>flood\building\supplypad_01\stalkidle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	
+	<model name="Socket">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\socket_01\socket_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\socket_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\socket_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Egg">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\supplypad_01\egg_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\supplypad_01\eggidle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\supplypad_01\eggidle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	
+</visual>

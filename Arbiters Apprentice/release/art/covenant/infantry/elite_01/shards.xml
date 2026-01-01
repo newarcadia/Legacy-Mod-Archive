@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shards CL="">
+	<Shard Id="1" SubProjectId="0" Name="EU" NameRU="Европа" NameEN="Europe" Cli="" Territory="EU" Load="50" Hidden="0"
+	 Allow="1" Default="1" Msg="Maintenance" MsgRU="Профработы"/>
+	<Shard Id="2" SubProjectId="0" Name="NA" NameRU="США" NameEN="North America" Cli="" Territory="NA" Load="50" Hidden="0"
+	 Allow="1" Default="0" Msg="Maintenance" MsgRU="Профработы"/>
+</Shards>

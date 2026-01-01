@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\air\seraph_01\seraph_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret1" tobone="launchpoint_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turret2" tobone="launchpoint_02" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turret3" tobone="launchpoint_03" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turret4" tobone="launchpoint_04" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="covenant\air\seraph_01\thruster_01" tobone="fx_01" syncanims="false" disregardorient="false" />
+			<point pointType="Board" bone="seraph" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="HoverIdle">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>covenant\air\seraph_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RocketAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="RocketAttack">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.01" end="1" tobone="launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.2" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.2" end="1" tobone="launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="launchpoint_03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.4" end="1" name="play_cov_banshee_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="launchpoint_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret1">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_cov_banshee_plasma_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.031" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bonelaunchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret2">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_cov_banshee_plasma_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.031" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bonelaunchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret3">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_cov_banshee_plasma_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.031" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bonelaunchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret4">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_cov_banshee_plasma_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.031" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bonelaunchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

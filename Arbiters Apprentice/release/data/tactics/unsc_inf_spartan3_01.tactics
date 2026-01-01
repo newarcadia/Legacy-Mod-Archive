@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SMG</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>180</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Action>
+		<Name>SMGAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SMGAttack</Anim>
+		<Weapon>SMG</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_marine_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_snowmarine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_medic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_odstmedic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanCyclops_01" target="Fatality_SpartanCyclops_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_cyclops_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanArbiter_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_arbiter_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_bruteChief_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteCommando_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_bruteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_eliteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">creep_rebel_infantry_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">creep_rebel_Sniper_01</Fatality>
+	</Action>
+	<Action>
+		<Name>SMGGroupAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SMGAttack</Anim>
+		<Weapon>SMG</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_marine_02</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_snowmarine_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_medic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_odstmedic_01</Fatality>
+		<Fatality attacker="Fatality_SpartanCyclops_01" target="Fatality_SpartanCyclops_01" cooldown="0" orientationOffset="180" offsetTolerance="5">unsc_inf_cyclops_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanArbiter_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_arbiter_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteChief_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_bruteChief_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteCommando_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanBruteLeader_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_bruteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanEliteLeader_01" cooldown="0" orientationOffset="180" offsetTolerance="5">cov_inf_eliteLeader01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">creep_rebel_infantry_01</Fatality>
+		<Fatality attacker="Fatality_SpartanMarine_01" target="Fatality_SpartanMarine_01" cooldown="0" orientationOffset="180" offsetTolerance="5">creep_rebel_Sniper_01</Fatality>
+	    <TargetOfTarget />
+	</Action>
+	<Action>
+		<Name>InfantryJoin</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>8</WorkRange>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="1" unjoinMaxDist="25">Board</JoinType>
+		<MergeType>Ground</MergeType>
+		<DamageModifiers damage="1.59999998" damageTaken="0.513999987" />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>CampaignAction</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>CampaignFoo</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.166999996</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+	    <TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>InfantryJoin</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SMGAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SMGGroupAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

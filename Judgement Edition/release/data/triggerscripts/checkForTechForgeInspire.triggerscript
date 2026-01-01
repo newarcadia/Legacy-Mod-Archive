@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="checkForTechOdstCommander.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Unit" Name="NewUnit1" IsNull="false" />
+    <TriggerVar ID="3" Type="Player" Name="NewPlayer3" IsNull="false" />
+    <TriggerVar ID="4" Type="Tech" Name="tech" IsNull="false">unsc_forge_upgrade2</TriggerVar>
+    <TriggerVar ID="5" Type="TechStatus" Name="NewTechStatus5" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="6" Type="String" Name="NewString6" IsNull="false">forgeInspire.triggerscript</TriggerVar>
+    <TriggerVar ID="7" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="8" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="9" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="10" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="11" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="12" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="13" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="14" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="15" Type="Trigger" Name="check for tech" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="16" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="17" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="18" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="19" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="20" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="21" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="22" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="23" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="24" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="25" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-274" Y="-549" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">8</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">9</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">10</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">11</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">1</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">12</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">13</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="GetOwner v2" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">1</Input>
+          <Input Name="Squad" SigID="2" Optional="true">14</Input>
+          <Output Name="Owner" SigID="3" Optional="false">3</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">15</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="3" Name="check for tech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2791" Y="-511" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">3</Input>
+            <Input Name="Tech" SigID="2" Optional="false">4</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">5</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">16</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">6</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">1</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">17</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">18</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">19</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">20</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">21</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">22</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">23</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">24</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">25</Input>
+        </Effect>
+        <Effect ID="5" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

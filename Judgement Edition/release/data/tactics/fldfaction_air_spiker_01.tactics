@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Turret1</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Hardpoint>Turret1</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Turret2</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Hardpoint>Turret2</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Turret3</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Hardpoint>Turret3</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Turret4</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspit_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Hardpoint>Turret4</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>Turret1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretAttack1</Anim>
+		<Weapon>Turret1</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>Turret2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretAttack2</Anim>
+		<Weapon>Turret2</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>Turret3AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretAttack3</Anim>
+		<Weapon>Turret3</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>Turret4AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretAttack4</Anim>
+		<Weapon>Turret4</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>1</HoverAltitudeOffset>
+		<MaxTgtDepressionAngle>45</MaxTgtDepressionAngle>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>25.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>30</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Turret1AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Turret2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Turret3AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Turret4AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

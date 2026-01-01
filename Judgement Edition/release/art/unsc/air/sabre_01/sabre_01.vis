@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\sabre_01\sabre_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret1" tobone="launchpoint_mg_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turret2" tobone="launchpoint_mg_02" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\sabre_01\thruster_01" tobone="fx_02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\sabre_01\thruster_01" tobone="fx_03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\sabre_01\thruster_02" tobone="fx_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\sabre_01\thruster_02" tobone="fx_04" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="MissileLauncher" tobone="body" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<point pointType="Board" bone="body" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="HoverIdle">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\sabre_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RocketAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="RocketAttack">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.01" end="1" name="play_unsc_hornet_rocket" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.01" end="1" tobone="launchpoint_rocket_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.2" end="1" name="play_unsc_hornet_rocket" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.2" end="1" tobone="launchpoint_rocket_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_unsc_hornet_rocket" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="launchpoint_rocket_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+				<tag type="Sound" start="0" position="0.4" end="1" name="play_unsc_hornet_rocket" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="launchpoint_rocket_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret1">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.031" end="1" name="effects\vehicle_fx\unsc\sabre\chaingunmuzzle_02" tobone="bonelaunchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret2">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.53" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.531" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.531" end="1" name="effects\vehicle_fx\unsc\sabre\chaingunmuzzle_02" tobone="bonelaunchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

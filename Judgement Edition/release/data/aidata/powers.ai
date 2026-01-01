@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="Powers" Type="PowerList">
+	
+		<!-- Flood -->
+		<Row>
+			<c>FloodBioHeal</c>
+			<c>0</c>
+			<c>powers\flood\bioDOheal.triggerscript</c>
+		</Row>
+		<Row>
+			<c>FloodSpike</c>
+			<c>1</c>
+			<c>powers\flood\spikeDO.triggerscript</c>
+		</Row>
+		<Row>
+			<c>FloodBioBombard</c>
+			<c>1</c>
+			<c>powers\flood\BioDOBombard.triggerscript</c>
+		</Row>
+		
+		<!-- Forerunner -->
+		<Row>
+			<c>ForerunnerRepair</c>
+			<c>0</c>
+			<c>-1</c>
+		</Row>
+		<Row>
+			<c>ForerunnerArcTower</c>
+			<c>1</c>
+			<c>powers\forerunner\arcDOtower.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ForerunnerBeamBarrage</c>
+			<c>1</c>
+			<c>powers\forerunner\beamDObarrage.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ForerunnerOrbitalBombard</c>
+			<c>1</c>
+			<c>-1</c>
+		</Row>
+		
+		<!-- UNSC -->
+		<Row>
+			<c>UnscLeaderRepair</c>
+			<c>0</c>
+			<c>-1</c>
+		</Row>
+		<Row>
+			<c>UnscLeaderRepairSuper</c>
+			<c>0</c>
+			<c>-1</c>
+		</Row>
+		
+		<!-- Cutter -->
+		<Row>
+			<c>CutterLandmineDrop</c>
+			<c>1</c>
+			<c>powers\cutter\landmineDOdrop.triggerscript</c>
+		</Row>
+		<Row>
+			<c>CutterCrashCourse</c>
+			<c>1</c>
+			<c>powers\cutter\crashcourse.triggerscript</c>
+		</Row>
+		
+		<!-- Forge -->
+		<Row>
+			<c>ForgeArcherMissiles</c>
+			<c>1</c>
+			<c>powers\forge\archerDOmissiles.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ForgeTitaniumPlating</c>
+			<c>1</c>
+			<c>powers\forge\titaniumplating.triggerscript</c>
+		</Row>
+		
+		<!-- Anders -->
+		<Row>
+			<c>AndersFlashBomb</c>
+			<c>1</c>
+			<c>powers\anders\flashDObomb.triggerscript</c>
+		</Row>
+		<Row>
+			<c>AndersFlightMechanics</c>
+			<c>1</c>
+			<c>powers\anders\flightmechanics.triggerscript</c>
+		</Row>
+		
+		<!-- Chief -->
+		<Row>
+			<c>ChiefNapalmStrike</c>
+			<c>1</c>
+			<c>powers\chief\napalmDOstrike.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ChiefODSTEnhancement</c>
+			<c>1</c>
+			<c>powers\chief\odstenhancement.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ChiefClusterBomb</c>
+			<c>1</c>
+			<c>powers\chief\ClusterDOBomb.triggerscript</c>
+		</Row>
+		
+		<!-- COV -->
+		<Row>
+			<c>CovRepair</c>
+			<c>0</c>
+			<c>powers\arbiter\AIrepairDO.triggerscript</c>
+		</Row>
+		<Row>
+			<c>CovShadeTurret</c>
+			<c>0</c>
+			<c>powers\arbiter\AIshadeDOturret.triggerscript</c>
+		</Row>
+		
+		<!-- Arbiter -->
+		<Row>
+			<c>ArbiterPlasmaMines</c>
+			<c>1</c>
+			<c>powers\arbiter\plasmaDOmines.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ArbiterSupplyRaid</c>
+			<c>1</c>
+			<c>powers\arbiter\supplyraid.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ArbiterPlasmaStrike</c>
+			<c>1</c>
+			<c>-1</c>
+		</Row>
+		
+		<!-- Brute -->
+		<Row>
+			<c>BrutePlasmaMissiles</c>
+			<c>1</c>
+			<c>powers\brute\plasmaDOmissiles.triggerscript</c>
+		</Row>
+		<Row>
+			<c>BruteDevoutMechanics</c>
+			<c>1</c>
+			<c>powers\brute\devoutmechanics.triggerscript</c>
+		</Row>
+		<Row>
+			<c>BrutePlasmaStrafe</c>
+			<c>1</c>
+			<c>-1</c>
+		</Row>
+		
+		<!-- Prophet -->
+		<Row>
+			<c>ProphetPlasmaCharge</c>
+			<c>1</c>
+			<c>powers\prophet\plasmaDOcharge.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ProphetAAEnhancement</c>
+			<c>1</c>
+			<c>powers\prophet\aaenhancement.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ProphetPlasmaCluster</c>
+			<c>1</c>
+			<c>powers\prophet\plasmaDOcluster.triggerscript</c>
+		</Row>
+	</Table>
+</Tables>

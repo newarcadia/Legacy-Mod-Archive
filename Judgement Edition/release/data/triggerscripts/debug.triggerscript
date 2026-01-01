@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="debug.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="137" Type="LocStringID" Name="NewLocStringID137" IsNull="false">27795</TriggerVar>
+    <TriggerVar ID="140" Type="Time" Name="NewTime140" IsNull="false">3000</TriggerVar>
+    <TriggerVar ID="142" Type="Player" Name="NewPlayer142" IsNull="false" />
+    <TriggerVar ID="143" Type="Team" Name="NewTeam143" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="145" Type="Trigger" Name="start" IsNull="false">81</TriggerVar>
+    <TriggerVar ID="146" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="147" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="148" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="149" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="150" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="151" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="152" Type="PlayerList" Name="linkedPlayerList" IsNull="false" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="81" Name="start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-2282" Y="-1216" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="93" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">142</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">146</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">147</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">148</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">149</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">150</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">151</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="144" Type="GetTeamPlayers v1" DBID="123" Version="1" CommentOut="false">
+          <Input Name="Team" SigID="1" Optional="false">143</Input>
+          <Output Name="PlayerList" SigID="2" Optional="false">152</Output>
+        </Effect>
+        <Effect ID="138" Type="HintMessageShow v1" DBID="805" Version="1" CommentOut="false">
+          <Input Name="PlayerList" SigID="1" Optional="false">152</Input>
+          <Input Name="LocStringID" SigID="2" Optional="false">137</Input>
+          <Input Name="Time" SigID="3" Optional="true">140</Input>
+        </Effect>
+        <Effect ID="141" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="supplyraidunit.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Unit" Name="NewUnit1" IsNull="false" />
+    <TriggerVar ID="2" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="3" Type="TechStatus" Name="NewTechStatus3" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="4" Type="Tech" Name="NewTech4" IsNull="false">arbiter_supplyraid</TriggerVar>
+    <TriggerVar ID="5" Type="Squad" Name="ParentSquad" IsNull="false" />
+    <TriggerVar ID="6" Type="ObjectType" Name="NewObjectType6" IsNull="false">_SupplyGeneratorBuilding</TriggerVar>
+    <TriggerVar ID="7" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="8" Type="Time" Name="NewTime8" IsNull="false">1000</TriggerVar>
+    <TriggerVar ID="9" Type="Cost" Name="DefaultBonus" IsNull="false">0=2,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="12" Type="Tech" Name="NewTech4" IsNull="false">arbiter_supplyraid_upgrade</TriggerVar>
+    <TriggerVar ID="13" Type="TechStatus" Name="NewTechStatus3" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="16" Type="Cost" Name="DefaultBonus" IsNull="false">0=4,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="19" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="20" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="21" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="22" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="23" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="24" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="25" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="26" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="27" Type="Trigger" Name="check if tech active" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="28" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="29" Type="Trigger" Name="check if attacking" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="30" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="31" Type="Unit" Name="linkedUnit" IsNull="false" />
+    <TriggerVar ID="32" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="33" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="34" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="35" Type="Trigger" Name="(c) check if supply building" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="36" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="37" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="38" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="39" Type="Trigger" Name="(c) check if upgrade" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="40" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="41" Type="Trigger" Name="wait and loop" IsNull="false">5</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-565" Y="-79" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">20</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">21</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">22</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">23</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">1</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">24</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">25</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="GetParentSquad v1" DBID="519" Version="1" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">1</Input>
+          <Output Name="ParentSquad" SigID="2" Optional="false">5</Output>
+        </Effect>
+        <Effect ID="1" Type="GetOwner v2" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">1</Input>
+          <Input Name="Squad" SigID="2" Optional="true">26</Input>
+          <Output Name="Owner" SigID="3" Optional="false">2</Output>
+        </Effect>
+        <Effect ID="2" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">27</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="2" Name="check if tech active" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2431" Y="-66" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">2</Input>
+            <Input Name="Tech" SigID="2" Optional="false">4</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">3</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">28</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">29</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="3" Name="check if attacking" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4249" Y="22" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="IsAttacking v3" DBID="709" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TestSquad" SigID="1" Optional="true">5</Input>
+            <Input Name="TestSquads" SigID="4" Optional="true">30</Input>
+            <Output Name="TargetedUnit" SigID="2" Optional="true">31</Output>
+            <Output Name="TargetedUnits" SigID="5" Optional="true">32</Output>
+            <Output Name="TargetedSquad" SigID="3" Optional="true">33</Output>
+            <Output Name="TargetedSquads" SigID="6" Optional="true">34</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="5" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">35</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="4" Name="(c) check if supply building" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5569" Y="-30" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="5" Type="IsObjectType v2" DBID="649" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Unit" SigID="3" Optional="true">31</Input>
+            <Input Name="Squad" SigID="1" Optional="true">36</Input>
+            <Input Name="Object" SigID="4" Optional="true">37</Input>
+            <Input Name="ProtoObject" SigID="5" Optional="true">38</Input>
+            <Input Name="ObjectType" SigID="2" Optional="false">6</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="13" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">39</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="6" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">41</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="9" Name="(c) check if upgrade" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="6784" Y="-497" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="9" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">2</Input>
+            <Input Name="Tech" SigID="2" Optional="false">12</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">13</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">40</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="15" Type="RefundCost v1" DBID="51" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">2</Input>
+          <Input Name="ResourceAmount" SigID="2" Optional="false">16</Input>
+        </Effect>
+        <Effect ID="16" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">41</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="8" Type="RefundCost v1" DBID="51" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">2</Input>
+          <Input Name="ResourceAmount" SigID="2" Optional="false">9</Input>
+        </Effect>
+        <Effect ID="9" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">41</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="5" Name="wait and loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="8657" Y="1055" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="6" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">7</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">8</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="7" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">29</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

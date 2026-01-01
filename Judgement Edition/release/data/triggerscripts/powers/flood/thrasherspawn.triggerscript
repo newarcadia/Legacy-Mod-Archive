@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="landmineSpawnObject.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="32" Type="Vector" Name="spawnLoc" IsNull="false" />
+    <TriggerVar ID="33" Type="Player" Name="NewPlayer33" IsNull="false" />
+    <TriggerVar ID="35" Type="Operator" Name="NewOperator35" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="36" Type="Time" Name="NewTime36" IsNull="false">750</TriggerVar>
+    <TriggerVar ID="39" Type="ProtoSquad" Name="NewProtoSquad39" IsNull="false">fldfaction_inf_thrasher_01</TriggerVar>
+    <TriggerVar ID="41" Type="Trigger" Name="startup" IsNull="false">12</TriggerVar>
+    <TriggerVar ID="42" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="43" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="44" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="45" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="46" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="47" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="48" Type="Trigger" Name="wait before spaning" IsNull="false">13</TriggerVar>
+    <TriggerVar ID="49" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="50" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="51" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="52" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="53" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="54" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="55" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="56" Type="Bool" Name="nullBool" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="12" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3936" Y="1507" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="14" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">33</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">42</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">43</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">44</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">45</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">46</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">47</Output>
+          </Condition>
+          <Condition ID="13" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">32</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="25" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">48</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="13" Name="wait before spaning" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="6932" Y="1223" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="15" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">35</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">36</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="28" Type="CreateSquad v7" DBID="36" Version="7" CommentOut="false">
+          <Input Name="ProtoSquad" SigID="1" Optional="false">39</Input>
+          <Input Name="CreateLocation" SigID="2" Optional="false">32</Input>
+          <Input Name="Facing" SigID="12" Optional="true">49</Input>
+          <Input Name="SquadOwner" SigID="3" Optional="false">33</Input>
+          <Input Name="FlyInStart" SigID="8" Optional="true">50</Input>
+          <Input Name="FlyInEnd" SigID="9" Optional="true">51</Input>
+          <Input Name="RallyPoint" SigID="10" Optional="true">52</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">53</Input>
+          <Output Name="CreatedSquad" SigID="4" Optional="true">54</Output>
+          <Output Name="AddToSquadList" SigID="5" Optional="true">55</Output>
+          <Output Name="SquadListClearExisting" SigID="6" Optional="true">56</Output>
+        </Effect>
+        <Effect ID="24" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\superhive_01\superhive_01</file>
+			</asset>
+			<attach type="ParticleFile" name="flood\building\superhive_01\cloud_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret1" tobone="egg1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret2" tobone="egg2" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret3" tobone="egg3" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret4" tobone="egg4" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret5" tobone="egg5" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret6" tobone="egg6" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret7" tobone="egg7" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="EggTurret8" tobone="egg8" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idleOneSecond_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idleOneSecond_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret1">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack1" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack1">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret2">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack2" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack2">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret3">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack3" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack3">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />		
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret4">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack4" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack4">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret5">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack5" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack5">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret6">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack6" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack6">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret7">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack7" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack7">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="EggTurret8">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\marine_01\nothing_01</file>
+			</asset>
+		</component>
+		<anim type="EggAttack8" exitAction="Loop" tweenTime="5" tweenToAnimation="EggAttack8">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	
+	<model name="Lockdown">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\superhive_01\superhive_01</file>
+			</asset>
+			<attach type="ParticleFile" name="flood\building\superhive_01\cloud_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idleOneSecond_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\superhive_01\idleOneSecond_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="Default" weight="1" />
+		<logicdata value="p100" modelref="Default" weight="1">
+			<logic type="SquadMode">
+				<logicdata value="Lockdown" modelref="Lockdown" weight="1" />
+				<logicdata value="Normal" modelref="Default" weight="1" />
+			</logic>
+		</logicdata>
+	</logic>
+</visual>

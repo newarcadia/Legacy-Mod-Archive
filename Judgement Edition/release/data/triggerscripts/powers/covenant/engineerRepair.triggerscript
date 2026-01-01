@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="engineerRepair.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Unit" Name="NewUnit1" IsNull="false" />
+    <TriggerVar ID="32" Type="Operator" Name="NewOperator12" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="33" Type="Time" Name="Lifespan" IsNull="false">25000</TriggerVar>
+    <TriggerVar ID="35" Type="Trigger" Name="startup" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="36" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="37" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="38" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="39" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="40" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="41" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="42" Type="Trigger" Name="die after time" IsNull="false">17</TriggerVar>
+    <TriggerVar ID="43" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="44" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="45" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="46" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="47" Type="ObjectList" Name="nullObjectList" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-433" Y="-139" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">36</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">37</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">38</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">39</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">1</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">40</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">41</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="1" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">42</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="17" Name="die after time" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1634" Y="-76" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="20" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">32</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">33</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="31" Type="Kill v4" DBID="37" Version="4" CommentOut="false">
+          <Input Name="KillUnit" SigID="3" Optional="true">1</Input>
+          <Input Name="KillUnitList" SigID="4" Optional="true">43</Input>
+          <Input Name="KillSquad" SigID="5" Optional="true">44</Input>
+          <Input Name="KillSquadList" SigID="6" Optional="true">45</Input>
+          <Input Name="Object" SigID="7" Optional="true">46</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">47</Input>
+        </Effect>
+        <Effect ID="33" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

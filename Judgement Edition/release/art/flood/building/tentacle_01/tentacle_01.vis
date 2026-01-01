@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\tentacle_01\tentacle_01</file>
+			</asset>
+			<attach type="ModelRef" name="Socket" tobone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\tentacle_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Transition" tweenTime="5" tweenToAnimation="Research">
+			<asset type="Anim">
+				<file>flood\building\tentacle_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Transition" tweenTime="5" tweenToAnimation="Heal">
+			<asset type="Anim">
+				<file>flood\building\tentacle_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\tentacle_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SlamAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="SlamAttack">
+			<asset type="Anim">
+				<file>flood\building\tentacle_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.2941" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.2941" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.400000006" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.2941" end="1" name="effects\Unit_FX\cov\brute\impactNormalO_01" tobone="BoneTentacle27" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.32000005" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.2941" end="1" name="play_flood_impact" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	
+	<model name="Socket">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\tentaclesocket_01\tentaclesocket_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\tentaclesocket_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\tentaclesocket_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	
+</visual>

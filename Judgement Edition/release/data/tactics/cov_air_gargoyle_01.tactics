@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaCannon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaCannon_03</Projectile>
+		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaTorpedo1</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Hardpoint>PlasmaTorpedoCannon1</Hardpoint>
+		<Projectile>fx_proj_plasmaTorpedo_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Dodgeable />
+		<Deflectable />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaTorpedo1Upgraded</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Hardpoint>PlasmaTorpedoCannon1</Hardpoint>
+		<Projectile>fx_proj_plasmaTorpedo_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Dodgeable />
+		<Deflectable />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaTorpedo2</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Hardpoint>PlasmaTorpedoCannon2</Hardpoint>
+		<Projectile>fx_proj_plasmaTorpedo_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Dodgeable />
+		<Deflectable />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaTorpedo2Upgraded</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Hardpoint>PlasmaTorpedoCannon2</Hardpoint>
+		<Projectile>fx_proj_plasmaTorpedo_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Dodgeable />
+		<Deflectable />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>PlasmaCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaCannonAttack</Anim>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Weapon>PlasmaCannon</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>PlasmaTorpedoAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>PlasmaTorpedoAttack1</Anim>
+		<Weapon>PlasmaTorpedo1</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PlasmaTorpedoAttackAction1Upgraded</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>PlasmaTorpedoAttack1</Anim>
+		<Weapon>PlasmaTorpedo1Upgraded</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PlasmaTorpedoAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>PlasmaTorpedoAttack2</Anim>
+		<Weapon>PlasmaTorpedo2</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PlasmaTorpedoAttackAction2Upgraded</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>PlasmaTorpedoAttack2</Anim>
+		<Weapon>PlasmaTorpedo2Upgraded</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MoveAir</Name>
+		<ActionType>MoveAir</ActionType>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxTgtDepressionAngle>60</MaxTgtDepressionAngle>
+		<MaxPitch>0.0f</MaxPitch>
+		<MaxRoll>45.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.4</DodgeChanceMin>
+		<DodgeChanceMax>1.6</DodgeChanceMax>
+		<DodgeMaxAngle>120</DodgeMaxAngle>
+		<DodgePercent>0.4</DodgePercent>
+		<DodgeCooldown>3</DodgeCooldown>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PlasmaTorpedoAttackAction1</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PlasmaTorpedoAttackAction1Upgraded</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PlasmaTorpedoAttackAction2</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PlasmaTorpedoAttackAction2Upgraded</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

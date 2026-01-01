@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\fld\hellionsuperbomb_01\hellionsuperbomb_01</particlefile>
+   </default>
+
+</TerrainEffect>

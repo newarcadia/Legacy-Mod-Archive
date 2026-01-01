@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>PlasmaShieldGen</Name>
+		<ActionType>PlasmaShieldGen</ActionType>
+		<ParticleEffect>effects\building_fx\unsc\damage\electricity_01</ParticleEffect>
+		<Duration>5</Duration>
+		<DeflectTimeout>30</DeflectTimeout>
+		<ProtoObject>cov_bldg_shield_01</ProtoObject>
+		<Count>25136</Count>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>0.5</WorkRate>
+		<WorkRange>1</WorkRange>
+		<TeamShare />
+	</Action>
+	<Action>
+		<Name>ChangeOwner</Name>
+		<ActionType>ChangeOwner</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentAction>PlasmaShieldGen</PersistentAction>
+		<PersistentAction>GatherPower</PersistentAction>
+		<PersistentAction>ChangeOwner</PersistentAction>
+	</Tactic>
+</TacticData>

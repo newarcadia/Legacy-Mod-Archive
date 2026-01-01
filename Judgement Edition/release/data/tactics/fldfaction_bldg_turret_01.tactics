@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Spikes</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>125</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_floodspitTurret_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Base</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>SpikesAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SpikeAttack</Anim>
+		<Weapon>Spikes</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>20</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpikesAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

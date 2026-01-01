@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SwipMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>2</MaxRange>
+		<ThrowUnits />
+		<ThrowAliveUnits />
+		<ThrowVelocity>20</ThrowVelocity>
+		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>9</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>BashMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>180</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>2</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+	</Weapon>
+	<Weapon>
+		<Name>SlamMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>24</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+	</Weapon>
+	<Weapon>
+		<Name>SlamMeleeUpgraded</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>24</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<Daze TargetType="unit" MovementModifier="0">4.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>SwipMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>SwipMelee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>BashMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>BashAttack</Anim>
+		<Weapon>BashMelee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>SlamAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>BashAttack</Anim>
+		<Weapon>SlamMelee</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>SlamAttackActionUpgraded</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>BashAttack</Anim>
+		<Weapon>SlamMeleeUpgraded</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.166999996</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>unsc_veh_warthog_01</TargetType>
+			<TargetType>cov_veh_ghost_01</TargetType>
+			<Action>SwipMeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>BashMeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SlamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SlamAttackActionUpgraded</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="handler_flood.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Player" Name="AI Player" IsNull="false" />
+    <TriggerVar ID="44" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_techs.triggerscript</TriggerVar>
+    <TriggerVar ID="99" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_buildings.triggerscript</TriggerVar>
+    <TriggerVar ID="137" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_units.triggerscript</TriggerVar>
+    <TriggerVar ID="139" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_attack.triggerscript</TriggerVar>
+    <TriggerVar ID="141" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_powers.triggerscript</TriggerVar>
+    <TriggerVar ID="144" Type="String" Name="NewString44" IsNull="false">skirmishai\handler_basebuildingFld.triggerscript</TriggerVar>
+    <TriggerVar ID="146" Type="Trigger" Name="upgrades/buildings" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="147" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="148" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="149" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="150" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="151" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="152" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="153" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="154" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="155" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="156" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="157" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="158" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="159" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="160" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="161" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="162" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="163" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="164" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="165" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="166" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="167" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="168" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="169" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="170" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="171" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="172" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="173" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="174" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="175" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="176" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="177" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="178" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="179" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="180" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="181" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="182" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="183" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="184" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="185" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="186" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="187" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="188" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="189" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="190" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="191" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="192" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="193" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="194" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="195" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="196" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="197" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="198" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="199" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="200" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="201" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="202" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="203" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="204" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="205" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="206" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="upgrades/buildings" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-389" Y="-404" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="8" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">0</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">147</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">148</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">149</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">150</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">151</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">152</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="39" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">44</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">153</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">154</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">155</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">156</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">157</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">158</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">159</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">160</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">161</Input>
+        </Effect>
+        <Effect ID="98" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">99</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">162</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">163</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">164</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">165</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">166</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">167</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">168</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">169</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">170</Input>
+        </Effect>
+        <Effect ID="137" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">137</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">171</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">172</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">173</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">174</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">175</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">176</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">177</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">178</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">179</Input>
+        </Effect>
+        <Effect ID="138" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">139</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">180</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">181</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">182</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">183</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">184</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">185</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">186</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">187</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">188</Input>
+        </Effect>
+        <Effect ID="141" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">141</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">189</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">190</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">191</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">192</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">193</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">194</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">195</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">196</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">197</Input>
+        </Effect>
+        <Effect ID="145" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">144</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">198</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">199</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">200</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">201</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">202</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">203</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">204</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">205</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">206</Input>
+        </Effect>
+        <Effect ID="143" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

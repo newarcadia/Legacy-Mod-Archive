@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MissileLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>MissileLauncher</Hardpoint>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>Cannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_longswordCannon_01</Projectile>
+		<ImpactEffect size="small">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>HyperCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>1600</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<UseDPSasDPA />
+		<Projectile>fx_proj_longswordCannon_01</Projectile>
+		<ImpactEffect size="small">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>CannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Cannon</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MissileAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>MissileAttack</Anim>
+		<Weapon>MissileLauncher</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+	</Action>
+	<Action>
+		<Name>HyperCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>HyperCannonAttack</Anim>
+		<Weapon>HyperCannon</Weapon>
+		<MainAttack />
+		<DontCheckOrientTolerance />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>20.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>CannonAttackAction</PersistentAction>
+		<PersistentAction>MissileAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>HyperCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

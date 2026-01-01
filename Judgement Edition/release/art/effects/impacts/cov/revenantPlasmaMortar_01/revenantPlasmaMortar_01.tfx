@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\revenantPlasmaMortar_01\revenantPlasmaMortar_01</particlefile>
+   </default>
+
+</TerrainEffect>

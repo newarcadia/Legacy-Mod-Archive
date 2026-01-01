@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="handler_techs.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="143" Type="String" Name="NewString4" IsNull="false">Techs</TriggerVar>
+    <TriggerVar ID="144" Type="String" Name="NewString4" IsNull="false">techs.ai</TriggerVar>
+    <TriggerVar ID="147" Type="Player" Name="AI Player" IsNull="false" />
+    <TriggerVar ID="150" Type="Integer" Name="TechTableID" IsNull="false" />
+    <TriggerVar ID="155" Type="Integer" Name="RowIDTechs" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="157" Type="UserClassType" Name="Techs" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="159" Type="Tech" Name="FoundTech" IsNull="false" />
+    <TriggerVar ID="161" Type="ObjectType" Name="FoundTechBuildingRequired" IsNull="false" />
+    <TriggerVar ID="178" Type="ListPosition" Name="NewListPosition166" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="181" Type="Cost" Name="TechCost" IsNull="false" />
+    <TriggerVar ID="184" Type="TechStatus" Name="NewTechStatus184" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="187" Type="TechStatus" Name="NewTechStatus43" IsNull="false">Available</TriggerVar>
+    <TriggerVar ID="189" Type="Time" Name="NewTime19" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="190" Type="Operator" Name="NewOperator20" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="192" Type="Integer" Name="zero" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="197" Type="Operator" Name="NewOperator20" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="201" Type="Time" Name="TechUpgradeDelay" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="202" Type="Operator" Name="NewOperator20" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="208" Type="Operator" Name="NewOperator20" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="209" Type="Time" Name="TechUpgradeDelay" IsNull="false">5000</TriggerVar>
+    <TriggerVar ID="211" Type="Unit" Name="NewUnit211" IsNull="false" />
+    <TriggerVar ID="219" Type="Trigger" Name="upgrade start" IsNull="false">68</TriggerVar>
+    <TriggerVar ID="220" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="221" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="222" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="223" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="224" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="225" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="226" Type="Trigger" Name="start" IsNull="false">114</TriggerVar>
+    <TriggerVar ID="227" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="228" Type="Trigger" Name="tech rows (c)" IsNull="false">73</TriggerVar>
+    <TriggerVar ID="229" Type="ObjectType" Name="nullObjectType" IsNull="true" />
+    <TriggerVar ID="230" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="231" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="232" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="233" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="234" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="235" Type="UnitList" Name="linkedUnitList" IsNull="false" />
+    <TriggerVar ID="236" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="237" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="238" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="239" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="240" Type="Trigger" Name="(c) can get one buildint to get upgrade from, pay cost (techstatus active is inverted)" IsNull="false">90</TriggerVar>
+    <TriggerVar ID="241" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="242" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="243" Type="Trigger" Name="complete, loop" IsNull="false">104</TriggerVar>
+    <TriggerVar ID="244" Type="Trigger" Name="failed, loop" IsNull="false">108</TriggerVar>
+    <TriggerVar ID="245" Type="Trigger" Name="wait, reset" IsNull="false">100</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="68" Name="upgrade start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-2389" Y="-1326" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="82" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">147</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">220</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">221</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">222</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">223</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">224</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">225</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="197" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">226</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="114" Name="start" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-730" Y="-1336" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="130" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">208</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">209</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="135" Type="TableLoad v1" DBID="796" Version="1" CommentOut="false">
+          <Input Name="UserClassType" SigID="1" Optional="false">157</Input>
+          <Input Name="FileName" SigID="2" Optional="false">144</Input>
+          <Input Name="TableName" SigID="3" Optional="false">143</Input>
+          <Input Name="Shared" SigID="4" Optional="true">227</Input>
+          <Output Name="TableID" SigID="5" Optional="false">150</Output>
+        </Effect>
+        <Effect ID="138" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">228</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="73" Name="tech rows (c)" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1724" Y="-1236" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="88" Type="GetTableRow" DBID="762" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TableID" SigID="1" Optional="false">150</Input>
+            <Input Name="RowID" SigID="2" Optional="false">155</Input>
+            <Input Name="UserClassType" SigID="3" Optional="false">157</Input>
+            <Output Name="Tech" SigID="5" Optional="false">159</Output>
+            <Output Name="Building" SigID="6" Optional="false">161</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="159" Type="GetUnits v3" DBID="112" Version="3" CommentOut="false">
+          <Input Name="FilterPlayer" SigID="1" Optional="true">147</Input>
+          <Input Name="FilterObjectType" SigID="2" Optional="true">161</Input>
+          <Input Name="FilterLocation" SigID="3" Optional="true">232</Input>
+          <Input Name="FilterDistance" SigID="4" Optional="true">233</Input>
+          <Input Name="FilterUnitList" SigID="7" Optional="true">234</Input>
+          <Output Name="FoundUnits" SigID="5" Optional="true">235</Output>
+          <Output Name="FoundUnitCount" SigID="6" Optional="true">236</Output>
+        </Effect>
+        <Effect ID="157" Type="GetCost v1" DBID="679" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="true">237</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">238</Input>
+          <Input Name="Tech" SigID="3" Optional="true">159</Input>
+          <Input Name="ProtoObject" SigID="4" Optional="true">239</Input>
+          <Output Name="Cost" SigID="5" Optional="true">181</Output>
+        </Effect>
+        <Effect ID="167" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">240</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="171" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">245</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="90" Name="(c) can get one buildint to get upgrade from, pay cost (techstatus active is inverted)" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4200" Y="-1074" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="111" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="true" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">147</Input>
+            <Input Name="Tech" SigID="2" Optional="false">159</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">184</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">241</Input>
+          </Condition>
+          <Condition ID="114" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">147</Input>
+            <Input Name="Tech" SigID="2" Optional="false">159</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">187</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">242</Input>
+          </Condition>
+          <Condition ID="108" Type="CanPayCost v1" DBID="15" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">147</Input>
+            <Input Name="ResourceAmount" SigID="2" Optional="false">181</Input>
+          </Condition>
+          <Condition ID="104" Type="CanGetOneUnit v1" DBID="356" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="UnitList" SigID="1" Optional="false">235</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">178</Input>
+            <Output Name="FoundUnit" SigID="3" Optional="false">211</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="169" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">147</Input>
+          <Input Name="Tech" SigID="2" Optional="false">159</Input>
+        </Effect>
+        <Effect ID="183" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">243</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="190" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">244</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="104" Name="complete, loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="7088" Y="-1232" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="120" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">197</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">209</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="193" Type="IntIncrement v1" DBID="52" Version="1" CommentOut="false">
+          <Input Name="OriginalInt" SigID="1" Optional="false">155</Input>
+          <Output Name="IncrementedInt" SigID="2" Optional="false">155</Output>
+        </Effect>
+        <Effect ID="185" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">228</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="108" Name="failed, loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="5871" Y="38" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="124" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">202</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">201</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="195" Type="IntIncrement v1" DBID="52" Version="1" CommentOut="false">
+          <Input Name="OriginalInt" SigID="1" Optional="false">155</Input>
+          <Output Name="IncrementedInt" SigID="2" Optional="false">155</Output>
+        </Effect>
+        <Effect ID="187" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">228</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="100" Name="wait, reset" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2838" Y="1146" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="116" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">190</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">189</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="174" Type="CopyInt v1" DBID="98" Version="1" CommentOut="false">
+          <Input Name="IntSource" SigID="1" Optional="false">192</Input>
+          <Output Name="IntCopy" SigID="2" Optional="false">155</Output>
+        </Effect>
+        <Effect ID="200" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">228</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

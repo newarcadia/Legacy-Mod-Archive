@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>30</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>200</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Napalm</WeaponType>
+		<Projectile>pow_cp_napalmbomb_01</Projectile>
+		<ImpactEffect size="Small">napalm_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>150</MaxRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>18</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>18</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>18</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

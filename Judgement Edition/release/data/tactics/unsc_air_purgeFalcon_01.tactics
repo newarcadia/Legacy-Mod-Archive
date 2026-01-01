@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_machinegun_01</Projectile>
+		<ImpactEffect size="small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>MortarLeft</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>25</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_flameMortar_03</Projectile>
+		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>GunLeft</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<TargetsFootOfUnit />
+	</Weapon>
+	<Weapon>
+		<Name>MortarLeft2</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>35</DamagePerSecond>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_purgeFalconMortar_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_purgeFalconMortar_01</Projectile>
+		<ImpactEffect size="Medium">unsc_purgeFalconMortar_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>GunLeft</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<TargetsFootOfUnit />
+	</Weapon>
+	<Weapon>
+		<Name>MortarRight</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>25</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_flameMortar_03</Projectile>
+		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>GunRight</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<TargetsFootOfUnit />
+	</Weapon>
+	<Weapon>
+		<Name>MortarRight2</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>35</DamagePerSecond>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_purgeFalconMortar_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_purgeFalconMortar_01</Projectile>
+		<ImpactEffect size="Medium">unsc_purgeFalconMortar_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>GunRight</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<TargetsFootOfUnit />
+	</Weapon>
+	<Action>
+		<Name>CannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Cannon</Weapon>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MortarLeftAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MortarLeftAttack</Anim>
+		<Weapon>MortarLeft</Weapon>
+		<PersistBetweenOpps />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MortarLeftAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MortarLeftAttack2</Anim>
+		<Weapon>MortarLeft2</Weapon>
+		<PersistBetweenOpps />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MortarRightAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MortarRightAttack</Anim>
+		<Weapon>MortarRight</Weapon>
+		<PersistBetweenOpps />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MortarRightAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MortarRightAttack2</Anim>
+		<Weapon>MortarRight2</Weapon>
+		<PersistBetweenOpps />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MortarLeftAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MortarLeftAttackAction2</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MortarRightAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MortarRightAttackAction2</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

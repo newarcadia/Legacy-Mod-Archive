@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Gauss</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>125</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_gaussCannon_01</Projectile>
+		<ImpactEffect size="medium">unsc_lightcannon_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">1</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Railgun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>125</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_lightRailgun_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>120</MaxRange>
+		<Hardpoint>Railgun</Hardpoint>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>Charge</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1600</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_Railgun_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0.25</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOELinearDamage />
+		<AOERadius>15</AOERadius>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Railgun</Hardpoint>
+		<ImpactCameraShake duration="0.300000012" strength="0.100000001" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.25" rightRumbleType="Fixed" rightStrength="0.25" duration="0.5" />
+	</Weapon>
+	<Action>
+		<Name>GaussAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GaussAttack</Anim>
+		<Weapon>Gauss</Weapon>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RailgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RailgunAttack</Anim>
+		<Weapon>Railgun</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>ChargeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ChargeAttack</Anim>
+		<Weapon>Charge</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>RailgunAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>GaussAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>RailgunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ChargeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>
